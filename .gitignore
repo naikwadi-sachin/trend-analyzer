@@ -1,0 +1,13 @@
+*.class
+
+.idea/
+TrendAnalyzerService/target/
+TrendAnalyzerService/.settings/
+TrendAnalyzerService/.classpath
+TrendAnalyzerService/.project
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.ear

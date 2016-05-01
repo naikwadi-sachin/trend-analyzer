@@ -164,11 +164,12 @@
     var index = -1;
     for(var i =0; i < finalData.length; i++){
       if(finalData[i].country == country){
-        stackedBarChart = i;
+          index = i;
         break;
       }
     }
-    return stackedBarChart;
+    return index;
+
 
   }
 
