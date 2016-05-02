@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="temp.css"/>
+    <script src="d3/d3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="header">
+    <h2 align="center">Trend Analyzer</h2>
+
+    <div id="categoryOptions" align="center">
+        <script>
+            var categorySet = ["Lighting Accessories","Gift Bags","Artwork"];
+            for(var i=0; i<categorySet.length; i++)
+            {
+                $('#categoryOptions').append('<input type="checkbox" /> ' + categorySet[i] + '\t');
+            }
+        </script>
+    </div>
+</div>
+<br/>
+<div id="main-wrap">
+    <div id="sidebar">
+        show stacked bar chart here
+    </div>
+    <div id="content-wrap">
+        show animated scatter plot here
+        <p id="chart"></p>
+        <script>
+            // Various accessors that specify the four dimensions of data to visualize.
+            function x(d) {
+                return d.customers;
+            }
+            function y(d) {
+                return d.sales;
+            }
+            function radius(d) {
+                return d.products;
+            }
+            function color(d) {
+                return d.categoryName;
+            }
+            function key(d) {
+                return d.categoryName;
+            }
+
+            // Chart dimensions.
+            var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
+                    width = 960 - margin.right,
+                    height = 500 - margin.top - margin.bottom;
+
+            // Various scales. These domains make assumptions of data, naturally.
+            var xScale = d3.scale.log().domain([1, 1e4]).range([0, width]),
+                    yScale = d3.scale.linear().domain([1, 50000]).range([height, 0]),
+                    radiusScale = d3.scale.sqrt().domain([1, 70]).range([0, 40]),
+                    colorScale = d3.scale.category10();
+
+            // The x & y axes.
+            var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12, d3.format(",d")),
+                    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+            // Create the SVG container and set the origin.
+            var svg = d3.select("#chart").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // Add the x-axis.
+            svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+            // Add the y-axis.
+            svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis);
+
+            // Add an x-axis label.
+            svg.append("text")
+                    .attr("class", "x label")
+                    .attr("text-anchor", "end")
+                    .attr("x", width-150)
+                    .attr("y", height - 6)
+                    .text("Total number of customers");
+
+            // Add a y-axis label.
+            svg.append("text")
+                    .attr("class", "y label")
+                    .attr("text-anchor", "end")
+                    .attr("y", 6)
+                    .attr("dy", ".75em")
+                    .attr("transform", "rotate(-90)")
+                    .text("Gross Sales Amount (thousands)");
+
+            // Add the year label; the value is set on transition.
+            var label = svg.append("text")
+                    .attr("class", "year label")
+                    .attr("text-anchor", "end")
+                    .attr("y", height - 24)
+                    .attr("x", width-150)
+                    .text("DEC 2010");
+
+            d3.json("data.json", function (nations) {
+                showTrends(nations);
+            });
+
+            var yearSet = ["December-2010", "January-2011", "February-2011", "March-2011", "April-2011", "May-2011", "June-2011", "July-2011", "August-2011", "September-2011", "October-2011", "November-2011", "December-2011"];
+
+            function showTrends(trends) {
+                // A bisector since many nation's data is sparsely-defined.
+                var bisect = d3.bisector(function (d) {
+                    return d[0];
+                });
+
+                // Add a dot per nation. Initialize the data at 1800, and set the colors.
+                var dot = svg.append("g")
+                        .attr("class", "dots")
+                        .selectAll(".dot")
+                        .data(interpolateData("December-2010"))
+                        .enter().append("circle")
+                        .attr("class", "dot")
+                        .style("fill", function (d) {
+                            return colorScale(color(d));
+                        })
+                        .call(position)
+                        .sort(order);
+
+                // Add a title.
+                dot.append("title")
+                        .text(function (d) {
+                            return d.name;
+                        });
+
+                // Add an overlay for the year label.
+                var box = label.node().getBBox();
+
+                var overlay = svg.append("rect")
+                        .attr("class", "overlay")
+                        .attr("x", box.x)
+                        .attr("y", box.y)
+                        .attr("width", box.width)
+                        .attr("height", box.height);
+                //.on("mouseover", enableInteraction);
+
+                // Start a transition that interpolates the data based on year.
+                svg.transition()
+                        .duration(10000)
+                        .ease("linear")
+                        .tween("year", tweenYear);
+                //.each("end", enableInteraction);
+
+                // Positions the dots based on data.
+                function position(dot) {
+                    dot.attr("cx", function (d) {
+                        return xScale(x(d));
+                    })
+                            .attr("cy", function (d) {
+                                return yScale(y(d));
+                            })
+                            .attr("r", function (d) {
+                                return radiusScale(radius(d));
+                            });
+                }
+
+                // Defines a sort order so that the smallest dots are drawn on top.
+                function order(a, b) {
+                    return radius(b) - radius(a);
+                }
+
+                // After the transition finishes, you can mouseover to change the year.
+
+                // Tweens the entire chart by first tweening the year, and then the data.
+                // For the interpolated data, the dots and label are redrawn.
+                function tweenYear() {
+                    var year = d3.interpolateNumber(1, 13);
+                    //console.log("year=" + year);
+                    return function (t) {
+                        var i = Math.round(year(t));
+                        //console.log(i);
+                        //console.log("show = "+yearSet[i-1] );
+                        displayYear(yearSet[i - 1]);
+                    };
+                }
+
+                // Updates the display to show the specified year.
+                function displayYear(year) {
+                    dot.data(interpolateData(year), key).call(position).sort(order);
+                    label.text(year);
+                }
+
+                // Interpolates the dataset for the given (fractional) year.
+                function interpolateData(year) {
+                    return trends.map(function (d) {
+                        //console.log(d);
+                        var data = {
+                            categoryName: d.categoryName,
+//                    region: d.region,
+                            sales: interpolateValues(d.sales, year),
+                            customers: interpolateValues(d.customers, year),
+                            products: interpolateValues(d.products, year)
+                        };
+                        //console.log(data);
+                        return data;
+                    });
+                }
+
+                // Finds (and possibly interpolates) the value for the specified year.
+                function interpolateValues(values, year) {
+                    for (var i = 0; i < values.length; i++) {
+                        if (values[i][0] == year) {
+                            return values[i][1];
+                        }
+                    }
+                    return 0;
+                }
+            }
+
+        </script>
+    </div>
+</div>
+<div id="footer">Footer</div>
+</body>
+</html>
