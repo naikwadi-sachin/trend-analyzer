@@ -72,6 +72,9 @@
                 </td>
                 <td><input type="button" value="Go" id="monthButton"/></td>
             </tr>
+            <tr>
+                <td><input type="button" value="Animate" id="animateButton"/></td>
+            </tr>
         </table>
         <p id="chart"></p>
         <script type="application/javascript" src="scatterPlot.js">
@@ -94,10 +97,21 @@
 
     $('#monthButton').on("click", function () {
         console.log("monthButton clicked");
+        var selectedMonth = $('#scatterMonth').val();
+        console.log(selectedMonth);
+        if (selectedMonth != "0") {
+            showTrends(trendingData, selectedMonth);
+        }
+
     });
-    
+
     $('#categoryButton').on("click", function () {
         console.log("categoryButton clicked");
+    });
+
+    $('#animateButton').on("click", function () {
+        console.log("animateButton clicked");
+        //showAnimation();
     });
 
 

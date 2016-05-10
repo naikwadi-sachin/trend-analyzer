@@ -82,20 +82,27 @@ var div = d3.select("body").append("div")
 var trendingData;
 d3.json("data.json", function (nations) {
     trendingData = nations;
-    showTrends(nations);
+    var mon = "December-2011";
+    showTrends(nations, mon);
 });
 
-function showTrends(trends) {
+var dot = svg.append("g")
+    .attr("class", "dots")
+    .selectAll(".dot");
+
+function showTrends(trends, mon) {
     // A bisector since many nation's data is sparsely-defined.
     var bisect = d3.bisector(function (d) {
         return d[0];
     });
 
+    label.text(mon);
+
     // Add a dot per product category. Initialize the data at December-2010, and set the colors.
-    var dot = svg.append("g")
-        .attr("class", "dots")
-        .selectAll(".dot")
-        .data(interpolateData("December-2010"))
+
+    svg.selectAll(".dot").remove();
+
+    dot.data(interpolateData(mon))
         .enter().append("circle")
         .attr("class", "dot")
         .style("fill", function (d) {
@@ -107,21 +114,21 @@ function showTrends(trends) {
         })
         .on("mouseover", function (d) {
             //console.log("mouseover in circle");
-            div.transition()
-                .duration(200)
-                .style("opacity", .9);
-            div.html("<b>" + d.categoryName + "</b><br/>"
-                + "Sales Amt:" + d.sales + "<br/>"
-                + "Customers:" + d.customers + "<br/>"
-                + "Products:" + d.products)
-                .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY - 28) + "px");
+            //div.transition()
+            //    .duration(200)
+            //    .style("opacity", .9);
+            //div.html("<b>" + d.categoryName + "</b><br/>"
+            //    + "Sales Amt:" + d.sales + "<br/>"
+            //    + "Customers:" + d.customers + "<br/>"
+            //    + "Products:" + d.products)
+            //    .style("left", (d3.event.pageX) + "px")
+            //    .style("top", (d3.event.pageY - 28) + "px");
         })
         .on("mouseout", function (d) {
             //console.log("mouseout in circle");
-            div.transition()
-                .duration(500)
-                .style("opacity", 0);
+            //div.transition()
+            //    .duration(500)
+            //    .style("opacity", 0);
         })
         .call(position)
         .sort(order);
@@ -129,7 +136,10 @@ function showTrends(trends) {
     // Add a title.
     dot.append("title")
         .text(function (d) {
-            return d.name;
+            return "<b>" + d.categoryName + "</b><br/>"
+                + "Sales Amt:" + d.sales + "<br/>"
+                + "Customers:" + d.customers + "<br/>"
+                + "Products:" + d.products;
         });
 
     // Add an overlay for the year label.
@@ -143,56 +153,57 @@ function showTrends(trends) {
         .attr("height", box.height);
     //.on("mouseover", enableInteraction);
 
-    // Start a transition that interpolates the data based on year.
-//                svg.transition()
-//                        .duration(10000)
-//                        .ease("linear")
-//                        .tween("year", tweenYear);
-    //.each("end", enableInteraction);
+}
 
-    // Positions the dots based on data.
-    function position(dot) {
-        dot.attr("cx", function (d) {
-            return xScale(x(d));
+// Positions the dots based on data.
+function position(dot) {
+    dot.attr("cx", function (d) {
+        return xScale(x(d));
+    })
+        .attr("cy", function (d) {
+            return yScale(Math.round(y(d) / 1000));//show sales amount in thousands
         })
-            .attr("cy", function (d) {
-                return yScale(Math.round(y(d) / 1000));//show sales amount in thousands
-            })
-            .attr("r", function (d) {
-                return radiusScale(radius(d));
-            });
-    }
+        .attr("r", function (d) {
+            return radiusScale(radius(d));
+        });
+}
 
-    // Defines a sort order so that the smallest dots are drawn on top.
-    function order(a, b) {
-        return radius(b) - radius(a);
-    }
+// Defines a sort order so that the smallest dots are drawn on top.
+function order(a, b) {
+    return radius(b) - radius(a);
+}
 
-    // After the transition finishes, you can mouseover to change the year.
+function showAnimation() {
+    // Start a transition that interpolates the data based on year.
+    svg.transition()
+        .duration(10000)
+        .ease("linear")
+        .tween("year", tweenYear(dot));
+    //.each("end", enableInteraction);
+}
 
-    // Tweens the entire chart by first tweening the year, and then the data.
-    // For the interpolated data, the dots and label are redrawn.
-    function tweenYear() {
-        var year = d3.interpolateNumber(1, 13);
-        //console.log("year=" + year);
-        return function (t) {
-            var i = Math.round(year(t));
-            //console.log(i);
-            //console.log("show = "+yearSet[i-1] );
-            displayYear(yearSet[i - 1]);
-        };
-    }
+// Tweens the entire chart by first tweening the year, and then the data.
+// For the interpolated data, the dots and label are redrawn.
+function tweenYear(dot) {
+    var year = d3.interpolateNumber(1, 13);
+    //console.log("year=" + year);
+    return function (t) {
+        var i = Math.round(year(t));
+        //console.log(i);
+        //console.log("show = "+yearSet[i-1] );
+        displayYear(dot, yearSet[i - 1]);
+    };
+}
 
-    // Updates the display to show the specified year.
-    function displayYear(year) {
-        dot.data(interpolateData(year), key).call(position).sort(order);
-        label.text(year);
-    }
+// Updates the display to show the specified year.
+function displayYear(dot, year) {
+    dot.data(interpolateData(year), key).call(position).sort(order);
+    label.text(year);
 }
 
 // Interpolates the dataset for the given (fractional) year.
 function interpolateData(year) {
-    return trends.map(function (d) {
+    return trendingData.map(function (d) {
         //console.log(d);
         var data = {
             categoryName: d.categoryName,
@@ -214,4 +225,9 @@ function interpolateValues(values, year) {
         }
     }
     return 0;
+}
+
+//show trends for a specified category over time line
+function showCategoryTrends(categoryName){
+
 }
