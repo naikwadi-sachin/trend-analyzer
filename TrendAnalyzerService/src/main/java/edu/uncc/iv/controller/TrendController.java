@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import edu.uncc.iv.model.MonthCountry;
 import edu.uncc.iv.model.Trend;
 import edu.uncc.iv.service.TrendService;
 
@@ -38,6 +39,13 @@ public class TrendController {
     public List<String> getCategories()
     {
         return trendService.getCategories();
+    }
+	
+	@RequestMapping("/getCountryWiseSalesAmtAndCustomers")
+	@ResponseBody
+    public List<MonthCountry> getCountryWiseSalesAmtAndCustomers()
+    {
+        return trendService.getCountrywiseiseSalesAmt();
     }
 	
 }
