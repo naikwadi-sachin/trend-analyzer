@@ -34,7 +34,13 @@ function initGraph(month){
 //      convertDataFormat(data);
         var index = getIndexOfDate(data, month);
         finalData = data[index]['countryList'];//temp step
-
+        console.log("Before:");
+        console.log(finalData);
+        finalData.sort(function(a, b){
+            return (b["Artwork"] + b["Bathroom_Accessories"] + b["Books_&_Stationery"] + b["Electronics"] + b["Gifts"] + b["Health_and_Personal_care"] + b["Home_Decor"] + b["Jewellery"] + b["Kitchenware"] + b["Lighting_Accessories"] + b["Luggage_&_Travel_Gear"]+ b["Toys_&_Games"]) - (a["Artwork"] + a["Bathroom_Accessories"] + a["Books_&_Stationery"] + a["Electronics"] + a["Gifts"] + a["Health_and_Personal_care"] + a["Home_Decor"] + a["Jewellery"] + a["Kitchenware"] + a["Lighting_Accessories"] + a["Luggage_&_Travel_Gear"]+ a["Toys_&_Games"]) ;
+        });
+        console.log("After:");
+        console.log(finalData);
         finalData = finalData.slice(0, 10)
 
         console.log(finalData);

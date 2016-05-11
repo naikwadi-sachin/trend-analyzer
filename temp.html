@@ -6,8 +6,17 @@
     <link rel="stylesheet" type="text/css" href="temp.css"/>
     <!--<script src="d3/d3.min.js"></script>-->
     <script src="//d3js.org/d3.v3.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.3.js"
-            integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+
+    <script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <!--<script src="temp.js"></script>-->
     <style>
@@ -30,27 +39,43 @@
         .x.axis path {
             display: none;
         }
+        .nav-color{
+            color: #777;
+        }
+        .CategoySelectContainer{
+            width: 30%;
+        }
 
     </style>
 </head>
 <body>
-<div id="header">
+<div id="header" class="navbar navbar-default nav-color">
     <h2 align="center">Trend Analyzer</h2>
 
     <div id="categoryOptions" align="center">
     </div>
-    <table align="center">
-        <tr>
-            <td>Choose Month to Visualize Trends For All Product Categories</td>
-            <td>
-                <select id="scatterMonth">
-                    <option value="All">--Show All--</option>
-                </select>
-            </td>
 
-        </tr>
+    <div style="width: 100%; text-align: center">
+        <div class="form-group CategoySelectContainer">
+            <label for="scatterMonth">Choose Month to Visualize Trends For All Product Categories</label>
+            <select class="form-control" id="scatterMonth">
+                <option value="All">--Show All--</option>
+            </select>
+        </div>
+    </div>
 
-    </table>
+    <!--<table align="center">-->
+        <!--<tr>-->
+            <!--<td>Choose Month to Visualize Trends For All Product Categories</td>-->
+            <!--<td>-->
+                <!--<select id="scatterMonth" class="form-control">-->
+                    <!--<option value="0">&#45;&#45;Select&#45;&#45;</option>-->
+                <!--</select>-->
+            <!--</td>-->
+            <!--<td><input type="button" value="Go" id="monthButton"/></td>-->
+        <!--</tr>-->
+
+    <!--</table>-->
 </div>
 <br/>
 
@@ -88,7 +113,9 @@
     var yearSet = ["December-2010", "January-2011", "February-2011", "March-2011", "April-2011", "May-2011", "June-2011", "July-2011", "August-2011", "September-2011", "October-2011", "November-2011", "December-2011"];
     var categorySet = ["Artwork", "Bathroom_Accessories", "Books_&_Stationery", "Electronics", "Gifts", "Health_and_Personal_care", "Home_Decor", "Jewellery", "Kitchenware", "Lighting_Accessories", "Luggage_&_Travel_Gear", "Toys_&_Games"];
     for (var i = 0; i < categorySet.length; i++) {
-        $('#categoryOptions').append('<input class="CategoryCheckbox" id=' + categorySet[i] + ' type="checkbox" checked="true"/> ' + categorySet[i] + '\t');
+
+        $('#categoryOptions').append('<input class="CategoryCheckbox" id='+categorySet[i]+' type="checkbox" checked="true"/> ' + categorySet[i] + '\t');
+//        $('#categoryOptions').append("<label class=\"checkbox-inline\"><input class=\"CategoryCheckbox\" type=\"checkbox\" value=\"\" id="+categorySet[i]+">"+categorySet[i]+"</label>");
         $('#scatterCategory').append('<option value="' + categorySet[i] + '" > ' + categorySet[i] + '</option>\t');
     }
 
