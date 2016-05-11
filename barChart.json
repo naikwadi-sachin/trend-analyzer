@@ -1,5 +1,602 @@
 [
   {
+    "month": "All",
+    "countryList": [
+      {
+        "country": "Iceland\r",
+        "artwork": 573.74,
+        "bathAccessories": 79.2,
+        "bookStationary": 216.3,
+        "electronics": 75.9,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 366.24,
+        "jewellery": 152.1,
+        "Kitchenware": 483.34999999999997,
+        "lightingAccessories": 151.28,
+        "luggage": 459.70000000000005,
+        "toys": 41.76,
+        "kitchenware": 483.34999999999997
+      },
+      {
+        "country": "Belgium\r",
+        "artwork": 1564.6399999999999,
+        "bathAccessories": 420.9,
+        "bookStationary": 1843.5299999999997,
+        "electronics": 433.46999999999997,
+        "gifts": 2450.29,
+        "health": 135.09,
+        "homeDecor": 1755.4199999999998,
+        "jewellery": 297.2,
+        "Kitchenware": 6822.15,
+        "lightingAccessories": 694.5,
+        "luggage": 4527.470000000001,
+        "toys": 2477.0000000000005,
+        "kitchenware": 6822.15
+      },
+      {
+        "country": "Greece\r",
+        "artwork": 47.37,
+        "bathAccessories": 51.0,
+        "bookStationary": 82.69999999999999,
+        "electronics": 287.40000000000003,
+        "gifts": 135.9,
+        "health": 17.700000000000003,
+        "homeDecor": 123.24000000000001,
+        "jewellery": 0.0,
+        "Kitchenware": 807.41,
+        "lightingAccessories": 150.0,
+        "luggage": 212.35,
+        "toys": 140.89,
+        "kitchenware": 807.41
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 283.0400000000001,
+        "bathAccessories": 117.6,
+        "bookStationary": 512.49,
+        "electronics": 213.5,
+        "gifts": 1354.8200000000002,
+        "health": 0.0,
+        "homeDecor": 337.5,
+        "jewellery": 99.06,
+        "Kitchenware": 819.7900000000002,
+        "lightingAccessories": 116.31,
+        "luggage": 938.7,
+        "toys": 650.6700000000001,
+        "kitchenware": 819.7900000000002
+      },
+      {
+        "country": "Lithuania\r",
+        "artwork": 45.9,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 131.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 39.599999999999994,
+        "jewellery": 0.0,
+        "Kitchenware": 144.6,
+        "lightingAccessories": 0.0,
+        "luggage": 225.9,
+        "toys": 602.1,
+        "kitchenware": 144.6
+      },
+      {
+        "country": "Bahrain\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 191.7,
+        "lightingAccessories": 302.04,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 191.7
+      },
+      {
+        "country": "Italy\r",
+        "artwork": 965.6499999999999,
+        "bathAccessories": 288.43,
+        "bookStationary": 799.99,
+        "electronics": 407.46000000000004,
+        "gifts": 994.31,
+        "health": 6.72,
+        "homeDecor": 1101.8600000000001,
+        "jewellery": 136.8,
+        "Kitchenware": 2156.7899999999995,
+        "lightingAccessories": 620.73,
+        "luggage": 1497.0800000000002,
+        "toys": 1071.6000000000001,
+        "kitchenware": 2156.7899999999995
+      },
+      {
+        "country": "European Community\r",
+        "artwork": 17.700000000000003,
+        "bathAccessories": 44.849999999999994,
+        "bookStationary": 57.75,
+        "electronics": 55.8,
+        "gifts": 108.0,
+        "health": 0.0,
+        "homeDecor": 140.2,
+        "jewellery": 70.80000000000001,
+        "Kitchenware": 132.20000000000002,
+        "lightingAccessories": 136.0,
+        "luggage": 20.1,
+        "toys": 106.20000000000002,
+        "kitchenware": 132.20000000000002
+      },
+      {
+        "country": "RSA\r",
+        "artwork": 68.15,
+        "bathAccessories": 0.0,
+        "bookStationary": 42.3,
+        "electronics": 40.5,
+        "gifts": 50.8,
+        "health": 0.0,
+        "homeDecor": 24.900000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 144.11999999999998,
+        "lightingAccessories": 36.6,
+        "luggage": 161.15,
+        "toys": 31.65,
+        "kitchenware": 144.11999999999998
+      },
+      {
+        "country": "Cyprus\r",
+        "artwork": 982.9300000000001,
+        "bathAccessories": 250.85000000000002,
+        "bookStationary": 937.0600000000002,
+        "electronics": 933.5299999999999,
+        "gifts": 970.5400000000001,
+        "health": 160.85,
+        "homeDecor": 590.0000000000001,
+        "jewellery": 52.900000000000006,
+        "Kitchenware": 1403.71,
+        "lightingAccessories": 1138.37,
+        "luggage": 441.09,
+        "toys": 453.56000000000006,
+        "kitchenware": 1403.71
+      },
+      {
+        "country": "Lebanon\r",
+        "artwork": 268.65,
+        "bathAccessories": 17.700000000000003,
+        "bookStationary": 101.35,
+        "electronics": 102.0,
+        "gifts": 140.9,
+        "health": 0.0,
+        "homeDecor": 138.0,
+        "jewellery": 0.0,
+        "Kitchenware": 324.40000000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 22.5,
+        "kitchenware": 324.40000000000003
+      },
+      {
+        "country": "United Arab Emirates\r",
+        "artwork": 10.08,
+        "bathAccessories": 12.600000000000001,
+        "bookStationary": 48.72,
+        "electronics": 15.0,
+        "gifts": 398.09999999999997,
+        "health": 0.0,
+        "homeDecor": 19.799999999999997,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 295.53999999999996,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 103.74000000000001,
+        "kitchenware": 295.53999999999996
+      },
+      {
+        "country": "Czech Republic\r",
+        "artwork": 41.76,
+        "bathAccessories": 0.0,
+        "bookStationary": 117.96,
+        "electronics": 69.3,
+        "gifts": 0.0,
+        "health": 20.4,
+        "homeDecor": 136.39999999999998,
+        "jewellery": 0.0,
+        "Kitchenware": 70.80000000000001,
+        "lightingAccessories": 91.44,
+        "luggage": 46.8,
+        "toys": 0.0,
+        "kitchenware": 70.80000000000001
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 6561.45,
+        "bathAccessories": 1439.7,
+        "bookStationary": 10280.88,
+        "electronics": 6767.750000000001,
+        "gifts": 7094.570000000001,
+        "health": 296.20000000000005,
+        "homeDecor": 8352.0,
+        "jewellery": 476.79999999999995,
+        "Kitchenware": 21668.450000000004,
+        "lightingAccessories": 2579.2799999999997,
+        "luggage": 9303.85,
+        "toys": 11690.94,
+        "kitchenware": 21668.450000000004
+      },
+      {
+        "country": "Saudi Arabia\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 53.10000000000001,
+        "lightingAccessories": 17.4,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 53.10000000000001
+      },
+      {
+        "country": "Hong Kong\r",
+        "artwork": 209.53,
+        "bathAccessories": 33.480000000000004,
+        "bookStationary": 350.16999999999996,
+        "electronics": 25.5,
+        "gifts": 129.85,
+        "health": 45.599999999999994,
+        "homeDecor": 358.97,
+        "jewellery": 600.06,
+        "Kitchenware": 2007.4099999999999,
+        "lightingAccessories": 45.449999999999996,
+        "luggage": 732.75,
+        "toys": 979.9999999999999,
+        "kitchenware": 2007.4099999999999
+      },
+      {
+        "country": "Denmark\r",
+        "artwork": 911.0100000000001,
+        "bathAccessories": 102.00000000000001,
+        "bookStationary": 1035.7600000000002,
+        "electronics": 640.32,
+        "gifts": 1824.93,
+        "health": 10.5,
+        "homeDecor": 761.0999999999999,
+        "jewellery": 285.6,
+        "Kitchenware": 1602.3600000000001,
+        "lightingAccessories": 211.8,
+        "luggage": 866.75,
+        "toys": 1947.0800000000002,
+        "kitchenware": 1602.3600000000001
+      },
+      {
+        "country": "Canada\r",
+        "artwork": 117.85,
+        "bathAccessories": 49.980000000000004,
+        "bookStationary": 347.05999999999995,
+        "electronics": 15.600000000000001,
+        "gifts": 129.9,
+        "health": 16.5,
+        "homeDecor": 137.85,
+        "jewellery": 7.56,
+        "Kitchenware": 302.75,
+        "lightingAccessories": 56.599999999999994,
+        "luggage": 320.24,
+        "toys": 680.59,
+        "kitchenware": 302.75
+      },
+      {
+        "country": "Norway\r",
+        "artwork": 1350.17,
+        "bathAccessories": 422.35999999999996,
+        "bookStationary": 2111.71,
+        "electronics": 429.74,
+        "gifts": 1336.53,
+        "health": 135.32999999999998,
+        "homeDecor": 1947.94,
+        "jewellery": 380.18,
+        "Kitchenware": 5205.09,
+        "lightingAccessories": 455.62,
+        "luggage": 1015.49,
+        "toys": 2492.2200000000003,
+        "kitchenware": 5205.09
+      },
+      {
+        "country": "Singapore\r",
+        "artwork": 519.78,
+        "bathAccessories": 59.4,
+        "bookStationary": 904.2,
+        "electronics": 1000.9799999999999,
+        "gifts": 781.6,
+        "health": 93.12,
+        "homeDecor": 480.7,
+        "jewellery": 0.0,
+        "Kitchenware": 679.7199999999999,
+        "lightingAccessories": 488.28,
+        "luggage": 567.51,
+        "toys": 171.36,
+        "kitchenware": 679.7199999999999
+      },
+      {
+        "country": "Finland\r",
+        "artwork": 687.1299999999999,
+        "bathAccessories": 369.48,
+        "bookStationary": 903.23,
+        "electronics": 536.4100000000001,
+        "gifts": 456.6,
+        "health": 29.5,
+        "homeDecor": 842.3,
+        "jewellery": 53.0,
+        "Kitchenware": 1952.4499999999998,
+        "lightingAccessories": 519.47,
+        "luggage": 1555.3500000000001,
+        "toys": 3660.3200000000006,
+        "kitchenware": 1952.4499999999998
+      },
+      {
+        "country": "Germany\r",
+        "artwork": 11191.98,
+        "bathAccessories": 1384.0999999999997,
+        "bookStationary": 10007.92,
+        "electronics": 5874.590000000001,
+        "gifts": 12530.169999999996,
+        "health": 229.45000000000002,
+        "homeDecor": 9969.43,
+        "jewellery": 1481.7299999999998,
+        "Kitchenware": 37717.01999999999,
+        "lightingAccessories": 3900.5399999999995,
+        "luggage": 21666.86,
+        "toys": 8421.38,
+        "kitchenware": 37717.01999999999
+      },
+      {
+        "country": "Malta\r",
+        "artwork": 129.75,
+        "bathAccessories": 0.0,
+        "bookStationary": 41.0,
+        "electronics": 226.32,
+        "gifts": 42.5,
+        "health": 0.0,
+        "homeDecor": 25.700000000000003,
+        "jewellery": 0.0,
+        "Kitchenware": 309.09,
+        "lightingAccessories": 404.21,
+        "luggage": 0.0,
+        "toys": 146.16,
+        "kitchenware": 309.09
+      },
+      {
+        "country": "United Kingdom\r",
+        "artwork": 585016.4300000021,
+        "bathAccessories": 73879.76,
+        "bookStationary": 659282.4299999996,
+        "electronics": 395044.28999999905,
+        "gifts": 468662.9199999996,
+        "health": 24285.07000000001,
+        "homeDecor": 476991.61000000004,
+        "jewellery": 101281.4099999998,
+        "Kitchenware": 1011949.2999999956,
+        "lightingAccessories": 448604.65000000066,
+        "luggage": 983578.2100000117,
+        "toys": 320968.5200000006,
+        "kitchenware": 1011949.2999999956
+      },
+      {
+        "country": "USA\r",
+        "artwork": 129.19,
+        "bathAccessories": 13.200000000000001,
+        "bookStationary": 220.2,
+        "electronics": 58.449999999999996,
+        "gifts": 138.01,
+        "health": 14.75,
+        "homeDecor": 10.2,
+        "jewellery": 0.0,
+        "Kitchenware": 726.0000000000001,
+        "lightingAccessories": 375.0,
+        "luggage": 97.15,
+        "toys": 269.92,
+        "kitchenware": 726.0000000000001
+      },
+      {
+        "country": "Portugal\r",
+        "artwork": 1056.05,
+        "bathAccessories": 397.40999999999997,
+        "bookStationary": 1698.79,
+        "electronics": 441.18999999999994,
+        "gifts": 1677.4600000000003,
+        "health": 156.20999999999998,
+        "homeDecor": 817.76,
+        "jewellery": 93.15,
+        "Kitchenware": 3153.03,
+        "lightingAccessories": 591.7099999999999,
+        "luggage": 6559.800000000001,
+        "toys": 1239.2200000000003,
+        "kitchenware": 3153.03
+      },
+      {
+        "country": "Brazil\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 49.5,
+        "electronics": 0.0,
+        "gifts": 104.75999999999999,
+        "health": 0.0,
+        "homeDecor": 33.0,
+        "jewellery": 0.0,
+        "Kitchenware": 236.39999999999998,
+        "lightingAccessories": 0.0,
+        "luggage": 68.7,
+        "toys": 46.8,
+        "kitchenware": 236.39999999999998
+      },
+      {
+        "country": "France\r",
+        "artwork": 11306.91,
+        "bathAccessories": 1173.7,
+        "bookStationary": 9238.01,
+        "electronics": 2746.2000000000003,
+        "gifts": 11669.569999999998,
+        "health": 185.89,
+        "homeDecor": 16496.87,
+        "jewellery": 1203.36,
+        "Kitchenware": 19407.289999999997,
+        "lightingAccessories": 3872.6200000000003,
+        "luggage": 22425.660000000003,
+        "toys": 12892.779999999999,
+        "kitchenware": 19407.289999999997
+      },
+      {
+        "country": "Sweden\r",
+        "artwork": 802.4299999999998,
+        "bathAccessories": 1028.8999999999999,
+        "bookStationary": 2915.85,
+        "electronics": 337.45,
+        "gifts": 1959.13,
+        "health": 73.75,
+        "homeDecor": 754.56,
+        "jewellery": 453.59999999999997,
+        "Kitchenware": 7600.1100000000015,
+        "lightingAccessories": 265.65,
+        "luggage": 1332.8999999999999,
+        "toys": 2262.26,
+        "kitchenware": 7600.1100000000015
+      },
+      {
+        "country": "Israel\r",
+        "artwork": 199.95,
+        "bathAccessories": 96.18,
+        "bookStationary": 307.85999999999996,
+        "electronics": 464.56,
+        "gifts": 324.53000000000003,
+        "health": 44.25,
+        "homeDecor": 489.84999999999997,
+        "jewellery": 116.85,
+        "Kitchenware": 1476.96,
+        "lightingAccessories": 81.5,
+        "luggage": 1102.76,
+        "toys": 405.25,
+        "kitchenware": 1476.96
+      },
+      {
+        "country": "Japan\r",
+        "artwork": 1481.81,
+        "bathAccessories": 128.7,
+        "bookStationary": 1994.53,
+        "electronics": 533.8,
+        "gifts": 2624.22,
+        "health": 127.49999999999999,
+        "homeDecor": 6938.820000000001,
+        "jewellery": 20.4,
+        "Kitchenware": 6046.1,
+        "lightingAccessories": 0.0,
+        "luggage": 2505.3,
+        "toys": 740.1300000000001,
+        "kitchenware": 6046.1
+      },
+      {
+        "country": "EIRE\r",
+        "artwork": 17431.570000000003,
+        "bathAccessories": 10009.85,
+        "bookStationary": 15998.03,
+        "electronics": 11990.49,
+        "gifts": 13736.18,
+        "health": 376.5,
+        "homeDecor": 10429.810000000001,
+        "jewellery": 2589.5299999999997,
+        "Kitchenware": 42995.36,
+        "lightingAccessories": 12161.12,
+        "luggage": 11810.289999999999,
+        "toys": 10216.33,
+        "kitchenware": 42995.36
+      },
+      {
+        "country": "Channel Islands\r",
+        "artwork": 859.9,
+        "bathAccessories": 208.65,
+        "bookStationary": 1322.52,
+        "electronics": 1208.9700000000003,
+        "gifts": 693.5099999999999,
+        "health": 0.0,
+        "homeDecor": 927.14,
+        "jewellery": 4.5600000000000005,
+        "Kitchenware": 2727.49,
+        "lightingAccessories": 807.2800000000001,
+        "luggage": 2902.4099999999994,
+        "toys": 1038.09,
+        "kitchenware": 2727.49
+      },
+      {
+        "country": "Switzerland\r",
+        "artwork": 2942.99,
+        "bathAccessories": 372.48,
+        "bookStationary": 2466.15,
+        "electronics": 1651.27,
+        "gifts": 2883.01,
+        "health": 154.85,
+        "homeDecor": 3228.1800000000003,
+        "jewellery": 543.68,
+        "Kitchenware": 7487.18,
+        "lightingAccessories": 2169.9300000000003,
+        "luggage": 4692.049999999999,
+        "toys": 3344.51,
+        "kitchenware": 7487.18
+      },
+      {
+        "country": "Spain\r",
+        "artwork": 3155.01,
+        "bathAccessories": 585.6,
+        "bookStationary": 2294.1499999999996,
+        "electronics": 1406.11,
+        "gifts": 2483.8999999999996,
+        "health": 93.33999999999999,
+        "homeDecor": 1720.2199999999998,
+        "jewellery": 349.22999999999996,
+        "Kitchenware": 7885.950000000002,
+        "lightingAccessories": 3047.9399999999996,
+        "luggage": 4667.2699999999995,
+        "toys": 7468.93,
+        "kitchenware": 7885.950000000002
+      },
+      {
+        "country": "Poland\r",
+        "artwork": 458.54,
+        "bathAccessories": 191.20000000000002,
+        "bookStationary": 349.58000000000004,
+        "electronics": 260.10999999999996,
+        "gifts": 578.3,
+        "health": 14.75,
+        "homeDecor": 414.62,
+        "jewellery": 79.19999999999999,
+        "Kitchenware": 1070.88,
+        "lightingAccessories": 240.96000000000004,
+        "luggage": 279.29999999999995,
+        "toys": 339.4,
+        "kitchenware": 1070.88
+      },
+      {
+        "country": "Netherlands\r",
+        "artwork": 14961.869999999999,
+        "bathAccessories": 3999.4199999999996,
+        "bookStationary": 11566.22,
+        "electronics": 15274.160000000002,
+        "gifts": 16905.71,
+        "health": 127.49999999999999,
+        "homeDecor": 21841.199999999997,
+        "jewellery": 561.48,
+        "Kitchenware": 42333.68000000001,
+        "lightingAccessories": 7238.960000000001,
+        "luggage": 47166.85,
+        "toys": 21667.989999999998,
+        "kitchenware": 42333.68000000001
+      }
+    ]
+  },
+  {
     "month": "April-2011",
     "countryList": [
       {
@@ -10,87 +607,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
-      },
-      {
-        "country": "Belgium\r",
-        "artwork": 129.36,
-        "bathAccessories": 13.5,
-        "bookStationary": 77.88,
-        "electronics": 0.0,
-        "gifts": 82.65,
-        "health": 42.78,
-        "homeDecor": 59.39999999999999
-      },
-      {
-        "country": "Greece\r",
-        "artwork": 0.0,
-        "bathAccessories": 31.200000000000003,
-        "bookStationary": 27.5,
-        "electronics": 30.300000000000004,
-        "gifts": 0.0,
-        "health": 17.700000000000003,
-        "homeDecor": 17.0
-      },
-      {
-        "country": "Austria\r",
-        "artwork": 17.700000000000003,
-        "bathAccessories": 0.0,
-        "bookStationary": 156.2,
-        "electronics": 0.0,
-        "gifts": 30.0,
-        "health": 0.0,
-        "homeDecor": 16.5
-      },
-      {
-        "country": "Italy\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 213.59999999999997,
-        "electronics": 19.799999999999997,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 31.8
-      },
-      {
-        "country": "European Community\r",
-        "artwork": 0.0,
-        "bathAccessories": 14.95,
-        "bookStationary": 17.700000000000003,
-        "electronics": 0.0,
-        "gifts": 27.0,
-        "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 14.850000000000001,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Hong Kong\r",
-        "artwork": 28.1,
-        "bathAccessories": 20.28,
-        "bookStationary": 40.8,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 93.60000000000001
-      },
-      {
-        "country": "Unspecified\r",
-        "artwork": 0.0,
-        "bathAccessories": 26.400000000000002,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 19.799999999999997,
+        "jewellery": 41.699999999999996,
+        "Kitchenware": 51.45,
+        "lightingAccessories": 0.0,
+        "luggage": 75.8,
+        "toys": 0.0,
+        "kitchenware": 51.45
       },
       {
         "country": "Singapore\r",
@@ -100,7 +623,45 @@
         "electronics": 51.0,
         "gifts": 84.6,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 85.92,
+        "lightingAccessories": 171.6,
+        "luggage": 287.36,
+        "toys": 2.34,
+        "kitchenware": 85.92
+      },
+      {
+        "country": "Belgium\r",
+        "artwork": 129.36,
+        "bathAccessories": 13.5,
+        "bookStationary": 77.88,
+        "electronics": 0.0,
+        "gifts": 82.65,
+        "health": 42.78,
+        "homeDecor": 59.39999999999999,
+        "jewellery": 19.259999999999998,
+        "Kitchenware": 294.61000000000007,
+        "lightingAccessories": 48.12,
+        "luggage": 213.8,
+        "toys": 200.56,
+        "kitchenware": 294.61000000000007
+      },
+      {
+        "country": "Greece\r",
+        "artwork": 0.0,
+        "bathAccessories": 31.200000000000003,
+        "bookStationary": 27.5,
+        "electronics": 30.300000000000004,
+        "gifts": 0.0,
+        "health": 17.700000000000003,
+        "homeDecor": 17.0,
+        "jewellery": 0.0,
+        "Kitchenware": 69.96000000000001,
+        "lightingAccessories": 30.0,
+        "luggage": 0.0,
+        "toys": 47.4,
+        "kitchenware": 69.96000000000001
       },
       {
         "country": "Finland\r",
@@ -110,7 +671,29 @@
         "electronics": 0.0,
         "gifts": 67.2,
         "health": 0.0,
-        "homeDecor": 2.34
+        "homeDecor": 2.34,
+        "jewellery": 0.0,
+        "Kitchenware": 101.92000000000002,
+        "lightingAccessories": 17.4,
+        "luggage": 22.8,
+        "toys": 476.98,
+        "kitchenware": 101.92000000000002
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 17.700000000000003,
+        "bathAccessories": 0.0,
+        "bookStationary": 156.2,
+        "electronics": 0.0,
+        "gifts": 30.0,
+        "health": 0.0,
+        "homeDecor": 16.5,
+        "jewellery": 0.0,
+        "Kitchenware": 65.10000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 65.7,
+        "toys": 10.08,
+        "kitchenware": 65.10000000000001
       },
       {
         "country": "Germany\r",
@@ -120,7 +703,45 @@
         "electronics": 247.14999999999998,
         "gifts": 346.7,
         "health": 10.2,
-        "homeDecor": 607.4
+        "homeDecor": 607.4,
+        "jewellery": 118.86,
+        "Kitchenware": 1639.0000000000005,
+        "lightingAccessories": 292.32,
+        "luggage": 1609.2999999999997,
+        "toys": 498.7800000000001,
+        "kitchenware": 1639.0000000000005
+      },
+      {
+        "country": "Italy\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 213.59999999999997,
+        "electronics": 19.799999999999997,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 31.8,
+        "jewellery": 0.0,
+        "Kitchenware": 76.2,
+        "lightingAccessories": 0.0,
+        "luggage": 182.2,
+        "toys": 0.0,
+        "kitchenware": 76.2
+      },
+      {
+        "country": "European Community\r",
+        "artwork": 0.0,
+        "bathAccessories": 14.95,
+        "bookStationary": 17.700000000000003,
+        "electronics": 0.0,
+        "gifts": 27.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 31.8,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 35.400000000000006,
+        "kitchenware": 31.8
       },
       {
         "country": "United Kingdom\r",
@@ -130,7 +751,13 @@
         "electronics": 12037.999999999984,
         "gifts": 23099.999999999996,
         "health": 2223.38,
-        "homeDecor": 17765.800000000017
+        "homeDecor": 17765.800000000017,
+        "jewellery": 6982.259999999993,
+        "Kitchenware": 61109.319999999934,
+        "lightingAccessories": 30502.640000000083,
+        "luggage": 48950.0400000002,
+        "toys": 21711.630000000067,
+        "kitchenware": 61109.319999999934
       },
       {
         "country": "USA\r",
@@ -140,7 +767,13 @@
         "electronics": 10.15,
         "gifts": 54.55,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 81.45,
+        "lightingAccessories": 0.0,
+        "luggage": 9.75,
+        "toys": 44.6,
+        "kitchenware": 81.45
       },
       {
         "country": "Portugal\r",
@@ -150,7 +783,13 @@
         "electronics": 0.0,
         "gifts": 220.9,
         "health": 0.0,
-        "homeDecor": 10.0
+        "homeDecor": 10.0,
+        "jewellery": 0.0,
+        "Kitchenware": 258.36,
+        "lightingAccessories": 75.0,
+        "luggage": 215.00000000000003,
+        "toys": 70.35,
+        "kitchenware": 258.36
       },
       {
         "country": "Brazil\r",
@@ -160,7 +799,13 @@
         "electronics": 0.0,
         "gifts": 104.75999999999999,
         "health": 0.0,
-        "homeDecor": 33.0
+        "homeDecor": 33.0,
+        "jewellery": 0.0,
+        "Kitchenware": 236.39999999999998,
+        "lightingAccessories": 0.0,
+        "luggage": 68.7,
+        "toys": 46.8,
+        "kitchenware": 236.39999999999998
       },
       {
         "country": "France\r",
@@ -170,7 +815,29 @@
         "electronics": 22.349999999999998,
         "gifts": 233.45000000000002,
         "health": 0.0,
-        "homeDecor": 200.1
+        "homeDecor": 200.1,
+        "jewellery": 50.7,
+        "Kitchenware": 342.11999999999995,
+        "lightingAccessories": 91.95,
+        "luggage": 755.3500000000001,
+        "toys": 200.70000000000002,
+        "kitchenware": 342.11999999999995
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 14.850000000000001,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 301.8,
+        "toys": 17.700000000000003,
+        "kitchenware": 0.0
       },
       {
         "country": "Sweden\r",
@@ -180,7 +847,13 @@
         "electronics": 15.0,
         "gifts": 15.299999999999999,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 103.55,
+        "lightingAccessories": 30.0,
+        "luggage": 131.4,
+        "toys": 83.0,
+        "kitchenware": 103.55
       },
       {
         "country": "Japan\r",
@@ -190,7 +863,29 @@
         "electronics": 0.0,
         "gifts": 241.2,
         "health": 0.0,
-        "homeDecor": 285.6
+        "homeDecor": 285.6,
+        "jewellery": 0.0,
+        "Kitchenware": 932.16,
+        "lightingAccessories": 0.0,
+        "luggage": 387.0,
+        "toys": 52.199999999999996,
+        "kitchenware": 932.16
+      },
+      {
+        "country": "Hong Kong\r",
+        "artwork": 28.1,
+        "bathAccessories": 20.28,
+        "bookStationary": 40.8,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 93.60000000000001,
+        "jewellery": 0.0,
+        "Kitchenware": 495.6,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 206.8,
+        "kitchenware": 495.6
       },
       {
         "country": "EIRE\r",
@@ -200,7 +895,13 @@
         "electronics": 147.35000000000002,
         "gifts": 374.54999999999995,
         "health": 26.65,
-        "homeDecor": 551.1799999999998
+        "homeDecor": 551.1799999999998,
+        "jewellery": 51.6,
+        "Kitchenware": 534.3,
+        "lightingAccessories": 148.50000000000003,
+        "luggage": 477.84999999999997,
+        "toys": 283.40999999999997,
+        "kitchenware": 534.3
       },
       {
         "country": "Channel Islands\r",
@@ -210,7 +911,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 39.6
+        "homeDecor": 39.6,
+        "jewellery": 0.0,
+        "Kitchenware": 35.400000000000006,
+        "lightingAccessories": 0.0,
+        "luggage": 48.3,
+        "toys": 0.0,
+        "kitchenware": 35.400000000000006
       },
       {
         "country": "Switzerland\r",
@@ -220,7 +927,13 @@
         "electronics": 72.2,
         "gifts": 217.7,
         "health": 0.0,
-        "homeDecor": 39.599999999999994
+        "homeDecor": 39.599999999999994,
+        "jewellery": 11.7,
+        "Kitchenware": 207.63000000000005,
+        "lightingAccessories": 0.0,
+        "luggage": 378.2,
+        "toys": 141.35,
+        "kitchenware": 207.63000000000005
       },
       {
         "country": "Spain\r",
@@ -230,17 +943,13 @@
         "electronics": 32.7,
         "gifts": 137.55,
         "health": 14.75,
-        "homeDecor": 54.599999999999994
-      },
-      {
-        "country": "Netherlands\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 297.59999999999997,
-        "gifts": 105.6,
-        "health": 0.0,
-        "homeDecor": 79.19999999999999
+        "homeDecor": 54.599999999999994,
+        "jewellery": 15.9,
+        "Kitchenware": 421.35999999999996,
+        "lightingAccessories": 50.1,
+        "luggage": 103.84,
+        "toys": 138.95,
+        "kitchenware": 421.35999999999996
       },
       {
         "country": "Poland\r",
@@ -250,7 +959,29 @@
         "electronics": 0.0,
         "gifts": 135.72,
         "health": 0.0,
-        "homeDecor": 56.699999999999996
+        "homeDecor": 56.699999999999996,
+        "jewellery": 39.599999999999994,
+        "Kitchenware": 222.56,
+        "lightingAccessories": 17.4,
+        "luggage": 0.0,
+        "toys": 37.8,
+        "kitchenware": 222.56
+      },
+      {
+        "country": "Netherlands\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 297.59999999999997,
+        "gifts": 105.6,
+        "health": 0.0,
+        "homeDecor": 79.19999999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 612.0,
+        "lightingAccessories": 0.0,
+        "luggage": 1464.8,
+        "toys": 105.6,
+        "kitchenware": 612.0
       }
     ]
   },
@@ -265,7 +996,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 24.96
+        "homeDecor": 24.96,
+        "jewellery": 20.4,
+        "Kitchenware": 32.8,
+        "lightingAccessories": 0.0,
+        "luggage": 51.0,
+        "toys": 0.0,
+        "kitchenware": 32.8
       },
       {
         "country": "Belgium\r",
@@ -275,87 +1012,13 @@
         "electronics": 17.700000000000003,
         "gifts": 225.03000000000003,
         "health": 6.72,
-        "homeDecor": 196.83999999999997
-      },
-      {
-        "country": "Italy\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 42.96
-      },
-      {
-        "country": "European Community\r",
-        "artwork": 0.0,
-        "bathAccessories": 29.9,
-        "bookStationary": 25.05,
-        "electronics": 0.0,
-        "gifts": 81.0,
-        "health": 0.0,
-        "homeDecor": 25.0
-      },
-      {
-        "country": "Cyprus\r",
-        "artwork": 87.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 103.5,
-        "electronics": 21.95,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 33.0
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 382.71,
-        "bathAccessories": 9.899999999999999,
-        "bookStationary": 834.9599999999999,
-        "electronics": 183.0,
-        "gifts": 2204.4800000000005,
-        "health": 118.0,
-        "homeDecor": 708.21
-      },
-      {
-        "country": "Hong Kong\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 130.44,
-        "electronics": 0.0,
-        "gifts": 53.099999999999994,
-        "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Denmark\r",
-        "artwork": 53.040000000000006,
-        "bathAccessories": 0.0,
-        "bookStationary": 197.76,
-        "electronics": 30.599999999999998,
-        "gifts": 207.18,
-        "health": 0.0,
-        "homeDecor": 106.56
-      },
-      {
-        "country": "Canada\r",
-        "artwork": 102.85,
-        "bathAccessories": 0.0,
-        "bookStationary": 227.89999999999998,
-        "electronics": 0.0,
-        "gifts": 56.4,
-        "health": 0.0,
-        "homeDecor": 43.2
-      },
-      {
-        "country": "Unspecified\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 9.959999999999999,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 196.83999999999997,
+        "jewellery": 0.0,
+        "Kitchenware": 609.26,
+        "lightingAccessories": 15.299999999999999,
+        "luggage": 768.05,
+        "toys": 226.05000000000004,
+        "kitchenware": 609.26
       },
       {
         "country": "Norway\r",
@@ -365,7 +1028,13 @@
         "electronics": 50.3,
         "gifts": 173.7,
         "health": 0.0,
-        "homeDecor": 552.25
+        "homeDecor": 552.25,
+        "jewellery": 133.7,
+        "Kitchenware": 450.28,
+        "lightingAccessories": 44.4,
+        "luggage": 167.5,
+        "toys": 295.3,
+        "kitchenware": 450.28
       },
       {
         "country": "Finland\r",
@@ -375,7 +1044,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 44.76
+        "homeDecor": 44.76,
+        "jewellery": 0.0,
+        "Kitchenware": 69.6,
+        "lightingAccessories": 0.0,
+        "luggage": 52.2,
+        "toys": 0.0,
+        "kitchenware": 69.6
       },
       {
         "country": "Germany\r",
@@ -385,7 +1060,13 @@
         "electronics": 100.38,
         "gifts": 461.31000000000006,
         "health": 31.18,
-        "homeDecor": 573.2099999999999
+        "homeDecor": 573.2099999999999,
+        "jewellery": 78.3,
+        "Kitchenware": 1573.1400000000008,
+        "lightingAccessories": 201.55,
+        "luggage": 2730.3400000000015,
+        "toys": 530.1000000000001,
+        "kitchenware": 1573.1400000000008
       },
       {
         "country": "Malta\r",
@@ -395,7 +1076,61 @@
         "electronics": 118.6,
         "gifts": 42.5,
         "health": 0.0,
-        "homeDecor": 25.700000000000003
+        "homeDecor": 25.700000000000003,
+        "jewellery": 0.0,
+        "Kitchenware": 76.13999999999999,
+        "lightingAccessories": 181.76,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 76.13999999999999
+      },
+      {
+        "country": "Italy\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 42.96,
+        "jewellery": 0.0,
+        "Kitchenware": 43.86,
+        "lightingAccessories": 17.700000000000003,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 43.86
+      },
+      {
+        "country": "European Community\r",
+        "artwork": 0.0,
+        "bathAccessories": 29.9,
+        "bookStationary": 25.05,
+        "electronics": 0.0,
+        "gifts": 81.0,
+        "health": 0.0,
+        "homeDecor": 25.0,
+        "jewellery": 35.400000000000006,
+        "Kitchenware": 31.8,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 70.80000000000001,
+        "kitchenware": 31.8
+      },
+      {
+        "country": "Cyprus\r",
+        "artwork": 87.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 103.5,
+        "electronics": 21.95,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 33.0,
+        "jewellery": 12.5,
+        "Kitchenware": 163.2,
+        "lightingAccessories": 0.0,
+        "luggage": 116.19999999999999,
+        "toys": 0.0,
+        "kitchenware": 163.2
       },
       {
         "country": "United Kingdom\r",
@@ -405,7 +1140,13 @@
         "electronics": 14748.259999999978,
         "gifts": 34333.10000000001,
         "health": 1520.4400000000007,
-        "homeDecor": 25246.36000000005
+        "homeDecor": 25246.36000000005,
+        "jewellery": 8094.3399999999865,
+        "Kitchenware": 57502.839999999866,
+        "lightingAccessories": 27545.370000000054,
+        "luggage": 80138.76000000093,
+        "toys": 21650.88999999999,
+        "kitchenware": 57502.839999999866
       },
       {
         "country": "Portugal\r",
@@ -415,7 +1156,13 @@
         "electronics": 0.0,
         "gifts": 74.6,
         "health": 0.0,
-        "homeDecor": 45.0
+        "homeDecor": 45.0,
+        "jewellery": 0.0,
+        "Kitchenware": 120.75,
+        "lightingAccessories": 0.0,
+        "luggage": 324.55000000000007,
+        "toys": 16.8,
+        "kitchenware": 120.75
       },
       {
         "country": "France\r",
@@ -425,7 +1172,13 @@
         "electronics": 35.400000000000006,
         "gifts": 875.9499999999999,
         "health": 6.72,
-        "homeDecor": 1590.4
+        "homeDecor": 1590.4,
+        "jewellery": 85.32,
+        "Kitchenware": 1508.7900000000004,
+        "lightingAccessories": 429.6,
+        "luggage": 2350.14,
+        "toys": 740.9200000000001,
+        "kitchenware": 1508.7900000000004
       },
       {
         "country": "Sweden\r",
@@ -435,7 +1188,29 @@
         "electronics": 30.599999999999998,
         "gifts": 17.700000000000003,
         "health": 14.75,
-        "homeDecor": 82.56
+        "homeDecor": 82.56,
+        "jewellery": 0.0,
+        "Kitchenware": 51.45,
+        "lightingAccessories": 30.0,
+        "luggage": 0.0,
+        "toys": 57.8,
+        "kitchenware": 51.45
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 382.71,
+        "bathAccessories": 9.899999999999999,
+        "bookStationary": 834.9599999999999,
+        "electronics": 183.0,
+        "gifts": 2204.4800000000005,
+        "health": 118.0,
+        "homeDecor": 708.21,
+        "jewellery": 51.0,
+        "Kitchenware": 4626.6,
+        "lightingAccessories": 425.28000000000003,
+        "luggage": 2156.2799999999997,
+        "toys": 2465.04,
+        "kitchenware": 4626.6
       },
       {
         "country": "Japan\r",
@@ -445,7 +1220,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 515.52
+        "homeDecor": 515.52,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 0.0
+      },
+      {
+        "country": "Hong Kong\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 130.44,
+        "electronics": 0.0,
+        "gifts": 53.099999999999994,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 35.400000000000006,
+        "Kitchenware": 47.7,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 71.69999999999999,
+        "kitchenware": 47.7
       },
       {
         "country": "EIRE\r",
@@ -455,7 +1252,29 @@
         "electronics": 484.29,
         "gifts": 816.7599999999996,
         "health": 32.46,
-        "homeDecor": 515.43
+        "homeDecor": 515.43,
+        "jewellery": 244.87999999999994,
+        "Kitchenware": 2077.39,
+        "lightingAccessories": 862.8200000000002,
+        "luggage": 1077.7099999999998,
+        "toys": 572.4399999999999,
+        "kitchenware": 2077.39
+      },
+      {
+        "country": "Denmark\r",
+        "artwork": 53.040000000000006,
+        "bathAccessories": 0.0,
+        "bookStationary": 197.76,
+        "electronics": 30.599999999999998,
+        "gifts": 207.18,
+        "health": 0.0,
+        "homeDecor": 106.56,
+        "jewellery": 0.0,
+        "Kitchenware": 350.0,
+        "lightingAccessories": 0.0,
+        "luggage": 276.55,
+        "toys": 368.14000000000004,
+        "kitchenware": 350.0
       },
       {
         "country": "Channel Islands\r",
@@ -465,7 +1284,13 @@
         "electronics": 32.9,
         "gifts": 157.2,
         "health": 0.0,
-        "homeDecor": 15.9
+        "homeDecor": 15.9,
+        "jewellery": 0.0,
+        "Kitchenware": 440.49999999999983,
+        "lightingAccessories": 85.2,
+        "luggage": 153.5,
+        "toys": 80.4,
+        "kitchenware": 440.49999999999983
       },
       {
         "country": "Switzerland\r",
@@ -475,7 +1300,29 @@
         "electronics": 157.2,
         "gifts": 231.89999999999998,
         "health": 0.0,
-        "homeDecor": 426.29999999999995
+        "homeDecor": 426.29999999999995,
+        "jewellery": 0.0,
+        "Kitchenware": 855.15,
+        "lightingAccessories": 295.5,
+        "luggage": 611.1999999999999,
+        "toys": 529.26,
+        "kitchenware": 855.15
+      },
+      {
+        "country": "Canada\r",
+        "artwork": 102.85,
+        "bathAccessories": 0.0,
+        "bookStationary": 227.89999999999998,
+        "electronics": 0.0,
+        "gifts": 56.4,
+        "health": 0.0,
+        "homeDecor": 43.2,
+        "jewellery": 0.0,
+        "Kitchenware": 26.400000000000002,
+        "lightingAccessories": 0.0,
+        "luggage": 215.0,
+        "toys": 122.95,
+        "kitchenware": 26.400000000000002
       },
       {
         "country": "Spain\r",
@@ -485,7 +1332,13 @@
         "electronics": 12.5,
         "gifts": 103.35,
         "health": 5.1,
-        "homeDecor": 83.7
+        "homeDecor": 83.7,
+        "jewellery": 0.0,
+        "Kitchenware": 332.65000000000003,
+        "lightingAccessories": 135.76,
+        "luggage": 545.1,
+        "toys": 157.33,
+        "kitchenware": 332.65000000000003
       },
       {
         "country": "Netherlands\r",
@@ -495,7 +1348,13 @@
         "electronics": 763.9200000000001,
         "gifts": 1431.0600000000002,
         "health": 0.0,
-        "homeDecor": 1630.5300000000002
+        "homeDecor": 1630.5300000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 4353.050000000002,
+        "lightingAccessories": 1105.26,
+        "luggage": 8609.56,
+        "toys": 1721.9,
+        "kitchenware": 4353.050000000002
       },
       {
         "country": "Poland\r",
@@ -505,7 +1364,13 @@
         "electronics": 0.0,
         "gifts": 30.400000000000002,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 27.900000000000002,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 55.599999999999994,
+        "kitchenware": 27.900000000000002
       }
     ]
   },
@@ -520,7 +1385,13 @@
         "electronics": 0.0,
         "gifts": 162.3,
         "health": 0.0,
-        "homeDecor": 102.82
+        "homeDecor": 102.82,
+        "jewellery": 0.0,
+        "Kitchenware": 565.5200000000001,
+        "lightingAccessories": 45.449999999999996,
+        "luggage": 377.3500000000001,
+        "toys": 236.48000000000002,
+        "kitchenware": 565.5200000000001
       },
       {
         "country": "Austria\r",
@@ -530,7 +1401,13 @@
         "electronics": 10.2,
         "gifts": 319.5,
         "health": 0.0,
-        "homeDecor": 37.5
+        "homeDecor": 37.5,
+        "jewellery": 41.1,
+        "Kitchenware": 129.78,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 108.55000000000001,
+        "kitchenware": 129.78
       },
       {
         "country": "Germany\r",
@@ -540,7 +1417,13 @@
         "electronics": 320.99999999999994,
         "gifts": 1260.1,
         "health": 38.55,
-        "homeDecor": 1518.09
+        "homeDecor": 1518.09,
+        "jewellery": 98.1,
+        "Kitchenware": 2869.8399999999992,
+        "lightingAccessories": 467.09999999999997,
+        "luggage": 4970.170000000003,
+        "toys": 699.1800000000001,
+        "kitchenware": 2869.8399999999992
       },
       {
         "country": "Bahrain\r",
@@ -550,7 +1433,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 191.7,
+        "lightingAccessories": 96.3,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 191.7
       },
       {
         "country": "Italy\r",
@@ -560,7 +1449,13 @@
         "electronics": 0.0,
         "gifts": 57.449999999999996,
         "health": 0.0,
-        "homeDecor": 46.8
+        "homeDecor": 46.8,
+        "jewellery": 0.0,
+        "Kitchenware": 56.400000000000006,
+        "lightingAccessories": 0.0,
+        "luggage": 200.6,
+        "toys": 35.400000000000006,
+        "kitchenware": 56.400000000000006
       },
       {
         "country": "United Kingdom\r",
@@ -570,7 +1465,13 @@
         "electronics": 14219.209999999961,
         "gifts": 31444.949999999983,
         "health": 2009.870000000001,
-        "homeDecor": 26354.960000000065
+        "homeDecor": 26354.960000000065,
+        "jewellery": 9098.12,
+        "Kitchenware": 61034.289999999826,
+        "lightingAccessories": 40737.10000000007,
+        "luggage": 88550.80000000136,
+        "toys": 26364.580000000067,
+        "kitchenware": 61034.289999999826
       },
       {
         "country": "Portugal\r",
@@ -580,7 +1481,13 @@
         "electronics": 35.699999999999996,
         "gifts": 33.25,
         "health": 0.0,
-        "homeDecor": 9.95
+        "homeDecor": 9.95,
+        "jewellery": 1.7,
+        "Kitchenware": 36.9,
+        "lightingAccessories": 0.0,
+        "luggage": 261.24999999999994,
+        "toys": 20.75,
+        "kitchenware": 36.9
       },
       {
         "country": "Australia\r",
@@ -590,7 +1497,13 @@
         "electronics": 0.0,
         "gifts": 169.5,
         "health": 178.20000000000002,
-        "homeDecor": 1167.38
+        "homeDecor": 1167.38,
+        "jewellery": 30.0,
+        "Kitchenware": 450.11999999999995,
+        "lightingAccessories": 55.8,
+        "luggage": 83.85,
+        "toys": 1194.02,
+        "kitchenware": 450.11999999999995
       },
       {
         "country": "France\r",
@@ -600,7 +1513,13 @@
         "electronics": 100.7,
         "gifts": 1085.92,
         "health": 0.0,
-        "homeDecor": 1216.1799999999998
+        "homeDecor": 1216.1799999999998,
+        "jewellery": 140.52,
+        "Kitchenware": 1178.91,
+        "lightingAccessories": 345.64,
+        "luggage": 2751.750000000002,
+        "toys": 1353.989999999999,
+        "kitchenware": 1178.91
       },
       {
         "country": "Sweden\r",
@@ -610,7 +1529,13 @@
         "electronics": 0.0,
         "gifts": 17.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 956.4000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 75.60000000000001,
+        "kitchenware": 956.4000000000001
       },
       {
         "country": "Japan\r",
@@ -620,7 +1545,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 82.5,
+        "lightingAccessories": 0.0,
+        "luggage": 420.0,
+        "toys": 0.0,
+        "kitchenware": 82.5
       },
       {
         "country": "Hong Kong\r",
@@ -630,7 +1561,13 @@
         "electronics": 25.5,
         "gifts": 29.400000000000002,
         "health": 45.599999999999994,
-        "homeDecor": 53.81999999999999
+        "homeDecor": 53.81999999999999,
+        "jewellery": 65.4,
+        "Kitchenware": 438.4,
+        "lightingAccessories": 0.0,
+        "luggage": 210.10000000000002,
+        "toys": 172.7,
+        "kitchenware": 438.4
       },
       {
         "country": "EIRE\r",
@@ -640,7 +1577,13 @@
         "electronics": 130.9,
         "gifts": 829.15,
         "health": 0.0,
-        "homeDecor": 462.92
+        "homeDecor": 462.92,
+        "jewellery": 234.41000000000003,
+        "Kitchenware": 2592.2799999999997,
+        "lightingAccessories": 729.9800000000002,
+        "luggage": 826.04,
+        "toys": 615.4400000000002,
+        "kitchenware": 2592.2799999999997
       },
       {
         "country": "Channel Islands\r",
@@ -650,7 +1593,13 @@
         "electronics": 76.5,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 154.7
+        "homeDecor": 154.7,
+        "jewellery": 0.0,
+        "Kitchenware": 92.69999999999999,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 13.0,
+        "kitchenware": 92.69999999999999
       },
       {
         "country": "Denmark\r",
@@ -660,17 +1609,13 @@
         "electronics": 0.0,
         "gifts": 57.3,
         "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Canada\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 152.10000000000002,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 46.8,
+        "kitchenware": 152.10000000000002
       },
       {
         "country": "Switzerland\r",
@@ -680,17 +1625,29 @@
         "electronics": 112.8,
         "gifts": 157.7,
         "health": 14.75,
-        "homeDecor": 217.10000000000002
+        "homeDecor": 217.10000000000002,
+        "jewellery": 144.9,
+        "Kitchenware": 432.32000000000005,
+        "lightingAccessories": 15.0,
+        "luggage": 867.7000000000002,
+        "toys": 261.4,
+        "kitchenware": 432.32000000000005
       },
       {
-        "country": "Unspecified\r",
-        "artwork": 55.44,
+        "country": "Canada\r",
+        "artwork": 0.0,
         "bathAccessories": 0.0,
-        "bookStationary": 55.2,
-        "electronics": 30.0,
-        "gifts": 90.1,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 70.5
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 534.24,
+        "kitchenware": 0.0
       },
       {
         "country": "Spain\r",
@@ -700,17 +1657,13 @@
         "electronics": 0.0,
         "gifts": 125.79999999999998,
         "health": 0.0,
-        "homeDecor": 75.06
-      },
-      {
-        "country": "Netherlands\r",
-        "artwork": 1042.84,
-        "bathAccessories": 367.20000000000005,
-        "bookStationary": 2015.1399999999999,
-        "electronics": 3342.0,
-        "gifts": 1910.6999999999998,
-        "health": 0.0,
-        "homeDecor": 1391.3999999999996
+        "homeDecor": 75.06,
+        "jewellery": 0.0,
+        "Kitchenware": 583.76,
+        "lightingAccessories": 0.0,
+        "luggage": 40.2,
+        "toys": 280.97999999999996,
+        "kitchenware": 583.76
       },
       {
         "country": "Poland\r",
@@ -720,23 +1673,35 @@
         "electronics": 87.0,
         "gifts": 64.8,
         "health": 0.0,
-        "homeDecor": 129.6
+        "homeDecor": 129.6,
+        "jewellery": 0.0,
+        "Kitchenware": 91.1,
+        "lightingAccessories": 0.0,
+        "luggage": 106.29999999999998,
+        "toys": 57.7,
+        "kitchenware": 91.1
+      },
+      {
+        "country": "Netherlands\r",
+        "artwork": 1042.84,
+        "bathAccessories": 367.20000000000005,
+        "bookStationary": 2015.1399999999999,
+        "electronics": 3342.0,
+        "gifts": 1910.6999999999998,
+        "health": 0.0,
+        "homeDecor": 1391.3999999999996,
+        "jewellery": 0.0,
+        "Kitchenware": 4166.660000000001,
+        "lightingAccessories": 538.0799999999999,
+        "luggage": 6211.3,
+        "toys": 1186.7999999999997,
+        "kitchenware": 4166.660000000001
       }
     ]
   },
   {
     "month": "November-2011",
     "countryList": [
-      {
-        "country": "Belgium\r",
-        "artwork": 408.02,
-        "bathAccessories": 0.0,
-        "bookStationary": 196.39999999999998,
-        "electronics": 125.94,
-        "gifts": 456.90999999999997,
-        "health": 14.75,
-        "homeDecor": 554.4
-      },
       {
         "country": "Norway\r",
         "artwork": 220.88000000000002,
@@ -745,17 +1710,29 @@
         "electronics": 139.18,
         "gifts": 343.8,
         "health": 38.15,
-        "homeDecor": 423.26
+        "homeDecor": 423.26,
+        "jewellery": 0.0,
+        "Kitchenware": 879.05,
+        "lightingAccessories": 113.86,
+        "luggage": 20.8,
+        "toys": 377.11999999999995,
+        "kitchenware": 879.05
       },
       {
-        "country": "Austria\r",
-        "artwork": 47.38,
-        "bathAccessories": 38.400000000000006,
-        "bookStationary": 43.96,
-        "electronics": 123.30000000000001,
-        "gifts": 52.120000000000005,
-        "health": 0.0,
-        "homeDecor": 105.42
+        "country": "Belgium\r",
+        "artwork": 408.02,
+        "bathAccessories": 0.0,
+        "bookStationary": 196.39999999999998,
+        "electronics": 125.94,
+        "gifts": 456.90999999999997,
+        "health": 14.75,
+        "homeDecor": 554.4,
+        "jewellery": 15.0,
+        "Kitchenware": 708.6500000000002,
+        "lightingAccessories": 53.10000000000001,
+        "luggage": 412.1,
+        "toys": 381.63,
+        "kitchenware": 708.6500000000002
       },
       {
         "country": "Finland\r",
@@ -765,7 +1742,29 @@
         "electronics": 124.87,
         "gifts": 9.36,
         "health": 0.0,
-        "homeDecor": 236.64
+        "homeDecor": 236.64,
+        "jewellery": 6.0,
+        "Kitchenware": 85.1,
+        "lightingAccessories": 103.35000000000002,
+        "luggage": 449.4000000000001,
+        "toys": 884.4300000000001,
+        "kitchenware": 85.1
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 47.38,
+        "bathAccessories": 38.400000000000006,
+        "bookStationary": 43.96,
+        "electronics": 123.30000000000001,
+        "gifts": 52.120000000000005,
+        "health": 0.0,
+        "homeDecor": 105.42,
+        "jewellery": 0.0,
+        "Kitchenware": 88.57,
+        "lightingAccessories": 67.35,
+        "luggage": 45.4,
+        "toys": 111.64,
+        "kitchenware": 88.57
       },
       {
         "country": "Germany\r",
@@ -775,7 +1774,13 @@
         "electronics": 1315.78,
         "gifts": 1124.9099999999996,
         "health": 14.75,
-        "homeDecor": 1496.88
+        "homeDecor": 1496.88,
+        "jewellery": 2.5,
+        "Kitchenware": 4827.689999999997,
+        "lightingAccessories": 419.30999999999995,
+        "luggage": 1559.01,
+        "toys": 633.81,
+        "kitchenware": 4827.689999999997
       },
       {
         "country": "Malta\r",
@@ -785,7 +1790,13 @@
         "electronics": 58.519999999999996,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 19.9,
+        "lightingAccessories": 112.25,
+        "luggage": 0.0,
+        "toys": 38.160000000000004,
+        "kitchenware": 19.9
       },
       {
         "country": "Italy\r",
@@ -795,7 +1806,13 @@
         "electronics": 153.21,
         "gifts": 441.28999999999996,
         "health": 0.0,
-        "homeDecor": 237.12
+        "homeDecor": 237.12,
+        "jewellery": 39.599999999999994,
+        "Kitchenware": 601.4999999999999,
+        "lightingAccessories": 96.08,
+        "luggage": 114.38000000000001,
+        "toys": 213.70000000000002,
+        "kitchenware": 601.4999999999999
       },
       {
         "country": "Cyprus\r",
@@ -805,7 +1822,13 @@
         "electronics": 27.5,
         "gifts": 23.349999999999998,
         "health": 13.0,
-        "homeDecor": 20.85
+        "homeDecor": 20.85,
+        "jewellery": 0.0,
+        "Kitchenware": 11.71,
+        "lightingAccessories": 69.9,
+        "luggage": 29.54,
+        "toys": 48.05,
+        "kitchenware": 11.71
       },
       {
         "country": "United Kingdom\r",
@@ -815,7 +1838,13 @@
         "electronics": 83878.37999999936,
         "gifts": 66941.82999999967,
         "health": 2385.960000000002,
-        "homeDecor": 104821.20999999972
+        "homeDecor": 104821.20999999972,
+        "jewellery": 12056.309999999941,
+        "Kitchenware": 152316.69000000044,
+        "lightingAccessories": 62957.16999999984,
+        "luggage": 128987.79000000298,
+        "toys": 46298.600000000086,
+        "kitchenware": 152316.69000000044
       },
       {
         "country": "Portugal\r",
@@ -825,17 +1854,13 @@
         "electronics": 24.75,
         "gifts": 70.65,
         "health": 38.25,
-        "homeDecor": 162.53000000000003
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 275.28000000000003,
-        "bathAccessories": 50.4,
-        "bookStationary": 222.6,
-        "electronics": 129.8,
-        "gifts": 105.6,
-        "health": 0.0,
-        "homeDecor": 3459.16
+        "homeDecor": 162.53000000000003,
+        "jewellery": 57.7,
+        "Kitchenware": 166.6,
+        "lightingAccessories": 15.0,
+        "luggage": 616.8499999999999,
+        "toys": 59.0,
+        "kitchenware": 166.6
       },
       {
         "country": "France\r",
@@ -845,7 +1870,29 @@
         "electronics": 884.8300000000002,
         "gifts": 1535.93,
         "health": 32.39,
-        "homeDecor": 4576.420000000001
+        "homeDecor": 4576.420000000001,
+        "jewellery": 67.15,
+        "Kitchenware": 2550.2499999999995,
+        "lightingAccessories": 616.02,
+        "luggage": 2621.9499999999994,
+        "toys": 2104.2899999999995,
+        "kitchenware": 2550.2499999999995
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 275.28000000000003,
+        "bathAccessories": 50.4,
+        "bookStationary": 222.6,
+        "electronics": 129.8,
+        "gifts": 105.6,
+        "health": 0.0,
+        "homeDecor": 3459.16,
+        "jewellery": 231.2,
+        "Kitchenware": 469.2,
+        "lightingAccessories": 0.0,
+        "luggage": 794.6,
+        "toys": 570.6,
+        "kitchenware": 469.2
       },
       {
         "country": "Sweden\r",
@@ -855,7 +1902,13 @@
         "electronics": 63.24999999999999,
         "gifts": 573.13,
         "health": 0.0,
-        "homeDecor": 170.04000000000002
+        "homeDecor": 170.04000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 304.1,
+        "lightingAccessories": 98.00999999999998,
+        "luggage": 39.599999999999994,
+        "toys": 157.82,
+        "kitchenware": 304.1
       },
       {
         "country": "Japan\r",
@@ -865,7 +1918,13 @@
         "electronics": 0.0,
         "gifts": 718.2599999999999,
         "health": 0.0,
-        "homeDecor": 4233.6
+        "homeDecor": 4233.6,
+        "jewellery": 0.0,
+        "Kitchenware": 716.6,
+        "lightingAccessories": 0.0,
+        "luggage": 250.5,
+        "toys": 0.0,
+        "kitchenware": 716.6
       },
       {
         "country": "EIRE\r",
@@ -875,7 +1934,13 @@
         "electronics": 1346.79,
         "gifts": 1130.7,
         "health": 29.75,
-        "homeDecor": 1654.6500000000005
+        "homeDecor": 1654.6500000000005,
+        "jewellery": 109.16,
+        "Kitchenware": 4580.529999999998,
+        "lightingAccessories": 2675.5000000000005,
+        "luggage": 569.2,
+        "toys": 1965.0900000000006,
+        "kitchenware": 4580.529999999998
       },
       {
         "country": "Channel Islands\r",
@@ -885,7 +1950,13 @@
         "electronics": 114.14999999999999,
         "gifts": 66.3,
         "health": 0.0,
-        "homeDecor": 60.0
+        "homeDecor": 60.0,
+        "jewellery": 0.0,
+        "Kitchenware": 203.18,
+        "lightingAccessories": 80.4,
+        "luggage": 145.6,
+        "toys": 0.0,
+        "kitchenware": 203.18
       },
       {
         "country": "Denmark\r",
@@ -895,7 +1966,13 @@
         "electronics": 39.0,
         "gifts": 166.95,
         "health": 0.0,
-        "homeDecor": 136.8
+        "homeDecor": 136.8,
+        "jewellery": 0.0,
+        "Kitchenware": 150.12,
+        "lightingAccessories": 105.6,
+        "luggage": 20.4,
+        "toys": 267.20000000000005,
+        "kitchenware": 150.12
       },
       {
         "country": "Switzerland\r",
@@ -905,17 +1982,13 @@
         "electronics": 343.20000000000005,
         "gifts": 497.37000000000006,
         "health": 0.0,
-        "homeDecor": 343.3
-      },
-      {
-        "country": "Unspecified\r",
-        "artwork": 54.0,
-        "bathAccessories": 13.200000000000001,
-        "bookStationary": 118.63999999999999,
-        "electronics": 0.0,
-        "gifts": 34.8,
-        "health": 0.0,
-        "homeDecor": 84.36
+        "homeDecor": 343.3,
+        "jewellery": 0.0,
+        "Kitchenware": 1080.74,
+        "lightingAccessories": 737.3600000000001,
+        "luggage": 322.65,
+        "toys": 478.2900000000002,
+        "kitchenware": 1080.74
       },
       {
         "country": "Spain\r",
@@ -925,7 +1998,13 @@
         "electronics": 353.43,
         "gifts": 277.42,
         "health": 9.959999999999999,
-        "homeDecor": 179.66000000000003
+        "homeDecor": 179.66000000000003,
+        "jewellery": 0.0,
+        "Kitchenware": 670.98,
+        "lightingAccessories": 184.51,
+        "luggage": 453.34999999999997,
+        "toys": 2641.44,
+        "kitchenware": 670.98
       },
       {
         "country": "Netherlands\r",
@@ -935,7 +2014,13 @@
         "electronics": 233.54,
         "gifts": 1975.7500000000002,
         "health": 0.0,
-        "homeDecor": 1104.48
+        "homeDecor": 1104.48,
+        "jewellery": 0.0,
+        "Kitchenware": 4155.77,
+        "lightingAccessories": 590.71,
+        "luggage": 4528.55,
+        "toys": 2238.39,
+        "kitchenware": 4155.77
       },
       {
         "country": "Poland\r",
@@ -945,7 +2030,13 @@
         "electronics": 103.96,
         "gifts": 154.92,
         "health": 0.0,
-        "homeDecor": 16.5
+        "homeDecor": 16.5,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 271.92,
+        "lightingAccessories": 47.760000000000005,
+        "luggage": 41.6,
+        "toys": 17.4,
+        "kitchenware": 271.92
       }
     ]
   },
@@ -960,7 +2051,13 @@
         "electronics": 99.0,
         "gifts": 188.94,
         "health": 14.75,
-        "homeDecor": 118.8
+        "homeDecor": 118.8,
+        "jewellery": 130.2,
+        "Kitchenware": 629.8000000000001,
+        "lightingAccessories": 30.0,
+        "luggage": 698.7,
+        "toys": 229.92,
+        "kitchenware": 629.8000000000001
       },
       {
         "country": "Norway\r",
@@ -970,7 +2067,13 @@
         "electronics": 34.68,
         "gifts": 161.14000000000001,
         "health": 77.02,
-        "homeDecor": 499.96000000000004
+        "homeDecor": 499.96000000000004,
+        "jewellery": 193.8,
+        "Kitchenware": 1567.8200000000002,
+        "lightingAccessories": 159.12,
+        "luggage": 662.12,
+        "toys": 1045.72,
+        "kitchenware": 1567.8200000000002
       },
       {
         "country": "Finland\r",
@@ -980,7 +2083,13 @@
         "electronics": 0.0,
         "gifts": 22.8,
         "health": 0.0,
-        "homeDecor": 9.36
+        "homeDecor": 9.36,
+        "jewellery": 17.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 10.2,
+        "luggage": 126.54999999999998,
+        "toys": 341.90000000000003,
+        "kitchenware": 0.0
       },
       {
         "country": "Germany\r",
@@ -990,7 +2099,13 @@
         "electronics": 502.21000000000004,
         "gifts": 860.2499999999995,
         "health": 23.6,
-        "homeDecor": 541.66
+        "homeDecor": 541.66,
+        "jewellery": 437.04,
+        "Kitchenware": 2782.7700000000004,
+        "lightingAccessories": 396.24,
+        "luggage": 1642.8799999999999,
+        "toys": 1248.4100000000003,
+        "kitchenware": 2782.7700000000004
       },
       {
         "country": "Italy\r",
@@ -1000,7 +2115,13 @@
         "electronics": 22.5,
         "gifts": 46.7,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 14.850000000000001,
+        "lightingAccessories": 17.700000000000003,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 14.850000000000001
       },
       {
         "country": "United Arab Emirates\r",
@@ -1010,7 +2131,13 @@
         "electronics": 0.0,
         "gifts": 338.09999999999997,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
+        "homeDecor": 19.799999999999997,
+        "jewellery": 0.0,
+        "Kitchenware": 210.64,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 38.34,
+        "kitchenware": 210.64
       },
       {
         "country": "United Kingdom\r",
@@ -1020,7 +2147,13 @@
         "electronics": 60937.989999999794,
         "gifts": 47623.08000000001,
         "health": 1804.290000000001,
-        "homeDecor": 47288.16000000001
+        "homeDecor": 47288.16000000001,
+        "jewellery": 8659.839999999991,
+        "Kitchenware": 106999.2999999994,
+        "lightingAccessories": 36452.040000000095,
+        "luggage": 97119.86000000211,
+        "toys": 33586.64000000015,
+        "kitchenware": 106999.2999999994
       },
       {
         "country": "Portugal\r",
@@ -1030,37 +2163,13 @@
         "electronics": 10.2,
         "gifts": 37.5,
         "health": 0.0,
-        "homeDecor": 111.54
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 283.03999999999996,
-        "bathAccessories": 0.0,
-        "bookStationary": 168.6,
-        "electronics": 55.32000000000001,
-        "gifts": 179.06,
-        "health": 0.0,
-        "homeDecor": 76.19999999999999
-      },
-      {
-        "country": "France\r",
-        "artwork": 1181.0700000000006,
-        "bathAccessories": 89.4,
-        "bookStationary": 1047.84,
-        "electronics": 698.6000000000001,
-        "gifts": 1754.5200000000002,
-        "health": 0.0,
-        "homeDecor": 1201.5999999999997
-      },
-      {
-        "country": "Israel\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 18.15,
-        "electronics": 104.88,
-        "gifts": 33.33,
-        "health": 44.25,
-        "homeDecor": 44.66
+        "homeDecor": 111.54,
+        "jewellery": 0.0,
+        "Kitchenware": 242.45000000000002,
+        "lightingAccessories": 68.65,
+        "luggage": 185.3,
+        "toys": 49.739999999999995,
+        "kitchenware": 242.45000000000002
       },
       {
         "country": "Sweden\r",
@@ -1070,7 +2179,61 @@
         "electronics": 0.0,
         "gifts": 416.16,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 302.4,
+        "Kitchenware": 189.94,
+        "lightingAccessories": 0.0,
+        "luggage": 189.5,
+        "toys": 140.4,
+        "kitchenware": 189.94
+      },
+      {
+        "country": "France\r",
+        "artwork": 1181.0700000000006,
+        "bathAccessories": 89.4,
+        "bookStationary": 1047.84,
+        "electronics": 698.6000000000001,
+        "gifts": 1754.5200000000002,
+        "health": 0.0,
+        "homeDecor": 1201.5999999999997,
+        "jewellery": 148.76,
+        "Kitchenware": 2872.5999999999995,
+        "lightingAccessories": 491.76,
+        "luggage": 2545.6400000000003,
+        "toys": 1756.3699999999997,
+        "kitchenware": 2872.5999999999995
+      },
+      {
+        "country": "Israel\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 18.15,
+        "electronics": 104.88,
+        "gifts": 33.33,
+        "health": 44.25,
+        "homeDecor": 44.66,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 89.46000000000001,
+        "toys": 0.0,
+        "kitchenware": 0.0
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 283.03999999999996,
+        "bathAccessories": 0.0,
+        "bookStationary": 168.6,
+        "electronics": 55.32000000000001,
+        "gifts": 179.06,
+        "health": 0.0,
+        "homeDecor": 76.19999999999999,
+        "jewellery": 15.9,
+        "Kitchenware": 1153.06,
+        "lightingAccessories": 122.94,
+        "luggage": 348.4,
+        "toys": 884.0500000000001,
+        "kitchenware": 1153.06
       },
       {
         "country": "Japan\r",
@@ -1080,7 +2243,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 40.8,
+        "kitchenware": 0.0
       },
       {
         "country": "EIRE\r",
@@ -1090,7 +2259,13 @@
         "electronics": 2272.5100000000007,
         "gifts": 1269.9399999999998,
         "health": 73.45,
-        "homeDecor": 1269.7500000000007
+        "homeDecor": 1269.7500000000007,
+        "jewellery": 531.2199999999999,
+        "Kitchenware": 4749.86,
+        "lightingAccessories": 1371.3400000000006,
+        "luggage": 1685.1499999999999,
+        "toys": 1653.8399999999995,
+        "kitchenware": 4749.86
       },
       {
         "country": "Channel Islands\r",
@@ -1100,7 +2275,13 @@
         "electronics": 156.6,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 156.16000000000003
+        "homeDecor": 156.16000000000003,
+        "jewellery": 4.5600000000000005,
+        "Kitchenware": 254.90000000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 82.5,
+        "toys": 19.799999999999997,
+        "kitchenware": 254.90000000000003
       },
       {
         "country": "Denmark\r",
@@ -1110,7 +2291,13 @@
         "electronics": 570.72,
         "gifts": 35.099999999999994,
         "health": 0.0,
-        "homeDecor": 19.919999999999998
+        "homeDecor": 19.919999999999998,
+        "jewellery": 0.0,
+        "Kitchenware": 481.09999999999997,
+        "lightingAccessories": 0.0,
+        "luggage": 375.0,
+        "toys": 289.56,
+        "kitchenware": 481.09999999999997
       },
       {
         "country": "Switzerland\r",
@@ -1120,17 +2307,13 @@
         "electronics": 243.96000000000004,
         "gifts": 411.46,
         "health": 127.49999999999999,
-        "homeDecor": 642.48
-      },
-      {
-        "country": "Unspecified\r",
-        "artwork": 18.5,
-        "bathAccessories": 1.1,
-        "bookStationary": 42.19,
-        "electronics": 0.0,
-        "gifts": 19.150000000000002,
-        "health": 0.0,
-        "homeDecor": 2.08
+        "homeDecor": 642.48,
+        "jewellery": 35.400000000000006,
+        "Kitchenware": 1177.46,
+        "lightingAccessories": 154.54999999999998,
+        "luggage": 515.7,
+        "toys": 335.69,
+        "kitchenware": 1177.46
       },
       {
         "country": "Spain\r",
@@ -1140,17 +2323,13 @@
         "electronics": 181.46,
         "gifts": 121.10999999999999,
         "health": 14.75,
-        "homeDecor": 203.37999999999994
-      },
-      {
-        "country": "Netherlands\r",
-        "artwork": 2225.18,
-        "bathAccessories": 832.3199999999998,
-        "bookStationary": 1060.1999999999998,
-        "electronics": 1048.64,
-        "gifts": 1093.3400000000001,
-        "health": 0.0,
-        "homeDecor": 1092.16
+        "homeDecor": 203.37999999999994,
+        "jewellery": 49.65,
+        "Kitchenware": 783.3000000000003,
+        "lightingAccessories": 206.0,
+        "luggage": 134.2,
+        "toys": 223.39000000000004,
+        "kitchenware": 783.3000000000003
       },
       {
         "country": "Poland\r",
@@ -1160,7 +2339,29 @@
         "electronics": 45.55,
         "gifts": 20.159999999999997,
         "health": 0.0,
-        "homeDecor": 60.0
+        "homeDecor": 60.0,
+        "jewellery": 0.0,
+        "Kitchenware": 24.810000000000002,
+        "lightingAccessories": 11.399999999999999,
+        "luggage": 28.35,
+        "toys": 50.400000000000006,
+        "kitchenware": 24.810000000000002
+      },
+      {
+        "country": "Netherlands\r",
+        "artwork": 2225.18,
+        "bathAccessories": 832.3199999999998,
+        "bookStationary": 1060.1999999999998,
+        "electronics": 1048.64,
+        "gifts": 1093.3400000000001,
+        "health": 0.0,
+        "homeDecor": 1092.16,
+        "jewellery": 64.8,
+        "Kitchenware": 4562.599999999999,
+        "lightingAccessories": 731.04,
+        "luggage": 3382.04,
+        "toys": 2898.9799999999996,
+        "kitchenware": 4562.599999999999
       }
     ]
   },
@@ -1175,7 +2376,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 23.4
+        "homeDecor": 23.4,
+        "jewellery": 0.0,
+        "Kitchenware": 77.65,
+        "lightingAccessories": 0.0,
+        "luggage": 124.0,
+        "toys": 0.0,
+        "kitchenware": 77.65
       },
       {
         "country": "Belgium\r",
@@ -1185,7 +2392,13 @@
         "electronics": 62.48,
         "gifts": 163.10000000000002,
         "health": 14.75,
-        "homeDecor": 145.68
+        "homeDecor": 145.68,
+        "jewellery": 82.52,
+        "Kitchenware": 500.39999999999986,
+        "lightingAccessories": 135.3,
+        "luggage": 218.3,
+        "toys": 133.5,
+        "kitchenware": 500.39999999999986
       },
       {
         "country": "Norway\r",
@@ -1195,7 +2408,13 @@
         "electronics": 25.2,
         "gifts": 38.4,
         "health": 0.0,
-        "homeDecor": 134.16
+        "homeDecor": 134.16,
+        "jewellery": 0.0,
+        "Kitchenware": 301.23999999999995,
+        "lightingAccessories": 0.0,
+        "luggage": 20.8,
+        "toys": 70.8,
+        "kitchenware": 301.23999999999995
       },
       {
         "country": "Austria\r",
@@ -1205,7 +2424,13 @@
         "electronics": 0.0,
         "gifts": 163.40000000000003,
         "health": 0.0,
-        "homeDecor": 39.480000000000004
+        "homeDecor": 39.480000000000004,
+        "jewellery": 15.0,
+        "Kitchenware": 173.66000000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 156.60000000000002,
+        "toys": 149.32000000000002,
+        "kitchenware": 173.66000000000003
       },
       {
         "country": "Finland\r",
@@ -1215,7 +2440,13 @@
         "electronics": 0.0,
         "gifts": 45.3,
         "health": 0.0,
-        "homeDecor": 59.39999999999999
+        "homeDecor": 59.39999999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 112.7,
+        "lightingAccessories": 86.75999999999999,
+        "luggage": 382.05000000000007,
+        "toys": 28.04,
+        "kitchenware": 112.7
       },
       {
         "country": "Germany\r",
@@ -1225,7 +2456,13 @@
         "electronics": 742.36,
         "gifts": 1191.1099999999994,
         "health": 41.21,
-        "homeDecor": 876.3800000000001
+        "homeDecor": 876.3800000000001,
+        "jewellery": 138.93,
+        "Kitchenware": 3251.62,
+        "lightingAccessories": 549.72,
+        "luggage": 1781.999999999999,
+        "toys": 291.98,
+        "kitchenware": 3251.62
       },
       {
         "country": "Malta\r",
@@ -1235,7 +2472,13 @@
         "electronics": 49.2,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 213.05,
+        "lightingAccessories": 110.2,
+        "luggage": 0.0,
+        "toys": 108.0,
+        "kitchenware": 213.05
       },
       {
         "country": "Italy\r",
@@ -1245,7 +2488,13 @@
         "electronics": 88.05,
         "gifts": 66.14999999999999,
         "health": 0.0,
-        "homeDecor": 248.88
+        "homeDecor": 248.88,
+        "jewellery": 0.0,
+        "Kitchenware": 138.15999999999997,
+        "lightingAccessories": 85.5,
+        "luggage": 212.05,
+        "toys": 59.5,
+        "kitchenware": 138.15999999999997
       },
       {
         "country": "United Kingdom\r",
@@ -1255,7 +2504,13 @@
         "electronics": 22321.090000000033,
         "gifts": 29031.219999999994,
         "health": 1045.1300000000008,
-        "homeDecor": 26420.420000000024
+        "homeDecor": 26420.420000000024,
+        "jewellery": 6964.479999999985,
+        "Kitchenware": 61170.439999999515,
+        "lightingAccessories": 26917.51000000006,
+        "luggage": 103747.6900000023,
+        "toys": 20416.100000000075,
+        "kitchenware": 61170.439999999515
       },
       {
         "country": "Portugal\r",
@@ -1265,37 +2520,13 @@
         "electronics": 0.0,
         "gifts": 83.4,
         "health": 10.5,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 1128.6,
-        "bathAccessories": 100.8,
-        "bookStationary": 2098.6800000000003,
-        "electronics": 3809.84,
-        "gifts": 1582.2,
-        "health": 0.0,
-        "homeDecor": 1176.6
-      },
-      {
-        "country": "France\r",
-        "artwork": 989.1699999999997,
-        "bathAccessories": 53.1,
-        "bookStationary": 494.18000000000006,
-        "electronics": 250.20999999999998,
-        "gifts": 701.36,
-        "health": 14.75,
-        "homeDecor": 1310.73
-      },
-      {
-        "country": "Israel\r",
-        "artwork": 177.1,
-        "bathAccessories": 20.28,
-        "bookStationary": 172.4,
-        "electronics": 40.510000000000005,
-        "gifts": 206.00000000000003,
-        "health": 0.0,
-        "homeDecor": 282.32
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 945.9999999999999,
+        "toys": 10.5,
+        "kitchenware": 0.0
       },
       {
         "country": "Sweden\r",
@@ -1305,7 +2536,61 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 29.5,
-        "homeDecor": 19.799999999999997
+        "homeDecor": 19.799999999999997,
+        "jewellery": 0.0,
+        "Kitchenware": 66.81,
+        "lightingAccessories": 17.4,
+        "luggage": 205.00000000000003,
+        "toys": 15.299999999999999,
+        "kitchenware": 66.81
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 1128.6,
+        "bathAccessories": 100.8,
+        "bookStationary": 2098.6800000000003,
+        "electronics": 3809.84,
+        "gifts": 1582.2,
+        "health": 0.0,
+        "homeDecor": 1176.6,
+        "jewellery": 0.0,
+        "Kitchenware": 3034.6400000000003,
+        "lightingAccessories": 476.64,
+        "luggage": 2587.3,
+        "toys": 923.52,
+        "kitchenware": 3034.6400000000003
+      },
+      {
+        "country": "Israel\r",
+        "artwork": 177.1,
+        "bathAccessories": 20.28,
+        "bookStationary": 172.4,
+        "electronics": 40.510000000000005,
+        "gifts": 206.00000000000003,
+        "health": 0.0,
+        "homeDecor": 282.32,
+        "jewellery": 0.0,
+        "Kitchenware": 810.36,
+        "lightingAccessories": 75.6,
+        "luggage": 917.25,
+        "toys": 186.1,
+        "kitchenware": 810.36
+      },
+      {
+        "country": "France\r",
+        "artwork": 989.1699999999997,
+        "bathAccessories": 53.1,
+        "bookStationary": 494.18000000000006,
+        "electronics": 250.20999999999998,
+        "gifts": 701.36,
+        "health": 14.75,
+        "homeDecor": 1310.73,
+        "jewellery": 180.06,
+        "Kitchenware": 1176.4499999999998,
+        "lightingAccessories": 319.8,
+        "luggage": 1892.6899999999991,
+        "toys": 955.9399999999998,
+        "kitchenware": 1176.4499999999998
       },
       {
         "country": "Hong Kong\r",
@@ -1315,7 +2600,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 66.0
+        "homeDecor": 66.0,
+        "jewellery": 108.3,
+        "Kitchenware": 505.15,
+        "lightingAccessories": 0.0,
+        "luggage": 264.54999999999995,
+        "toys": 399.3,
+        "kitchenware": 505.15
       },
       {
         "country": "EIRE\r",
@@ -1325,7 +2616,13 @@
         "electronics": 1753.1200000000001,
         "gifts": 435.95000000000005,
         "health": 15.0,
-        "homeDecor": 504.4999999999999
+        "homeDecor": 504.4999999999999,
+        "jewellery": 77.11999999999999,
+        "Kitchenware": 3016.5199999999995,
+        "lightingAccessories": 656.1,
+        "luggage": 1631.9699999999996,
+        "toys": 927.6000000000001,
+        "kitchenware": 3016.5199999999995
       },
       {
         "country": "Channel Islands\r",
@@ -1335,7 +2632,13 @@
         "electronics": 308.82000000000005,
         "gifts": 152.16,
         "health": 0.0,
-        "homeDecor": 208.48000000000002
+        "homeDecor": 208.48000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 455.2,
+        "lightingAccessories": 72.0,
+        "luggage": 1876.2499999999995,
+        "toys": 81.78999999999999,
+        "kitchenware": 455.2
       },
       {
         "country": "Denmark\r",
@@ -1345,17 +2648,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 10.5,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Canada\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 34.8,
+        "kitchenware": 0.0
       },
       {
         "country": "Switzerland\r",
@@ -1365,17 +2664,29 @@
         "electronics": 280.15999999999997,
         "gifts": 326.7,
         "health": 0.0,
-        "homeDecor": 225.52000000000004
+        "homeDecor": 225.52000000000004,
+        "jewellery": 80.7,
+        "Kitchenware": 455.84999999999997,
+        "lightingAccessories": 0.0,
+        "luggage": 417.45000000000005,
+        "toys": 480.97999999999996,
+        "kitchenware": 455.84999999999997
       },
       {
-        "country": "Unspecified\r",
+        "country": "Canada\r",
         "artwork": 0.0,
-        "bathAccessories": 49.7,
+        "bathAccessories": 0.0,
         "bookStationary": 0.0,
-        "electronics": 116.46000000000001,
-        "gifts": 148.15999999999997,
+        "electronics": 0.0,
+        "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 13.28,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 13.28
       },
       {
         "country": "Spain\r",
@@ -1385,7 +2696,13 @@
         "electronics": 39.65,
         "gifts": 85.39,
         "health": 28.08,
-        "homeDecor": 124.05000000000001
+        "homeDecor": 124.05000000000001,
+        "jewellery": 41.06999999999999,
+        "Kitchenware": 422.31000000000006,
+        "lightingAccessories": 208.70000000000005,
+        "luggage": 143.92999999999998,
+        "toys": 158.47,
+        "kitchenware": 422.31000000000006
       },
       {
         "country": "Netherlands\r",
@@ -1395,7 +2712,13 @@
         "electronics": 2399.5400000000004,
         "gifts": 2156.58,
         "health": 0.0,
-        "homeDecor": 3336.9900000000002
+        "homeDecor": 3336.9900000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 5880.7199999999975,
+        "lightingAccessories": 849.39,
+        "luggage": 7700.68,
+        "toys": 3448.1399999999994,
+        "kitchenware": 5880.7199999999975
       },
       {
         "country": "Poland\r",
@@ -1405,7 +2728,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 102.42
+        "homeDecor": 102.42,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 23.9,
+        "kitchenware": 0.0
       }
     ]
   },
@@ -1413,24 +2742,20 @@
     "month": "July-2011",
     "countryList": [
       {
-        "country": "Belgium\r",
-        "artwork": 88.59,
-        "bathAccessories": 14.95,
-        "bookStationary": 124.04,
-        "electronics": 0.0,
-        "gifts": 242.51000000000002,
-        "health": 31.14,
-        "homeDecor": 46.31999999999999
-      },
-      {
-        "country": "Greece\r",
-        "artwork": 0.0,
-        "bathAccessories": 19.799999999999997,
-        "bookStationary": 15.0,
-        "electronics": 0.0,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 34.56
+        "country": "Singapore\r",
+        "artwork": 187.8,
+        "bathAccessories": 59.4,
+        "bookStationary": 617.4200000000001,
+        "electronics": 845.6399999999999,
+        "gifts": 222.9,
+        "health": 78.12,
+        "homeDecor": 342.84,
+        "jewellery": 0.0,
+        "Kitchenware": 303.4,
+        "lightingAccessories": 211.07999999999998,
+        "luggage": 127.49999999999999,
+        "toys": 112.5,
+        "kitchenware": 303.4
       },
       {
         "country": "Norway\r",
@@ -1440,17 +2765,45 @@
         "electronics": 19.9,
         "gifts": 92.79999999999998,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
+        "homeDecor": 19.799999999999997,
+        "jewellery": 22.68,
+        "Kitchenware": 99.15,
+        "lightingAccessories": 0.0,
+        "luggage": 28.619999999999997,
+        "toys": 136.0,
+        "kitchenware": 99.15
       },
       {
-        "country": "Singapore\r",
-        "artwork": 187.8,
-        "bathAccessories": 59.4,
-        "bookStationary": 617.4200000000001,
-        "electronics": 845.6399999999999,
-        "gifts": 222.9,
-        "health": 78.12,
-        "homeDecor": 342.84
+        "country": "Belgium\r",
+        "artwork": 88.59,
+        "bathAccessories": 14.95,
+        "bookStationary": 124.04,
+        "electronics": 0.0,
+        "gifts": 242.51000000000002,
+        "health": 31.14,
+        "homeDecor": 46.31999999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 574.0799999999999,
+        "lightingAccessories": 39.36,
+        "luggage": 99.0,
+        "toys": 225.32000000000002,
+        "kitchenware": 574.0799999999999
+      },
+      {
+        "country": "Greece\r",
+        "artwork": 0.0,
+        "bathAccessories": 19.799999999999997,
+        "bookStationary": 15.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 34.56,
+        "jewellery": 0.0,
+        "Kitchenware": 75.36,
+        "lightingAccessories": 0.0,
+        "luggage": 12.600000000000001,
+        "toys": 0.0,
+        "kitchenware": 75.36
       },
       {
         "country": "Austria\r",
@@ -1460,7 +2813,13 @@
         "electronics": 0.0,
         "gifts": 83.69999999999999,
         "health": 0.0,
-        "homeDecor": 70.19999999999999
+        "homeDecor": 70.19999999999999,
+        "jewellery": 35.400000000000006,
+        "Kitchenware": 88.48,
+        "lightingAccessories": 30.0,
+        "luggage": 222.8,
+        "toys": 53.699999999999996,
+        "kitchenware": 88.48
       },
       {
         "country": "Finland\r",
@@ -1470,7 +2829,13 @@
         "electronics": 168.8,
         "gifts": 65.8,
         "health": 29.5,
-        "homeDecor": 54.48
+        "homeDecor": 54.48,
+        "jewellery": 0.0,
+        "Kitchenware": 323.52000000000004,
+        "lightingAccessories": 0.0,
+        "luggage": 115.64999999999999,
+        "toys": 546.0,
+        "kitchenware": 323.52000000000004
       },
       {
         "country": "Germany\r",
@@ -1480,7 +2845,13 @@
         "electronics": 147.94000000000003,
         "gifts": 825.0199999999998,
         "health": 10.5,
-        "homeDecor": 561.9100000000002
+        "homeDecor": 561.9100000000002,
+        "jewellery": 89.96000000000001,
+        "Kitchenware": 2861.0899999999992,
+        "lightingAccessories": 180.3,
+        "luggage": 1652.389999999999,
+        "toys": 749.27,
+        "kitchenware": 2861.0899999999992
       },
       {
         "country": "Italy\r",
@@ -1490,7 +2861,13 @@
         "electronics": 0.0,
         "gifts": 17.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 78.45,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 78.45
       },
       {
         "country": "European Community\r",
@@ -1500,7 +2877,13 @@
         "electronics": 55.8,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 115.2
+        "homeDecor": 115.2,
+        "jewellery": 35.400000000000006,
+        "Kitchenware": 68.60000000000001,
+        "lightingAccessories": 136.0,
+        "luggage": 20.1,
+        "toys": 0.0,
+        "kitchenware": 68.60000000000001
       },
       {
         "country": "United Kingdom\r",
@@ -1510,7 +2893,13 @@
         "electronics": 20010.41999999998,
         "gifts": 27905.419999999984,
         "health": 1901.4599999999998,
-        "homeDecor": 25748.66000000001
+        "homeDecor": 25748.66000000001,
+        "jewellery": 7113.039999999979,
+        "Kitchenware": 56504.31999999977,
+        "lightingAccessories": 29615.76000000005,
+        "luggage": 88627.21000000129,
+        "toys": 17161.38000000001,
+        "kitchenware": 56504.31999999977
       },
       {
         "country": "Portugal\r",
@@ -1520,7 +2909,13 @@
         "electronics": 0.0,
         "gifts": 108.7,
         "health": 34.8,
-        "homeDecor": 15.0
+        "homeDecor": 15.0,
+        "jewellery": 0.0,
+        "Kitchenware": 125.86000000000001,
+        "lightingAccessories": 75.0,
+        "luggage": 1024.5500000000002,
+        "toys": 103.5,
+        "kitchenware": 125.86000000000001
       },
       {
         "country": "Australia\r",
@@ -1530,17 +2925,13 @@
         "electronics": 49.75,
         "gifts": 275.33,
         "health": 0.0,
-        "homeDecor": 194.39999999999998
-      },
-      {
-        "country": "France\r",
-        "artwork": 429.74000000000007,
-        "bathAccessories": 67.65,
-        "bookStationary": 675.5300000000001,
-        "electronics": 134.5,
-        "gifts": 544.3199999999999,
-        "health": 0.0,
-        "homeDecor": 649.18
+        "homeDecor": 194.39999999999998,
+        "jewellery": 11.7,
+        "Kitchenware": 517.4200000000001,
+        "lightingAccessories": 174.12,
+        "luggage": 173.32000000000002,
+        "toys": 120.28,
+        "kitchenware": 517.4200000000001
       },
       {
         "country": "Israel\r",
@@ -1550,7 +2941,29 @@
         "electronics": 122.4,
         "gifts": 38.4,
         "health": 0.0,
-        "homeDecor": 157.92000000000002
+        "homeDecor": 157.92000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 350.4,
+        "lightingAccessories": 0.0,
+        "luggage": 42.5,
+        "toys": 83.4,
+        "kitchenware": 350.4
+      },
+      {
+        "country": "France\r",
+        "artwork": 429.74000000000007,
+        "bathAccessories": 67.65,
+        "bookStationary": 675.5300000000001,
+        "electronics": 134.5,
+        "gifts": 544.3199999999999,
+        "health": 0.0,
+        "homeDecor": 649.18,
+        "jewellery": 140.76,
+        "Kitchenware": 920.9,
+        "lightingAccessories": 185.16,
+        "luggage": 1267.1999999999998,
+        "toys": 610.7399999999999,
+        "kitchenware": 920.9
       },
       {
         "country": "Sweden\r",
@@ -1560,7 +2973,13 @@
         "electronics": 208.79999999999998,
         "gifts": 355.43999999999994,
         "health": 0.0,
-        "homeDecor": 158.39999999999998
+        "homeDecor": 158.39999999999998,
+        "jewellery": 151.2,
+        "Kitchenware": 1982.4100000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 136.0,
+        "toys": 0.0,
+        "kitchenware": 1982.4100000000003
       },
       {
         "country": "Japan\r",
@@ -1570,7 +2989,13 @@
         "electronics": 0.0,
         "gifts": 730.5600000000001,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 132.8,
+        "lightingAccessories": 0.0,
+        "luggage": 339.4,
+        "toys": 0.0,
+        "kitchenware": 132.8
       },
       {
         "country": "EIRE\r",
@@ -1580,7 +3005,13 @@
         "electronics": 2291.0299999999997,
         "gifts": 2811.38,
         "health": 66.22,
-        "homeDecor": 534.2099999999999
+        "homeDecor": 534.2099999999999,
+        "jewellery": 177.06,
+        "Kitchenware": 9807.63,
+        "lightingAccessories": 889.67,
+        "luggage": 1174.45,
+        "toys": 1305.8600000000001,
+        "kitchenware": 9807.63
       },
       {
         "country": "Denmark\r",
@@ -1590,17 +3021,13 @@
         "electronics": 0.0,
         "gifts": 23.4,
         "health": 0.0,
-        "homeDecor": 19.919999999999998
-      },
-      {
-        "country": "Canada\r",
-        "artwork": 15.0,
-        "bathAccessories": 49.980000000000004,
-        "bookStationary": 119.16,
-        "electronics": 15.600000000000001,
-        "gifts": 53.699999999999996,
-        "health": 16.5,
-        "homeDecor": 94.64999999999999
+        "homeDecor": 19.919999999999998,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 15.600000000000001,
+        "toys": 123.20000000000002,
+        "kitchenware": 0.0
       },
       {
         "country": "Switzerland\r",
@@ -1610,17 +3037,29 @@
         "electronics": 47.7,
         "gifts": 110.56,
         "health": 0.0,
-        "homeDecor": 300.87
+        "homeDecor": 300.87,
+        "jewellery": 39.56,
+        "Kitchenware": 474.83,
+        "lightingAccessories": 26.009999999999998,
+        "luggage": 365.25,
+        "toys": 195.85000000000002,
+        "kitchenware": 474.83
       },
       {
-        "country": "Unspecified\r",
-        "artwork": 71.6,
-        "bathAccessories": 0.0,
-        "bookStationary": 98.39,
-        "electronics": 65.96000000000001,
-        "gifts": 119.03,
-        "health": 0.0,
-        "homeDecor": 102.75
+        "country": "Canada\r",
+        "artwork": 15.0,
+        "bathAccessories": 49.980000000000004,
+        "bookStationary": 119.16,
+        "electronics": 15.600000000000001,
+        "gifts": 53.699999999999996,
+        "health": 16.5,
+        "homeDecor": 94.64999999999999,
+        "jewellery": 7.56,
+        "Kitchenware": 252.87,
+        "lightingAccessories": 0.0,
+        "luggage": 105.24000000000001,
+        "toys": 23.4,
+        "kitchenware": 252.87
       },
       {
         "country": "Spain\r",
@@ -1630,7 +3069,13 @@
         "electronics": 56.4,
         "gifts": 261.22,
         "health": 5.95,
-        "homeDecor": 56.56999999999999
+        "homeDecor": 56.56999999999999,
+        "jewellery": 8.5,
+        "Kitchenware": 439.40999999999985,
+        "lightingAccessories": 100.80000000000001,
+        "luggage": 783.7700000000001,
+        "toys": 2986.54,
+        "kitchenware": 439.40999999999985
       },
       {
         "country": "Netherlands\r",
@@ -1640,7 +3085,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.83,
+        "lightingAccessories": 0.0,
+        "luggage": 2.1,
+        "toys": 1.45,
+        "kitchenware": 0.83
       },
       {
         "country": "Poland\r",
@@ -1650,7 +3101,13 @@
         "electronics": 0.0,
         "gifts": 10.2,
         "health": 0.0,
-        "homeDecor": 16.5
+        "homeDecor": 16.5,
+        "jewellery": 0.0,
+        "Kitchenware": 47.400000000000006,
+        "lightingAccessories": 11.399999999999999,
+        "luggage": 35.7,
+        "toys": 49.2,
+        "kitchenware": 47.400000000000006
       }
     ]
   },
@@ -1665,17 +3122,13 @@
         "electronics": 35.7,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
-      },
-      {
-        "country": "Belgium\r",
-        "artwork": 0.0,
-        "bathAccessories": 53.0,
-        "bookStationary": 145.2,
-        "electronics": 0.0,
-        "gifts": 111.11,
-        "health": 0.0,
-        "homeDecor": 29.9
+        "homeDecor": 19.799999999999997,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 68.1,
+        "lightingAccessories": 64.2,
+        "luggage": 17.0,
+        "toys": 0.0,
+        "kitchenware": 68.1
       },
       {
         "country": "Norway\r",
@@ -1685,17 +3138,29 @@
         "electronics": 81.0,
         "gifts": 199.8,
         "health": 0.0,
-        "homeDecor": 95.1
+        "homeDecor": 95.1,
+        "jewellery": 0.0,
+        "Kitchenware": 814.1800000000002,
+        "lightingAccessories": 35.400000000000006,
+        "luggage": 0.0,
+        "toys": 220.32000000000002,
+        "kitchenware": 814.1800000000002
       },
       {
-        "country": "Austria\r",
+        "country": "Belgium\r",
         "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 17.0,
+        "bathAccessories": 53.0,
+        "bookStationary": 145.2,
         "electronics": 0.0,
-        "gifts": 0.0,
+        "gifts": 111.11,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 29.9,
+        "jewellery": 0.0,
+        "Kitchenware": 423.99999999999994,
+        "lightingAccessories": 180.36,
+        "luggage": 122.29,
+        "toys": 33.48,
+        "kitchenware": 423.99999999999994
       },
       {
         "country": "Finland\r",
@@ -1705,7 +3170,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 168.96,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 39.6,
+        "kitchenware": 168.96
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 17.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 104.8,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 35.400000000000006,
+        "kitchenware": 104.8
       },
       {
         "country": "Germany\r",
@@ -1715,7 +3202,13 @@
         "electronics": 477.3499999999999,
         "gifts": 850.3299999999998,
         "health": 0.0,
-        "homeDecor": 603.4
+        "homeDecor": 603.4,
+        "jewellery": 78.84,
+        "Kitchenware": 3363.719999999999,
+        "lightingAccessories": 130.2,
+        "luggage": 869.4000000000001,
+        "toys": 539.6299999999999,
+        "kitchenware": 3363.719999999999
       },
       {
         "country": "Lithuania\r",
@@ -1725,7 +3218,13 @@
         "electronics": 131.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 39.599999999999994
+        "homeDecor": 39.599999999999994,
+        "jewellery": 0.0,
+        "Kitchenware": 144.6,
+        "lightingAccessories": 0.0,
+        "luggage": 225.9,
+        "toys": 602.1,
+        "kitchenware": 144.6
       },
       {
         "country": "Bahrain\r",
@@ -1735,7 +3234,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 205.74,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 0.0
       },
       {
         "country": "Italy\r",
@@ -1745,7 +3250,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 35.400000000000006
+        "homeDecor": 35.400000000000006,
+        "jewellery": 30.6,
+        "Kitchenware": 173.4,
+        "lightingAccessories": 264.85,
+        "luggage": 17.85,
+        "toys": 11.7,
+        "kitchenware": 173.4
       },
       {
         "country": "Cyprus\r",
@@ -1755,7 +3266,13 @@
         "electronics": 313.1499999999999,
         "gifts": 85.3,
         "health": 62.449999999999996,
-        "homeDecor": 8.75
+        "homeDecor": 8.75,
+        "jewellery": 0.0,
+        "Kitchenware": 43.95,
+        "lightingAccessories": 377.6,
+        "luggage": 11.25,
+        "toys": 74.75000000000001,
+        "kitchenware": 43.95
       },
       {
         "country": "United Kingdom\r",
@@ -1765,7 +3282,13 @@
         "electronics": 34349.58000000008,
         "gifts": 51582.02999999991,
         "health": 2190.57,
-        "homeDecor": 44327.0
+        "homeDecor": 44327.0,
+        "jewellery": 9743.919999999996,
+        "Kitchenware": 124603.84999999945,
+        "lightingAccessories": 42852.41000000029,
+        "luggage": 45994.2799999999,
+        "toys": 26798.399999999954,
+        "kitchenware": 124603.84999999945
       },
       {
         "country": "Portugal\r",
@@ -1775,17 +3298,13 @@
         "electronics": 25.2,
         "gifts": 73.8,
         "health": 17.700000000000003,
-        "homeDecor": 36.3
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 10.2,
-        "bathAccessories": 0.0,
-        "bookStationary": 32.85,
-        "electronics": 47.0,
-        "gifts": 59.4,
-        "health": 0.0,
-        "homeDecor": 51.0
+        "homeDecor": 36.3,
+        "jewellery": 0.0,
+        "Kitchenware": 232.99999999999997,
+        "lightingAccessories": 50.550000000000004,
+        "luggage": 295.8,
+        "toys": 101.95000000000002,
+        "kitchenware": 232.99999999999997
       },
       {
         "country": "France\r",
@@ -1795,7 +3314,29 @@
         "electronics": 133.20000000000002,
         "gifts": 455.9100000000001,
         "health": 0.0,
-        "homeDecor": 697.6999999999999
+        "homeDecor": 697.6999999999999,
+        "jewellery": 25.26,
+        "Kitchenware": 1062.99,
+        "lightingAccessories": 243.3,
+        "luggage": 855.9500000000003,
+        "toys": 659.26,
+        "kitchenware": 1062.99
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 10.2,
+        "bathAccessories": 0.0,
+        "bookStationary": 32.85,
+        "electronics": 47.0,
+        "gifts": 59.4,
+        "health": 0.0,
+        "homeDecor": 51.0,
+        "jewellery": 100.19999999999999,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 36.0,
+        "toys": 30.0,
+        "kitchenware": 0.0
       },
       {
         "country": "Sweden\r",
@@ -1805,7 +3346,13 @@
         "electronics": 19.799999999999997,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 446.25,
+        "lightingAccessories": 0.0,
+        "luggage": 369.6,
+        "toys": 421.43999999999994,
+        "kitchenware": 446.25
       },
       {
         "country": "Japan\r",
@@ -1815,7 +3362,13 @@
         "electronics": 283.59999999999997,
         "gifts": 462.00000000000006,
         "health": 0.0,
-        "homeDecor": 81.6
+        "homeDecor": 81.6,
+        "jewellery": 20.4,
+        "Kitchenware": 3853.7999999999997,
+        "lightingAccessories": 0.0,
+        "luggage": 402.0,
+        "toys": 369.76,
+        "kitchenware": 3853.7999999999997
       },
       {
         "country": "EIRE\r",
@@ -1825,7 +3378,13 @@
         "electronics": 527.14,
         "gifts": 467.15,
         "health": 0.0,
-        "homeDecor": 696.7500000000001
+        "homeDecor": 696.7500000000001,
+        "jewellery": 30.0,
+        "Kitchenware": 1698.0500000000009,
+        "lightingAccessories": 826.94,
+        "luggage": 307.35,
+        "toys": 260.01,
+        "kitchenware": 1698.0500000000009
       },
       {
         "country": "Channel Islands\r",
@@ -1835,7 +3394,13 @@
         "electronics": 15.9,
         "gifts": 29.9,
         "health": 0.0,
-        "homeDecor": 15.9
+        "homeDecor": 15.9,
+        "jewellery": 0.0,
+        "Kitchenware": 44.85,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 44.85
       },
       {
         "country": "Denmark\r",
@@ -1845,7 +3410,13 @@
         "electronics": 0.0,
         "gifts": 183.60000000000002,
         "health": 0.0,
-        "homeDecor": 29.700000000000003
+        "homeDecor": 29.700000000000003,
+        "jewellery": 0.0,
+        "Kitchenware": 35.400000000000006,
+        "lightingAccessories": 0.0,
+        "luggage": 13.2,
+        "toys": 65.4,
+        "kitchenware": 35.400000000000006
       },
       {
         "country": "Switzerland\r",
@@ -1855,7 +3426,13 @@
         "electronics": 0.0,
         "gifts": 23.4,
         "health": 0.0,
-        "homeDecor": 99.0
+        "homeDecor": 99.0,
+        "jewellery": 0.0,
+        "Kitchenware": 319.70000000000005,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 208.68,
+        "kitchenware": 319.70000000000005
       },
       {
         "country": "Spain\r",
@@ -1865,17 +3442,13 @@
         "electronics": 30.95,
         "gifts": 6.35,
         "health": 0.0,
-        "homeDecor": 106.5
-      },
-      {
-        "country": "Netherlands\r",
-        "artwork": 218.40000000000003,
-        "bathAccessories": 120.0,
-        "bookStationary": 665.64,
-        "electronics": 0.0,
-        "gifts": 463.2,
-        "health": 0.0,
-        "homeDecor": 722.88
+        "homeDecor": 106.5,
+        "jewellery": 2.1,
+        "Kitchenware": 235.57,
+        "lightingAccessories": 6.35,
+        "luggage": 817.95,
+        "toys": 1.45,
+        "kitchenware": 235.57
       },
       {
         "country": "Poland\r",
@@ -1885,7 +3458,29 @@
         "electronics": 0.0,
         "gifts": 64.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 47.36,
+        "lightingAccessories": 99.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 47.36
+      },
+      {
+        "country": "Netherlands\r",
+        "artwork": 218.40000000000003,
+        "bathAccessories": 120.0,
+        "bookStationary": 665.64,
+        "electronics": 0.0,
+        "gifts": 463.2,
+        "health": 0.0,
+        "homeDecor": 722.88,
+        "jewellery": 0.0,
+        "Kitchenware": 927.96,
+        "lightingAccessories": 2.5,
+        "luggage": 1265.45,
+        "toys": 1081.7600000000002,
+        "kitchenware": 927.96
       }
     ]
   },
@@ -1900,7 +3495,13 @@
         "electronics": 10.2,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 152.52
+        "homeDecor": 152.52,
+        "jewellery": 59.99999999999999,
+        "Kitchenware": 163.2,
+        "lightingAccessories": 0.0,
+        "luggage": 140.9,
+        "toys": 33.36,
+        "kitchenware": 163.2
       },
       {
         "country": "Belgium\r",
@@ -1910,7 +3511,13 @@
         "electronics": 85.45,
         "gifts": 324.98999999999995,
         "health": 0.0,
-        "homeDecor": 220.05999999999997
+        "homeDecor": 220.05999999999997,
+        "jewellery": 15.12,
+        "Kitchenware": 1378.8600000000001,
+        "lightingAccessories": 36.96,
+        "luggage": 576.1000000000001,
+        "toys": 402.1,
+        "kitchenware": 1378.8600000000001
       },
       {
         "country": "Austria\r",
@@ -1920,7 +3527,13 @@
         "electronics": 80.0,
         "gifts": 81.5,
         "health": 0.0,
-        "homeDecor": 68.39999999999999
+        "homeDecor": 68.39999999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 98.6,
+        "lightingAccessories": 18.96,
+        "luggage": 0.0,
+        "toys": 137.94000000000003,
+        "kitchenware": 98.6
       },
       {
         "country": "Italy\r",
@@ -1930,7 +3543,13 @@
         "electronics": 123.9,
         "gifts": 143.47,
         "health": 6.72,
-        "homeDecor": 182.0
+        "homeDecor": 182.0,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 309.71999999999997,
+        "lightingAccessories": 68.10000000000001,
+        "luggage": 268.0,
+        "toys": 127.55000000000001,
+        "kitchenware": 309.71999999999997
       },
       {
         "country": "RSA\r",
@@ -1940,7 +3559,13 @@
         "electronics": 40.5,
         "gifts": 50.8,
         "health": 0.0,
-        "homeDecor": 24.900000000000002
+        "homeDecor": 24.900000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 144.11999999999998,
+        "lightingAccessories": 36.6,
+        "luggage": 161.15,
+        "toys": 31.65,
+        "kitchenware": 144.11999999999998
       },
       {
         "country": "Cyprus\r",
@@ -1950,7 +3575,13 @@
         "electronics": 180.89999999999998,
         "gifts": 190.29,
         "health": 0.0,
-        "homeDecor": 285.32
+        "homeDecor": 285.32,
+        "jewellery": 17.700000000000003,
+        "Kitchenware": 640.2000000000002,
+        "lightingAccessories": 119.1,
+        "luggage": 167.1,
+        "toys": 79.06,
+        "kitchenware": 640.2000000000002
       },
       {
         "country": "Czech Republic\r",
@@ -1960,7 +3591,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 79.19999999999999
+        "homeDecor": 79.19999999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 39.839999999999996,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 0.0
       },
       {
         "country": "Australia\r",
@@ -1970,7 +3607,13 @@
         "electronics": 2425.44,
         "gifts": 405.82,
         "health": 0.0,
-        "homeDecor": 270.6
+        "homeDecor": 270.6,
+        "jewellery": 0.0,
+        "Kitchenware": 1443.3200000000002,
+        "lightingAccessories": 240.0,
+        "luggage": 745.9499999999999,
+        "toys": 902.9,
+        "kitchenware": 1443.3200000000002
       },
       {
         "country": "Hong Kong\r",
@@ -1980,7 +3623,13 @@
         "electronics": 0.0,
         "gifts": 23.95,
         "health": 0.0,
-        "homeDecor": 58.25
+        "homeDecor": 58.25,
+        "jewellery": 107.75999999999999,
+        "Kitchenware": 75.0,
+        "lightingAccessories": 45.449999999999996,
+        "luggage": 16.6,
+        "toys": 23.9,
+        "kitchenware": 75.0
       },
       {
         "country": "Denmark\r",
@@ -1990,17 +3639,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
-      },
-      {
-        "country": "Norway\r",
-        "artwork": 131.06,
-        "bathAccessories": 105.66,
-        "bookStationary": 599.67,
-        "electronics": 0.0,
-        "gifts": 129.69,
-        "health": 6.72,
-        "homeDecor": 102.25
+        "homeDecor": 19.799999999999997,
+        "jewellery": 0.0,
+        "Kitchenware": 190.34000000000003,
+        "lightingAccessories": 106.2,
+        "luggage": 0.0,
+        "toys": 249.0,
+        "kitchenware": 190.34000000000003
       },
       {
         "country": "Singapore\r",
@@ -2010,7 +3655,29 @@
         "electronics": 104.33999999999999,
         "gifts": 37.5,
         "health": 0.0,
-        "homeDecor": 17.86
+        "homeDecor": 17.86,
+        "jewellery": 0.0,
+        "Kitchenware": 103.8,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 56.52,
+        "kitchenware": 103.8
+      },
+      {
+        "country": "Norway\r",
+        "artwork": 131.06,
+        "bathAccessories": 105.66,
+        "bookStationary": 599.67,
+        "electronics": 0.0,
+        "gifts": 129.69,
+        "health": 6.72,
+        "homeDecor": 102.25,
+        "jewellery": 29.999999999999996,
+        "Kitchenware": 346.75,
+        "lightingAccessories": 75.47999999999999,
+        "luggage": 80.25,
+        "toys": 129.94,
+        "kitchenware": 346.75
       },
       {
         "country": "Finland\r",
@@ -2020,7 +3687,13 @@
         "electronics": 77.64,
         "gifts": 109.93999999999998,
         "health": 0.0,
-        "homeDecor": 87.5
+        "homeDecor": 87.5,
+        "jewellery": 29.999999999999996,
+        "Kitchenware": 294.36,
+        "lightingAccessories": 91.56,
+        "luggage": 0.0,
+        "toys": 583.7,
+        "kitchenware": 294.36
       },
       {
         "country": "Germany\r",
@@ -2030,17 +3703,13 @@
         "electronics": 915.1500000000005,
         "gifts": 2268.4199999999996,
         "health": 9.959999999999999,
-        "homeDecor": 1454.1699999999998
-      },
-      {
-        "country": "United Kingdom\r",
-        "artwork": 62271.54999999964,
-        "bathAccessories": 7226.579999999999,
-        "bookStationary": 85388.39999999995,
-        "electronics": 60068.46999999991,
-        "gifts": 40890.99000000001,
-        "health": 1954.8900000000017,
-        "homeDecor": 60731.74999999988
+        "homeDecor": 1454.1699999999998,
+        "jewellery": 112.74000000000001,
+        "Kitchenware": 4951.9800000000005,
+        "lightingAccessories": 507.62,
+        "luggage": 2162.4999999999995,
+        "toys": 1384.2500000000002,
+        "kitchenware": 4951.9800000000005
       },
       {
         "country": "USA\r",
@@ -2050,7 +3719,29 @@
         "electronics": 48.3,
         "gifts": 83.46,
         "health": 14.75,
-        "homeDecor": 10.2
+        "homeDecor": 10.2,
+        "jewellery": 0.0,
+        "Kitchenware": 482.55000000000007,
+        "lightingAccessories": 375.0,
+        "luggage": 33.6,
+        "toys": 135.24,
+        "kitchenware": 482.55000000000007
+      },
+      {
+        "country": "United Kingdom\r",
+        "artwork": 62271.54999999964,
+        "bathAccessories": 7226.579999999999,
+        "bookStationary": 85388.39999999995,
+        "electronics": 60068.46999999991,
+        "gifts": 40890.99000000001,
+        "health": 1954.8900000000017,
+        "homeDecor": 60731.74999999988,
+        "jewellery": 8320.14999999997,
+        "Kitchenware": 92700.72999999895,
+        "lightingAccessories": 44060.37000000003,
+        "luggage": 93832.07000000156,
+        "toys": 39580.83000000015,
+        "kitchenware": 92700.72999999895
       },
       {
         "country": "Portugal\r",
@@ -2060,27 +3751,13 @@
         "electronics": 300.34,
         "gifts": 462.3500000000001,
         "health": 34.8,
-        "homeDecor": 160.01999999999998
-      },
-      {
-        "country": "France\r",
-        "artwork": 811.48,
-        "bathAccessories": 52.800000000000004,
-        "bookStationary": 1196.6599999999996,
-        "electronics": 171.8,
-        "gifts": 2037.0899999999995,
-        "health": 31.68,
-        "homeDecor": 2777.9400000000005
-      },
-      {
-        "country": "Israel\r",
-        "artwork": 9.350000000000001,
-        "bathAccessories": 1.65,
-        "bookStationary": 9.51,
-        "electronics": 23.669999999999998,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 4.95
+        "homeDecor": 160.01999999999998,
+        "jewellery": 13.95,
+        "Kitchenware": 628.69,
+        "lightingAccessories": 136.66,
+        "luggage": 913.35,
+        "toys": 308.85,
+        "kitchenware": 628.69
       },
       {
         "country": "Sweden\r",
@@ -2090,7 +3767,45 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 62.76
+        "homeDecor": 62.76,
+        "jewellery": 0.0,
+        "Kitchenware": 1732.8,
+        "lightingAccessories": 0.0,
+        "luggage": 183.6,
+        "toys": 239.0,
+        "kitchenware": 1732.8
+      },
+      {
+        "country": "France\r",
+        "artwork": 811.48,
+        "bathAccessories": 52.800000000000004,
+        "bookStationary": 1196.6599999999996,
+        "electronics": 171.8,
+        "gifts": 2037.0899999999995,
+        "health": 31.68,
+        "homeDecor": 2777.9400000000005,
+        "jewellery": 87.36,
+        "Kitchenware": 2978.3899999999994,
+        "lightingAccessories": 473.85,
+        "luggage": 3020.9099999999994,
+        "toys": 1284.3700000000001,
+        "kitchenware": 2978.3899999999994
+      },
+      {
+        "country": "Israel\r",
+        "artwork": 9.350000000000001,
+        "bathAccessories": 1.65,
+        "bookStationary": 9.51,
+        "electronics": 23.669999999999998,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 4.95,
+        "jewellery": 2.55,
+        "Kitchenware": 18.599999999999998,
+        "lightingAccessories": 5.9,
+        "luggage": 7.95,
+        "toys": 4.949999999999999,
+        "kitchenware": 18.599999999999998
       },
       {
         "country": "Japan\r",
@@ -2100,7 +3815,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 1718.4
+        "homeDecor": 1718.4,
+        "jewellery": 0.0,
+        "Kitchenware": 93.80000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 13.200000000000001,
+        "kitchenware": 93.80000000000001
       },
       {
         "country": "EIRE\r",
@@ -2110,7 +3831,13 @@
         "electronics": 1797.03,
         "gifts": 709.22,
         "health": 51.839999999999996,
-        "homeDecor": 1610.3999999999996
+        "homeDecor": 1610.3999999999996,
+        "jewellery": 140.82,
+        "Kitchenware": 3444.3899999999967,
+        "lightingAccessories": 1204.9499999999998,
+        "luggage": 1373.6499999999999,
+        "toys": 899.95,
+        "kitchenware": 3444.3899999999967
       },
       {
         "country": "Channel Islands\r",
@@ -2120,7 +3847,13 @@
         "electronics": 383.1,
         "gifts": 61.5,
         "health": 0.0,
-        "homeDecor": 117.9
+        "homeDecor": 117.9,
+        "jewellery": 0.0,
+        "Kitchenware": 214.96000000000004,
+        "lightingAccessories": 380.68000000000006,
+        "luggage": 247.76000000000002,
+        "toys": 213.83999999999997,
+        "kitchenware": 214.96000000000004
       },
       {
         "country": "Switzerland\r",
@@ -2130,7 +3863,13 @@
         "electronics": 117.55,
         "gifts": 457.58,
         "health": 0.0,
-        "homeDecor": 352.46
+        "homeDecor": 352.46,
+        "jewellery": 69.41999999999999,
+        "Kitchenware": 1159.8300000000002,
+        "lightingAccessories": 616.34,
+        "luggage": 597.8,
+        "toys": 445.73,
+        "kitchenware": 1159.8300000000002
       },
       {
         "country": "Spain\r",
@@ -2140,7 +3879,13 @@
         "electronics": 643.8399999999999,
         "gifts": 222.73000000000005,
         "health": 14.75,
-        "homeDecor": 495.2
+        "homeDecor": 495.2,
+        "jewellery": 16.05,
+        "Kitchenware": 1406.620000000001,
+        "lightingAccessories": 1387.08,
+        "luggage": 189.10000000000002,
+        "toys": 148.45,
+        "kitchenware": 1406.620000000001
       },
       {
         "country": "Netherlands\r",
@@ -2150,7 +3895,13 @@
         "electronics": 2686.3999999999996,
         "gifts": 1827.0100000000002,
         "health": 0.0,
-        "homeDecor": 6342.02
+        "homeDecor": 6342.02,
+        "jewellery": 244.79999999999998,
+        "Kitchenware": 4155.96,
+        "lightingAccessories": 969.9000000000001,
+        "luggage": 2950.57,
+        "toys": 3260.75,
+        "kitchenware": 4155.96
       }
     ]
   },
@@ -2165,27 +3916,13 @@
         "electronics": 30.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 105.96000000000001
-      },
-      {
-        "country": "Belgium\r",
-        "artwork": 82.98,
-        "bathAccessories": 0.0,
-        "bookStationary": 57.5,
-        "electronics": 0.0,
-        "gifts": 54.75,
-        "health": 0.0,
-        "homeDecor": 32.7
-      },
-      {
-        "country": "Greece\r",
-        "artwork": 47.37,
-        "bathAccessories": 0.0,
-        "bookStationary": 20.4,
-        "electronics": 17.0,
-        "gifts": 15.299999999999999,
-        "health": 0.0,
-        "homeDecor": 46.480000000000004
+        "homeDecor": 105.96000000000001,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 33.68,
+        "luggage": 8.5,
+        "toys": 8.4,
+        "kitchenware": 0.0
       },
       {
         "country": "Norway\r",
@@ -2195,17 +3932,45 @@
         "electronics": 61.78,
         "gifts": 58.5,
         "health": 13.44,
-        "homeDecor": 104.16
+        "homeDecor": 104.16,
+        "jewellery": 0.0,
+        "Kitchenware": 572.41,
+        "lightingAccessories": 27.36,
+        "luggage": 0.0,
+        "toys": 141.42,
+        "kitchenware": 572.41
       },
       {
-        "country": "Austria\r",
-        "artwork": 9.36,
+        "country": "Belgium\r",
+        "artwork": 82.98,
         "bathAccessories": 0.0,
-        "bookStationary": 0.0,
+        "bookStationary": 57.5,
         "electronics": 0.0,
-        "gifts": 0.0,
+        "gifts": 54.75,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 32.7,
+        "jewellery": 0.0,
+        "Kitchenware": 124.12,
+        "lightingAccessories": 35.4,
+        "luggage": 177.29999999999998,
+        "toys": 70.38,
+        "kitchenware": 124.12
+      },
+      {
+        "country": "Greece\r",
+        "artwork": 47.37,
+        "bathAccessories": 0.0,
+        "bookStationary": 20.4,
+        "electronics": 17.0,
+        "gifts": 15.299999999999999,
+        "health": 0.0,
+        "homeDecor": 46.480000000000004,
+        "jewellery": 0.0,
+        "Kitchenware": 82.25000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 66.0,
+        "toys": 83.59,
+        "kitchenware": 82.25000000000001
       },
       {
         "country": "Finland\r",
@@ -2215,7 +3980,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 125.52
+        "homeDecor": 125.52,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 104.0,
+        "toys": 540.0,
+        "kitchenware": 0.0
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 9.36,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 214.20000000000002,
+        "toys": 14.040000000000001,
+        "kitchenware": 0.0
       },
       {
         "country": "Germany\r",
@@ -2225,7 +4012,13 @@
         "electronics": 74.52000000000001,
         "gifts": 448.46999999999997,
         "health": 0.0,
-        "homeDecor": 439.86999999999995
+        "homeDecor": 439.86999999999995,
+        "jewellery": 42.12,
+        "Kitchenware": 1362.7400000000002,
+        "lightingAccessories": 109.8,
+        "luggage": 240.14000000000001,
+        "toys": 361.59999999999997,
+        "kitchenware": 1362.7400000000002
       },
       {
         "country": "Italy\r",
@@ -2235,7 +4028,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 62.25000000000001,
+        "lightingAccessories": 70.80000000000001,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 62.25000000000001
       },
       {
         "country": "United Kingdom\r",
@@ -2245,7 +4044,13 @@
         "electronics": 22585.65000000001,
         "gifts": 25024.21000000001,
         "health": 1141.320000000001,
-        "homeDecor": 31372.200000000055
+        "homeDecor": 31372.200000000055,
+        "jewellery": 4699.599999999992,
+        "Kitchenware": 53797.46999999984,
+        "lightingAccessories": 17121.35000000003,
+        "luggage": 37706.78999999994,
+        "toys": 12094.619999999983,
+        "kitchenware": 53797.46999999984
       },
       {
         "country": "USA\r",
@@ -2255,7 +4060,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 162.0,
+        "lightingAccessories": 0.0,
+        "luggage": 53.8,
+        "toys": 90.08,
+        "kitchenware": 162.0
       },
       {
         "country": "Portugal\r",
@@ -2265,7 +4076,13 @@
         "electronics": 10.2,
         "gifts": 24.36,
         "health": 0.0,
-        "homeDecor": 247.01999999999995
+        "homeDecor": 247.01999999999995,
+        "jewellery": 0.0,
+        "Kitchenware": 187.1,
+        "lightingAccessories": 0.0,
+        "luggage": 298.6,
+        "toys": 127.88,
+        "kitchenware": 187.1
       },
       {
         "country": "France\r",
@@ -2275,7 +4092,13 @@
         "electronics": 9.36,
         "gifts": 537.7099999999999,
         "health": 15.0,
-        "homeDecor": 648.6000000000001
+        "homeDecor": 648.6000000000001,
+        "jewellery": 71.7,
+        "Kitchenware": 537.76,
+        "lightingAccessories": 9.48,
+        "luggage": 552.7000000000002,
+        "toys": 475.6000000000001,
+        "kitchenware": 537.76
       },
       {
         "country": "Sweden\r",
@@ -2285,7 +4108,13 @@
         "electronics": 0.0,
         "gifts": 238.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 0.0
       },
       {
         "country": "EIRE\r",
@@ -2295,7 +4124,13 @@
         "electronics": 391.83000000000004,
         "gifts": 465.7300000000001,
         "health": 0.0,
-        "homeDecor": 680.79
+        "homeDecor": 680.79,
+        "jewellery": 15.0,
+        "Kitchenware": 865.1500000000001,
+        "lightingAccessories": 606.08,
+        "luggage": 334.31000000000006,
+        "toys": 162.94000000000003,
+        "kitchenware": 865.1500000000001
       },
       {
         "country": "Channel Islands\r",
@@ -2305,7 +4140,13 @@
         "electronics": 17.700000000000003,
         "gifts": 34.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 99.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 99.0
       },
       {
         "country": "Denmark\r",
@@ -2315,7 +4156,13 @@
         "electronics": 0.0,
         "gifts": 33.9,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 23.4,
+        "lightingAccessories": 0.0,
+        "luggage": 27.0,
+        "toys": 33.9,
+        "kitchenware": 23.4
       },
       {
         "country": "Spain\r",
@@ -2325,7 +4172,13 @@
         "electronics": 6.58,
         "gifts": 7.930000000000001,
         "health": 0.0,
-        "homeDecor": 12.1
+        "homeDecor": 12.1,
+        "jewellery": 0.0,
+        "Kitchenware": 18.06,
+        "lightingAccessories": 53.95,
+        "luggage": 9.579999999999998,
+        "toys": 9.93,
+        "kitchenware": 18.06
       },
       {
         "country": "Netherlands\r",
@@ -2335,7 +4188,13 @@
         "electronics": 0.0,
         "gifts": 222.68,
         "health": 0.0,
-        "homeDecor": 2755.44
+        "homeDecor": 2755.44,
+        "jewellery": 79.19999999999999,
+        "Kitchenware": 1206.0,
+        "lightingAccessories": 74.88,
+        "luggage": 251.0,
+        "toys": 1046.22,
+        "kitchenware": 1206.0
       }
     ]
   },
@@ -2350,7 +4209,13 @@
         "electronics": 10.2,
         "gifts": 198.9,
         "health": 0.0,
-        "homeDecor": 208.9
+        "homeDecor": 208.9,
+        "jewellery": 0.0,
+        "Kitchenware": 483.47999999999985,
+        "lightingAccessories": 0.0,
+        "luggage": 551.28,
+        "toys": 95.80000000000001,
+        "kitchenware": 483.47999999999985
       },
       {
         "country": "Greece\r",
@@ -2360,7 +4225,13 @@
         "electronics": 125.4,
         "gifts": 19.5,
         "health": 0.0,
-        "homeDecor": 25.2
+        "homeDecor": 25.2,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 133.75,
+        "toys": 9.899999999999999,
+        "kitchenware": 0.0
       },
       {
         "country": "Norway\r",
@@ -2370,17 +4241,13 @@
         "electronics": 0.0,
         "gifts": 34.0,
         "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Austria\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 604.8000000000001,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 101.16,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 34.8,
+        "kitchenware": 101.16
       },
       {
         "country": "Finland\r",
@@ -2390,7 +4257,29 @@
         "electronics": 165.10000000000002,
         "gifts": 136.2,
         "health": 0.0,
-        "homeDecor": 222.3
+        "homeDecor": 222.3,
+        "jewellery": 0.0,
+        "Kitchenware": 670.6899999999999,
+        "lightingAccessories": 210.2,
+        "luggage": 302.70000000000005,
+        "toys": 175.46999999999997,
+        "kitchenware": 670.6899999999999
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 604.8000000000001,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 30.0,
+        "kitchenware": 0.0
       },
       {
         "country": "Germany\r",
@@ -2400,7 +4289,13 @@
         "electronics": 469.35,
         "gifts": 1174.1499999999999,
         "health": 0.0,
-        "homeDecor": 411.48
+        "homeDecor": 411.48,
+        "jewellery": 88.8,
+        "Kitchenware": 3194.4600000000005,
+        "lightingAccessories": 183.48000000000002,
+        "luggage": 698.6,
+        "toys": 715.1600000000003,
+        "kitchenware": 3194.4600000000005
       },
       {
         "country": "Italy\r",
@@ -2410,7 +4305,13 @@
         "electronics": 0.0,
         "gifts": 152.95000000000002,
         "health": 0.0,
-        "homeDecor": 167.70000000000002
+        "homeDecor": 167.70000000000002,
+        "jewellery": 0.0,
+        "Kitchenware": 150.8,
+        "lightingAccessories": 0.0,
+        "luggage": 253.7,
+        "toys": 123.5,
+        "kitchenware": 150.8
       },
       {
         "country": "Cyprus\r",
@@ -2420,7 +4321,13 @@
         "electronics": 0.0,
         "gifts": 46.0,
         "health": 40.8,
-        "homeDecor": 52.28
+        "homeDecor": 52.28,
+        "jewellery": 22.7,
+        "Kitchenware": 47.95,
+        "lightingAccessories": 90.3,
+        "luggage": 45.0,
+        "toys": 156.6,
+        "kitchenware": 47.95
       },
       {
         "country": "United Kingdom\r",
@@ -2430,7 +4337,13 @@
         "electronics": 20606.710000000054,
         "gifts": 35151.97000000001,
         "health": 2345.89,
-        "homeDecor": 24648.320000000083
+        "homeDecor": 24648.320000000083,
+        "jewellery": 7911.199999999988,
+        "Kitchenware": 68233.77999999952,
+        "lightingAccessories": 29337.060000000092,
+        "luggage": 78255.66999999988,
+        "toys": 22802.540000000074,
+        "kitchenware": 68233.77999999952
       },
       {
         "country": "Portugal\r",
@@ -2440,17 +4353,13 @@
         "electronics": 19.799999999999997,
         "gifts": 114.0,
         "health": 20.16,
-        "homeDecor": 20.4
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 489.11999999999995,
-        "bathAccessories": 707.0,
-        "bookStationary": 105.72000000000001,
-        "electronics": 0.0,
-        "gifts": 1381.0,
-        "health": 0.0,
-        "homeDecor": 63.45
+        "homeDecor": 20.4,
+        "jewellery": 0.0,
+        "Kitchenware": 101.5,
+        "lightingAccessories": 65.85,
+        "luggage": 861.6,
+        "toys": 128.55,
+        "kitchenware": 101.5
       },
       {
         "country": "France\r",
@@ -2460,7 +4369,13 @@
         "electronics": 145.85,
         "gifts": 870.4999999999998,
         "health": 30.9,
-        "homeDecor": 712.72
+        "homeDecor": 712.72,
+        "jewellery": 120.75000000000001,
+        "Kitchenware": 1676.6600000000008,
+        "lightingAccessories": 210.9,
+        "luggage": 1661.5,
+        "toys": 868.6599999999997,
+        "kitchenware": 1676.6600000000008
       },
       {
         "country": "Sweden\r",
@@ -2470,7 +4385,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 29.5,
-        "homeDecor": 158.39999999999998
+        "homeDecor": 158.39999999999998,
+        "jewellery": 0.0,
+        "Kitchenware": 1161.6000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 61.199999999999996,
+        "toys": 436.43999999999994,
+        "kitchenware": 1161.6000000000001
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 489.11999999999995,
+        "bathAccessories": 707.0,
+        "bookStationary": 105.72000000000001,
+        "electronics": 0.0,
+        "gifts": 1381.0,
+        "health": 0.0,
+        "homeDecor": 63.45,
+        "jewellery": 0.0,
+        "Kitchenware": 4088.6599999999994,
+        "lightingAccessories": 385.2,
+        "luggage": 290.0,
+        "toys": 3076.9999999999995,
+        "kitchenware": 4088.6599999999994
       },
       {
         "country": "Japan\r",
@@ -2480,7 +4417,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 9.95,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 9.95
       },
       {
         "country": "EIRE\r",
@@ -2490,17 +4433,13 @@
         "electronics": 170.8,
         "gifts": 2812.4999999999995,
         "health": 32.18,
-        "homeDecor": 527.6999999999999
-      },
-      {
-        "country": "Channel Islands\r",
-        "artwork": 60.9,
-        "bathAccessories": 69.0,
-        "bookStationary": 243.3,
-        "electronics": 103.29999999999998,
-        "gifts": 192.45,
-        "health": 0.0,
-        "homeDecor": 97.5
+        "homeDecor": 527.6999999999999,
+        "jewellery": 35.46,
+        "Kitchenware": 1694.2300000000007,
+        "lightingAccessories": 827.3600000000001,
+        "luggage": 435.4,
+        "toys": 834.0100000000002,
+        "kitchenware": 1694.2300000000007
       },
       {
         "country": "Denmark\r",
@@ -2510,17 +4449,29 @@
         "electronics": 0.0,
         "gifts": 1076.3999999999999,
         "health": 0.0,
-        "homeDecor": 428.40000000000003
+        "homeDecor": 428.40000000000003,
+        "jewellery": 285.6,
+        "Kitchenware": 120.0,
+        "lightingAccessories": 0.0,
+        "luggage": 78.0,
+        "toys": 435.6000000000001,
+        "kitchenware": 120.0
       },
       {
-        "country": "Canada\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 0.0,
-        "electronics": 0.0,
-        "gifts": 19.8,
+        "country": "Channel Islands\r",
+        "artwork": 60.9,
+        "bathAccessories": 69.0,
+        "bookStationary": 243.3,
+        "electronics": 103.29999999999998,
+        "gifts": 192.45,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 97.5,
+        "jewellery": 0.0,
+        "Kitchenware": 408.29999999999995,
+        "lightingAccessories": 189.00000000000003,
+        "luggage": 348.5,
+        "toys": 112.5,
+        "kitchenware": 408.29999999999995
       },
       {
         "country": "Switzerland\r",
@@ -2530,7 +4481,29 @@
         "electronics": 10.2,
         "gifts": 223.38,
         "health": 0.0,
-        "homeDecor": 144.6
+        "homeDecor": 144.6,
+        "jewellery": 0.0,
+        "Kitchenware": 306.38,
+        "lightingAccessories": 0.0,
+        "luggage": 14.75,
+        "toys": 56.8,
+        "kitchenware": 306.38
+      },
+      {
+        "country": "Canada\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 19.8,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 10.2,
+        "lightingAccessories": 56.599999999999994,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 10.2
       },
       {
         "country": "Spain\r",
@@ -2540,7 +4513,13 @@
         "electronics": 15.9,
         "gifts": 494.3999999999999,
         "health": 0.0,
-        "homeDecor": 135.9
+        "homeDecor": 135.9,
+        "jewellery": 27.359999999999996,
+        "Kitchenware": 756.5000000000001,
+        "lightingAccessories": 244.85000000000002,
+        "luggage": 1016.7,
+        "toys": 215.7,
+        "kitchenware": 756.5000000000001
       },
       {
         "country": "Netherlands\r",
@@ -2550,7 +4529,13 @@
         "electronics": 805.8399999999999,
         "gifts": 2386.3499999999995,
         "health": 0.0,
-        "homeDecor": 696.0
+        "homeDecor": 696.0,
+        "jewellery": 101.88,
+        "Kitchenware": 4208.36,
+        "lightingAccessories": 283.20000000000005,
+        "luggage": 4172.7,
+        "toys": 1939.9199999999998,
+        "kitchenware": 4208.36
       },
       {
         "country": "Poland\r",
@@ -2560,7 +4545,13 @@
         "electronics": 0.0,
         "gifts": 30.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 132.35999999999999,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 132.35999999999999
       }
     ]
   },
@@ -2575,7 +4566,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
+        "homeDecor": 19.799999999999997,
+        "jewellery": 10.2,
+        "Kitchenware": 90.15,
+        "lightingAccessories": 53.4,
+        "luggage": 42.5,
+        "toys": 0.0,
+        "kitchenware": 90.15
       },
       {
         "country": "Belgium\r",
@@ -2585,17 +4582,13 @@
         "electronics": 15.299999999999999,
         "gifts": 64.8,
         "health": 0.0,
-        "homeDecor": 19.799999999999997
-      },
-      {
-        "country": "Greece\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 19.799999999999997,
-        "electronics": 114.7,
-        "gifts": 101.10000000000001,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 19.799999999999997,
+        "jewellery": 11.7,
+        "Kitchenware": 205.51999999999998,
+        "lightingAccessories": 13.950000000000001,
+        "luggage": 111.0,
+        "toys": 53.599999999999994,
+        "kitchenware": 205.51999999999998
       },
       {
         "country": "Singapore\r",
@@ -2605,7 +4598,29 @@
         "electronics": 0.0,
         "gifts": 436.6,
         "health": 15.0,
-        "homeDecor": 120.0
+        "homeDecor": 120.0,
+        "jewellery": 0.0,
+        "Kitchenware": 186.59999999999997,
+        "lightingAccessories": 105.6,
+        "luggage": 152.65,
+        "toys": 0.0,
+        "kitchenware": 186.59999999999997
+      },
+      {
+        "country": "Greece\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 19.799999999999997,
+        "electronics": 114.7,
+        "gifts": 101.10000000000001,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 579.8399999999999,
+        "lightingAccessories": 120.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 579.8399999999999
       },
       {
         "country": "Finland\r",
@@ -2615,7 +4630,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 41.76,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 41.76
       },
       {
         "country": "Germany\r",
@@ -2625,7 +4646,13 @@
         "electronics": 267.7,
         "gifts": 923.7199999999999,
         "health": 49.5,
-        "homeDecor": 544.6800000000001
+        "homeDecor": 544.6800000000001,
+        "jewellery": 107.69999999999999,
+        "Kitchenware": 3511.769999999999,
+        "lightingAccessories": 407.7,
+        "luggage": 1301.4800000000002,
+        "toys": 621.0099999999999,
+        "kitchenware": 3511.769999999999
       },
       {
         "country": "Italy\r",
@@ -2635,7 +4662,13 @@
         "electronics": 0.0,
         "gifts": 38.699999999999996,
         "health": 0.0,
-        "homeDecor": 109.19999999999999
+        "homeDecor": 109.19999999999999,
+        "jewellery": 46.8,
+        "Kitchenware": 430.19999999999993,
+        "lightingAccessories": 0.0,
+        "luggage": 153.5,
+        "toys": 500.25000000000006,
+        "kitchenware": 430.19999999999993
       },
       {
         "country": "Cyprus\r",
@@ -2645,7 +4678,13 @@
         "electronics": 0.0,
         "gifts": 250.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 134.25000000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 134.25000000000003
       },
       {
         "country": "Lebanon\r",
@@ -2655,7 +4694,13 @@
         "electronics": 102.0,
         "gifts": 140.9,
         "health": 0.0,
-        "homeDecor": 138.0
+        "homeDecor": 138.0,
+        "jewellery": 0.0,
+        "Kitchenware": 324.40000000000003,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 22.5,
+        "kitchenware": 324.40000000000003
       },
       {
         "country": "United Kingdom\r",
@@ -2665,7 +4710,13 @@
         "electronics": 16581.83999999994,
         "gifts": 26505.18000000001,
         "health": 1948.6300000000012,
-        "homeDecor": 22267.67000000006
+        "homeDecor": 22267.67000000006,
+        "jewellery": 6651.519999999976,
+        "Kitchenware": 65115.80999999938,
+        "lightingAccessories": 39693.219999999965,
+        "luggage": 49546.89999999955,
+        "toys": 16102.999999999964,
+        "kitchenware": 65115.80999999938
       },
       {
         "country": "Portugal\r",
@@ -2675,37 +4726,13 @@
         "electronics": 15.0,
         "gifts": 339.6,
         "health": 0.0,
-        "homeDecor": 0.0
-      },
-      {
-        "country": "Australia\r",
-        "artwork": 197.34000000000003,
-        "bathAccessories": 0.0,
-        "bookStationary": 177.64999999999998,
-        "electronics": 67.6,
-        "gifts": 233.68,
-        "health": 0.0,
-        "homeDecor": 17.700000000000003
-      },
-      {
-        "country": "France\r",
-        "artwork": 1638.6899999999991,
-        "bathAccessories": 195.89999999999998,
-        "bookStationary": 818.61,
-        "electronics": 67.0,
-        "gifts": 719.7099999999998,
-        "health": 54.45,
-        "homeDecor": 610.2
-      },
-      {
-        "country": "Israel\r",
-        "artwork": 13.5,
-        "bathAccessories": 0.0,
-        "bookStationary": 107.8,
-        "electronics": 17.700000000000003,
-        "gifts": 0.0,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 876.3800000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 445.20000000000005,
+        "toys": 191.4,
+        "kitchenware": 876.3800000000001
       },
       {
         "country": "Sweden\r",
@@ -2715,7 +4742,61 @@
         "electronics": 0.0,
         "gifts": 326.4,
         "health": 0.0,
-        "homeDecor": 102.6
+        "homeDecor": 102.6,
+        "jewellery": 0.0,
+        "Kitchenware": 581.4000000000001,
+        "lightingAccessories": 30.240000000000002,
+        "luggage": 17.0,
+        "toys": 346.56,
+        "kitchenware": 581.4000000000001
+      },
+      {
+        "country": "France\r",
+        "artwork": 1638.6899999999991,
+        "bathAccessories": 195.89999999999998,
+        "bookStationary": 818.61,
+        "electronics": 67.0,
+        "gifts": 719.7099999999998,
+        "health": 54.45,
+        "homeDecor": 610.2,
+        "jewellery": 85.02000000000001,
+        "Kitchenware": 1875.0500000000004,
+        "lightingAccessories": 168.0,
+        "luggage": 1236.5000000000002,
+        "toys": 1277.7500000000002,
+        "kitchenware": 1875.0500000000004
+      },
+      {
+        "country": "Australia\r",
+        "artwork": 197.34000000000003,
+        "bathAccessories": 0.0,
+        "bookStationary": 177.64999999999998,
+        "electronics": 67.6,
+        "gifts": 233.68,
+        "health": 0.0,
+        "homeDecor": 17.700000000000003,
+        "jewellery": 17.0,
+        "Kitchenware": 2515.0499999999997,
+        "lightingAccessories": 84.3,
+        "luggage": 674.9,
+        "toys": 849.9600000000002,
+        "kitchenware": 2515.0499999999997
+      },
+      {
+        "country": "Israel\r",
+        "artwork": 13.5,
+        "bathAccessories": 0.0,
+        "bookStationary": 107.8,
+        "electronics": 17.700000000000003,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 67.5,
+        "Kitchenware": 0.0,
+        "lightingAccessories": 0.0,
+        "luggage": 20.1,
+        "toys": 60.6,
+        "kitchenware": 0.0
       },
       {
         "country": "Hong Kong\r",
@@ -2725,7 +4806,13 @@
         "electronics": 0.0,
         "gifts": 23.4,
         "health": 0.0,
-        "homeDecor": 87.3
+        "homeDecor": 87.3,
+        "jewellery": 283.20000000000005,
+        "Kitchenware": 445.56,
+        "lightingAccessories": 0.0,
+        "luggage": 241.5,
+        "toys": 105.6,
+        "kitchenware": 445.56
       },
       {
         "country": "EIRE\r",
@@ -2735,7 +4822,13 @@
         "electronics": 375.4,
         "gifts": 810.6,
         "health": 0.0,
-        "homeDecor": 879.7799999999999
+        "homeDecor": 879.7799999999999,
+        "jewellery": 776.6,
+        "Kitchenware": 6257.84,
+        "lightingAccessories": 480.94,
+        "luggage": 1342.96,
+        "toys": 479.34,
+        "kitchenware": 6257.84
       },
       {
         "country": "Channel Islands\r",
@@ -2745,7 +4838,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 61.0
+        "homeDecor": 61.0,
+        "jewellery": 0.0,
+        "Kitchenware": 70.5,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 28.6,
+        "kitchenware": 70.5
       },
       {
         "country": "Switzerland\r",
@@ -2755,7 +4854,13 @@
         "electronics": 79.19999999999999,
         "gifts": 151.56,
         "health": 12.600000000000001,
-        "homeDecor": 343.79999999999995
+        "homeDecor": 343.79999999999995,
+        "jewellery": 127.08000000000001,
+        "Kitchenware": 729.48,
+        "lightingAccessories": 15.0,
+        "luggage": 462.75000000000006,
+        "toys": 97.08000000000001,
+        "kitchenware": 729.48
       },
       {
         "country": "Spain\r",
@@ -2765,7 +4870,13 @@
         "electronics": 0.0,
         "gifts": 508.25,
         "health": 0.0,
-        "homeDecor": 193.5
+        "homeDecor": 193.5,
+        "jewellery": 153.8,
+        "Kitchenware": 1455.35,
+        "lightingAccessories": 329.08000000000004,
+        "luggage": 396.75,
+        "toys": 398.8999999999999,
+        "kitchenware": 1455.35
       },
       {
         "country": "Netherlands\r",
@@ -2775,7 +4886,13 @@
         "electronics": 1490.64,
         "gifts": 2240.8399999999997,
         "health": 0.0,
-        "homeDecor": 1910.5200000000002
+        "homeDecor": 1910.5200000000002,
+        "jewellery": 70.80000000000001,
+        "Kitchenware": 4215.320000000001,
+        "lightingAccessories": 1293.3600000000001,
+        "luggage": 3857.2000000000003,
+        "toys": 1408.72,
+        "kitchenware": 4215.320000000001
       },
       {
         "country": "Poland\r",
@@ -2785,7 +4902,13 @@
         "electronics": 0.0,
         "gifts": 27.7,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 103.47,
+        "lightingAccessories": 32.4,
+        "luggage": 38.25,
+        "toys": 17.4,
+        "kitchenware": 103.47
       }
     ]
   },
@@ -2800,7 +4923,13 @@
         "electronics": 17.4,
         "gifts": 174.3,
         "health": 10.2,
-        "homeDecor": 19.799999999999997
+        "homeDecor": 19.799999999999997,
+        "jewellery": 23.4,
+        "Kitchenware": 323.84999999999997,
+        "lightingAccessories": 61.199999999999996,
+        "luggage": 202.2,
+        "toys": 188.18,
+        "kitchenware": 323.84999999999997
       },
       {
         "country": "Norway\r",
@@ -2810,17 +4939,13 @@
         "electronics": 17.700000000000003,
         "gifts": 104.7,
         "health": 0.0,
-        "homeDecor": 17.0
-      },
-      {
-        "country": "Austria\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 46.800000000000004,
-        "electronics": 0.0,
-        "gifts": 19.799999999999997,
-        "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 17.0,
+        "jewellery": 0.0,
+        "Kitchenware": 73.05,
+        "lightingAccessories": 0.0,
+        "luggage": 35.4,
+        "toys": 40.8,
+        "kitchenware": 73.05
       },
       {
         "country": "Finland\r",
@@ -2830,7 +4955,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 83.84,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 44.199999999999996,
+        "kitchenware": 83.84
+      },
+      {
+        "country": "Austria\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 46.800000000000004,
+        "electronics": 0.0,
+        "gifts": 19.799999999999997,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 7.56,
+        "Kitchenware": 70.80000000000001,
+        "lightingAccessories": 0.0,
+        "luggage": 234.0,
+        "toys": 0.0,
+        "kitchenware": 70.80000000000001
       },
       {
         "country": "Germany\r",
@@ -2840,7 +4987,13 @@
         "electronics": 293.7,
         "gifts": 795.6799999999998,
         "health": 0.0,
-        "homeDecor": 340.3
+        "homeDecor": 340.3,
+        "jewellery": 87.84,
+        "Kitchenware": 1527.2000000000007,
+        "lightingAccessories": 55.2,
+        "luggage": 448.65,
+        "toys": 148.2,
+        "kitchenware": 1527.2000000000007
       },
       {
         "country": "Italy\r",
@@ -2850,7 +5003,13 @@
         "electronics": 0.0,
         "gifts": 30.599999999999998,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 21.0,
+        "lightingAccessories": 0.0,
+        "luggage": 94.8,
+        "toys": 0.0,
+        "kitchenware": 21.0
       },
       {
         "country": "Cyprus\r",
@@ -2860,7 +5019,13 @@
         "electronics": 390.03,
         "gifts": 375.6,
         "health": 44.6,
-        "homeDecor": 189.8
+        "homeDecor": 189.8,
+        "jewellery": 0.0,
+        "Kitchenware": 362.44999999999993,
+        "lightingAccessories": 481.46999999999997,
+        "luggage": 72.0,
+        "toys": 95.10000000000001,
+        "kitchenware": 362.44999999999993
       },
       {
         "country": "United Arab Emirates\r",
@@ -2870,7 +5035,13 @@
         "electronics": 15.0,
         "gifts": 60.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 19.799999999999997,
+        "Kitchenware": 84.9,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 65.4,
+        "kitchenware": 84.9
       },
       {
         "country": "United Kingdom\r",
@@ -2880,17 +5051,13 @@
         "electronics": 12698.68999999999,
         "gifts": 29128.940000000002,
         "health": 1813.240000000001,
-        "homeDecor": 19999.10000000005
-      },
-      {
-        "country": "Czech Republic\r",
-        "artwork": 0.0,
-        "bathAccessories": 0.0,
-        "bookStationary": 86.75999999999999,
-        "electronics": 69.3,
-        "gifts": 0.0,
-        "health": 20.4,
-        "homeDecor": 57.2
+        "homeDecor": 19999.10000000005,
+        "jewellery": 4986.629999999991,
+        "Kitchenware": 50860.45999999973,
+        "lightingAccessories": 20812.65000000004,
+        "luggage": 42120.34999999977,
+        "toys": 16399.310000000027,
+        "kitchenware": 50860.45999999973
       },
       {
         "country": "Portugal\r",
@@ -2900,27 +5067,29 @@
         "electronics": 0.0,
         "gifts": 34.35,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 175.44,
+        "lightingAccessories": 105.0,
+        "luggage": 171.75,
+        "toys": 49.95,
+        "kitchenware": 175.44
       },
       {
-        "country": "Australia\r",
-        "artwork": 987.68,
+        "country": "Czech Republic\r",
+        "artwork": 0.0,
         "bathAccessories": 0.0,
-        "bookStationary": 260.70000000000005,
-        "electronics": 0.0,
-        "gifts": 498.4999999999999,
-        "health": 0.0,
-        "homeDecor": 1167.3
-      },
-      {
-        "country": "France\r",
-        "artwork": 478.7200000000001,
-        "bathAccessories": 40.8,
-        "bookStationary": 458.90000000000003,
-        "electronics": 92.39999999999999,
-        "gifts": 317.20000000000005,
-        "health": 0.0,
-        "homeDecor": 305.09999999999997
+        "bookStationary": 86.75999999999999,
+        "electronics": 69.3,
+        "gifts": 0.0,
+        "health": 20.4,
+        "homeDecor": 57.2,
+        "jewellery": 0.0,
+        "Kitchenware": 70.80000000000001,
+        "lightingAccessories": 51.6,
+        "luggage": 46.8,
+        "toys": 0.0,
+        "kitchenware": 70.80000000000001
       },
       {
         "country": "Israel\r",
@@ -2930,17 +5099,45 @@
         "electronics": 155.4,
         "gifts": 46.8,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 46.8,
+        "Kitchenware": 297.59999999999997,
+        "lightingAccessories": 0.0,
+        "luggage": 25.5,
+        "toys": 70.2,
+        "kitchenware": 297.59999999999997
       },
       {
-        "country": "Saudi Arabia\r",
-        "artwork": 0.0,
+        "country": "Australia\r",
+        "artwork": 987.68,
         "bathAccessories": 0.0,
-        "bookStationary": 0.0,
+        "bookStationary": 260.70000000000005,
         "electronics": 0.0,
-        "gifts": 0.0,
+        "gifts": 498.4999999999999,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 1167.3,
+        "jewellery": 0.0,
+        "Kitchenware": 3370.38,
+        "lightingAccessories": 615.0,
+        "luggage": 1111.45,
+        "toys": 655.87,
+        "kitchenware": 3370.38
+      },
+      {
+        "country": "France\r",
+        "artwork": 478.7200000000001,
+        "bathAccessories": 40.8,
+        "bookStationary": 458.90000000000003,
+        "electronics": 92.39999999999999,
+        "gifts": 317.20000000000005,
+        "health": 0.0,
+        "homeDecor": 305.09999999999997,
+        "jewellery": 0.0,
+        "Kitchenware": 726.4199999999998,
+        "lightingAccessories": 287.16,
+        "luggage": 913.3800000000002,
+        "toys": 604.1899999999999,
+        "kitchenware": 726.4199999999998
       },
       {
         "country": "Sweden\r",
@@ -2950,7 +5147,29 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 23.4,
+        "lightingAccessories": 60.0,
+        "luggage": 0.0,
+        "toys": 288.9,
+        "kitchenware": 23.4
+      },
+      {
+        "country": "Saudi Arabia\r",
+        "artwork": 0.0,
+        "bathAccessories": 0.0,
+        "bookStationary": 0.0,
+        "electronics": 0.0,
+        "gifts": 0.0,
+        "health": 0.0,
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 53.10000000000001,
+        "lightingAccessories": 17.4,
+        "luggage": 0.0,
+        "toys": 0.0,
+        "kitchenware": 53.10000000000001
       },
       {
         "country": "Japan\r",
@@ -2960,7 +5179,13 @@
         "electronics": 250.2,
         "gifts": 472.20000000000005,
         "health": 127.49999999999999,
-        "homeDecor": 104.1
+        "homeDecor": 104.1,
+        "jewellery": 0.0,
+        "Kitchenware": 224.48999999999998,
+        "lightingAccessories": 0.0,
+        "luggage": 706.4000000000001,
+        "toys": 264.17,
+        "kitchenware": 224.48999999999998
       },
       {
         "country": "EIRE\r",
@@ -2970,7 +5195,13 @@
         "electronics": 302.29999999999995,
         "gifts": 802.5500000000001,
         "health": 48.95,
-        "homeDecor": 541.7500000000001
+        "homeDecor": 541.7500000000001,
+        "jewellery": 166.2,
+        "Kitchenware": 1677.19,
+        "lightingAccessories": 880.9400000000003,
+        "luggage": 574.25,
+        "toys": 256.4,
+        "kitchenware": 1677.19
       },
       {
         "country": "Channel Islands\r",
@@ -2980,7 +5211,13 @@
         "electronics": 0.0,
         "gifts": 0.0,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 408.0,
+        "lightingAccessories": 0.0,
+        "luggage": 0.0,
+        "toys": 488.15999999999997,
+        "kitchenware": 408.0
       },
       {
         "country": "Denmark\r",
@@ -2990,7 +5227,13 @@
         "electronics": 0.0,
         "gifts": 41.1,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 0.0,
+        "Kitchenware": 99.9,
+        "lightingAccessories": 0.0,
+        "luggage": 61.0,
+        "toys": 33.48,
+        "kitchenware": 99.9
       },
       {
         "country": "Switzerland\r",
@@ -3000,7 +5243,13 @@
         "electronics": 187.09999999999997,
         "gifts": 73.7,
         "health": 0.0,
-        "homeDecor": 93.15
+        "homeDecor": 93.15,
+        "jewellery": 34.92,
+        "Kitchenware": 287.81,
+        "lightingAccessories": 310.17,
+        "luggage": 138.6,
+        "toys": 113.39999999999999,
+        "kitchenware": 287.81
       },
       {
         "country": "Spain\r",
@@ -3010,7 +5259,13 @@
         "electronics": 32.7,
         "gifts": 132.4,
         "health": 0.0,
-        "homeDecor": 0.0
+        "homeDecor": 0.0,
+        "jewellery": 34.8,
+        "Kitchenware": 360.08,
+        "lightingAccessories": 140.76000000000002,
+        "luggage": 32.8,
+        "toys": 107.39999999999998,
+        "kitchenware": 360.08
       },
       {
         "country": "Netherlands\r",
@@ -3020,7 +5275,13 @@
         "electronics": 2206.04,
         "gifts": 1092.6,
         "health": 127.49999999999999,
-        "homeDecor": 779.5799999999999
+        "homeDecor": 779.5799999999999,
+        "jewellery": 0.0,
+        "Kitchenware": 3888.4500000000007,
+        "lightingAccessories": 800.6400000000001,
+        "luggage": 2770.8999999999996,
+        "toys": 1329.36,
+        "kitchenware": 3888.4500000000007
       },
       {
         "country": "Poland\r",
@@ -3030,7 +5291,13 @@
         "electronics": 23.6,
         "gifts": 40.4,
         "health": 14.75,
-        "homeDecor": 32.9
+        "homeDecor": 32.9,
+        "jewellery": 0.0,
+        "Kitchenware": 102.0,
+        "lightingAccessories": 21.599999999999998,
+        "luggage": 29.1,
+        "toys": 30.0,
+        "kitchenware": 102.0
       }
     ]
   }
