@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="temp.css"/>
     <!--<script src="d3/d3.min.js"></script>-->
     <script src="//d3js.org/d3.v3.min.js"></script>
-    <script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.js"
+            integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
     <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <!--<script src="temp.js"></script>-->
     <style>
@@ -43,10 +44,10 @@
             <td>Choose Month to Visualize Trends For All Product Categories</td>
             <td>
                 <select id="scatterMonth">
-                    <option value="0">--Select--</option>
+                    <option value="All">--Show All--</option>
                 </select>
             </td>
-            <td><input type="button" value="Go" id="monthButton"/></td>
+
         </tr>
 
     </table>
@@ -59,21 +60,21 @@
 
         <p id="stackedBarChart"></p>
         <script type="text/javascript" src="barChart.js">
-    </script>
+        </script>
     </div>
 
     <div id="content-wrap">
         <p id="chart"></p>
         <table align="center">
             <tr>
-                <td><input type="button" value="Show Animation" id="animateButton" /></td>
+                <td><input type="button" value="Show Animation" id="animateButton"/></td>
+                <td></td>
                 <td>Choose Category to Visualize Trends For All Months</td>
                 <td>
                     <select id="scatterCategory">
                         <option value="All">All</option>
                     </select>
                 </td>
-                <td><input type="button" value="Go" id="categoryButton"/></td>
             </tr>
 
         </table>
@@ -87,7 +88,7 @@
     var yearSet = ["December-2010", "January-2011", "February-2011", "March-2011", "April-2011", "May-2011", "June-2011", "July-2011", "August-2011", "September-2011", "October-2011", "November-2011", "December-2011"];
     var categorySet = ["Artwork", "Bathroom_Accessories", "Books_&_Stationery", "Electronics", "Gifts", "Health_and_Personal_care", "Home_Decor", "Jewellery", "Kitchenware", "Lighting_Accessories", "Luggage_&_Travel_Gear", "Toys_&_Games"];
     for (var i = 0; i < categorySet.length; i++) {
-        $('#categoryOptions').append('<input class="CategoryCheckbox" id='+categorySet[i]+' type="checkbox" checked="true"/> ' + categorySet[i] + '\t');
+        $('#categoryOptions').append('<input class="CategoryCheckbox" id=' + categorySet[i] + ' type="checkbox" checked="true"/> ' + categorySet[i] + '\t');
         $('#scatterCategory').append('<option value="' + categorySet[i] + '" > ' + categorySet[i] + '</option>\t');
     }
 
@@ -95,26 +96,19 @@
         $('#scatterMonth').append('<option value="' + yearSet[i] + '" > ' + yearSet[i] + '</option>\t');
     }
 
-
-
-    $('#monthButton').on("click", function () {
-        console.log("monthButton clicked");
+    $('#scatterMonth').on("change", function () {
+//        console.log("scatterMonth value changed");
         var selectedMonth = $('#scatterMonth').val();
-        console.log(selectedMonth);
-        if (selectedMonth != "0") {
-            showTrends(selectedMonth);
-            initGraph(selectedMonth);
-        } else {
-            initGraph("All");
-        }
-
+//        console.log(selectedMonth);
+        showTrends(selectedMonth);
+        initGraph(selectedMonth);
     });
 
-    $('#categoryButton').on("click", function () {
-        console.log("categoryButton clicked");
+    $('#scatterCategory').on("change", function () {
+        console.log("scatterCategory value changed");
         var selectedCategory = $('#scatterCategory').val();
         console.log(selectedCategory);
-        if(selectedCategory != "All"){
+        if (selectedCategory != "All") {
             showCategoryTrends(selectedCategory);
         }
     });
@@ -127,11 +121,11 @@
     var selectedCategories = [];
     $('.CategoryCheckbox').on("click", showChart);
 
-    function showChart(){
+    function showChart() {
         selectedCategories = [];
         var checkbox = $(".CategoryCheckbox");
-        for(var i =0 ; i < checkbox.length; i++){
-            if(checkbox[i].checked){
+        for (var i = 0; i < checkbox.length; i++) {
+            if (checkbox[i].checked) {
                 console.log(checkbox[i].id);
                 selectedCategories.push(checkbox[i].id);
             }

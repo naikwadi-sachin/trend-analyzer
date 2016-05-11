@@ -330,7 +330,7 @@
     ]
   },
   {
-    "categoryName": "Home Decor",
+    "categoryName": "Home_Decor",
     "sales": [
       [
         "December-2010",
@@ -495,7 +495,7 @@
     ]
   },
   {
-    "categoryName": "Toys & Games",
+    "categoryName": "Toys_&_Games",
     "sales": [
       [
         "December-2010",
@@ -660,7 +660,7 @@
     ]
   },
   {
-    "categoryName": "Bathroom Accessories",
+    "categoryName": "Bathroom_Accessories",
     "sales": [
       [
         "December-2010",
@@ -990,7 +990,7 @@
     ]
   },
   {
-    "categoryName": "Books & Stationery",
+    "categoryName": "Books_&_Stationery",
     "sales": [
       [
         "December-2010",
@@ -1320,7 +1320,7 @@
     ]
   },
   {
-    "categoryName": "Luggage & Travel Gear",
+    "categoryName": "Luggage_&_Travel_Gear",
     "sales": [
       [
         "December-2010",
@@ -1650,7 +1650,7 @@
     ]
   },
   {
-    "categoryName": "Health and Personal care",
+    "categoryName": "Health_and_Personal_care",
     "sales": [
       [
         "December-2010",
@@ -1815,7 +1815,7 @@
     ]
   },
   {
-    "categoryName": "Lighting Accessories",
+    "categoryName": "Lighting_Accessories",
     "sales": [
       [
         "December-2010",

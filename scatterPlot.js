@@ -21,9 +21,9 @@ var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
     height = 500 - margin.top - margin.bottom;
 
 // Various scales. These domains make assumptions of data, naturally.
-var xScale = d3.scale.log().domain([100, 30000]).range([0, width]),
-    yScale = d3.scale.linear().domain([1, 200]).range([height, 0]),
-    radiusScale = d3.scale.sqrt().domain([1, 200]).range([0, 40]),
+var xScale = d3.scale.log().domain([100, 100000]).range([0, width]),
+    yScale = d3.scale.linear().domain([1, 1400]).range([height, 0]),
+    radiusScale = d3.scale.sqrt().domain([5, 300]).range([0, 40]),
     colorScale = d3.scale.category10();
 
 // The x & y axes.
@@ -70,8 +70,8 @@ var startingMonth = "December-2010";
 var label = svg.append("text")
     .attr("class", "year label")
     .attr("text-anchor", "end")
-    .attr("y", height - 24)
-    .attr("x", width - 150)
+    .attr("y", height - 440)
+    .attr("x", width - 550)
     .text(startingMonth);
 
 
@@ -84,7 +84,7 @@ var trendingData;
 
 d3.json("data.json", function (trends) {
     trendingData = trends;
-    showTrends(startingMonth);
+    showTrends("All");
 });
 
 
@@ -146,12 +146,12 @@ function showTrends(mon) {
     // Add an overlay for the year label.
     /*var box = label.node().getBBox();
 
-    var overlay = svg.append("rect")
-        .attr("class", "overlay")
-        .attr("x", box.x)
-        .attr("y", box.y)
-        .attr("width", box.width)
-        .attr("height", box.height);*/
+     var overlay = svg.append("rect")
+     .attr("class", "overlay")
+     .attr("x", box.x)
+     .attr("y", box.y)
+     .attr("width", box.width)
+     .attr("height", box.height);*/
     //.on("mouseover", enableInteraction);
 
 }
@@ -159,7 +159,7 @@ function showTrends(mon) {
 // Positions the dots based on data.
 function position(dot) {
     dot.attr("cx", function (d) {
-        return xScale(x(d));
+        return xScale(Math.round(x(d)));//show customer as it is
     })
         .attr("cy", function (d) {
             return yScale(Math.round(y(d) / 1000));//show sales amount in thousands
@@ -253,11 +253,11 @@ function interpolateData(year) {
         var data = {
             categoryName: d.categoryName,
 //                    region: d.region,
-            sales: interpolateValues(d.sales, year),
-            customers: interpolateValues(d.customers, year),
-            products: interpolateValues(d.products, year)
+            sales: interpolateValues("s", d.sales, year),
+            customers: interpolateValues("c", d.customers, year),
+            products: interpolateValues("p", d.products, year)
         };
-        //console.log(data);
+        console.log(data);
         return data;
     });
 }
@@ -270,10 +270,10 @@ function interpolateDataPerCategory(year, category) {
         var data = {
             categoryName: d.categoryName,
 //                    region: d.region,
-            sales: interpolateValues(d.sales, year),
-            customers: interpolateValues(d.customers, year),
-            products: interpolateValues(d.products, year),
-            month : year
+            sales: interpolateValues("s", d.sales, year),
+            customers: interpolateValues("c", d.customers, year),
+            products: interpolateValues("p", d.products, year),
+            month: year
         };
         //console.log(data);
         if (data.categoryName == category)
@@ -284,24 +284,35 @@ function interpolateDataPerCategory(year, category) {
 
 
 // Finds (and possibly interpolates) the value for the specified year.
-function interpolateValues(values, year) {
+function interpolateValues(type, values, year) {
+    var val = 0;
     for (var i = 0; i < values.length; i++) {
-        if (values[i][0] == year) {
-            return values[i][1];
+        if (year == "All") {
+            if (type == "c" || type == "s") {
+                val += values[i][1];
+            }
+            else {
+                val = values[i][1];
+                break;
+            }
+        }
+        else if (values[i][0] == year) {
+            val = values[i][1];
+            break;
         }
     }
-    return 0;
+    return val;
 }
 
 //show trends for a specified category over time line
 function showCategoryTrends(categoryName) {
     svg.selectAll(".dot").remove();
 
-    for(var i=0;i<yearSet.length;i++){
+    for (var i = 0; i < yearSet.length; i++) {
         var dot = svg.append("g")
             .attr("class", "dots")
             .selectAll(".dot")
-            .data(interpolateDataPerCategory(yearSet[i],categoryName))
+            .data(interpolateDataPerCategory(yearSet[i], categoryName))
             .enter().append("circle")
             .attr("class", "dot")
             .style("fill", function (d) {
