@@ -65,13 +65,14 @@ svg.append("text")
     .attr("transform", "rotate(-90)")
     .text("Gross Sales Amount (in Thousands)");
 
+var startingMonth = "December-2010";
 // Add the year label; the value is set on transition.
 var label = svg.append("text")
     .attr("class", "year label")
     .attr("text-anchor", "end")
     .attr("y", height - 24)
     .attr("x", width - 150)
-    .text("December-2010");
+    .text(startingMonth);
 
 
 // Define the div for the tooltip
@@ -80,17 +81,14 @@ var div = d3.select("body").append("div")
     .style("opacity", 0);
 
 var trendingData;
-d3.json("data.json", function (nations) {
-    trendingData = nations;
-    var mon = "December-2011";
-    showTrends(nations, mon);
+
+d3.json("data.json", function (trends) {
+    trendingData = trends;
+    showTrends(startingMonth);
 });
 
-var dot = svg.append("g")
-    .attr("class", "dots")
-    .selectAll(".dot");
 
-function showTrends(trends, mon) {
+function showTrends(mon) {
     // A bisector since many nation's data is sparsely-defined.
     var bisect = d3.bisector(function (d) {
         return d[0];
@@ -102,7 +100,10 @@ function showTrends(trends, mon) {
 
     svg.selectAll(".dot").remove();
 
-    dot.data(interpolateData(mon))
+    var dot = svg.append("g")
+        .attr("class", "dots")
+        .selectAll(".dot")
+        .data(interpolateData(mon))
         .enter().append("circle")
         .attr("class", "dot")
         .style("fill", function (d) {
@@ -143,14 +144,14 @@ function showTrends(trends, mon) {
         });
 
     // Add an overlay for the year label.
-    var box = label.node().getBBox();
+    /*var box = label.node().getBBox();
 
     var overlay = svg.append("rect")
         .attr("class", "overlay")
         .attr("x", box.x)
         .attr("y", box.y)
         .attr("width", box.width)
-        .attr("height", box.height);
+        .attr("height", box.height);*/
     //.on("mouseover", enableInteraction);
 
 }
@@ -174,30 +175,74 @@ function order(a, b) {
 }
 
 function showAnimation() {
+
+
+
     // Start a transition that interpolates the data based on year.
-    svg.transition()
-        .duration(10000)
-        .ease("linear")
-        .tween("year", tweenYear(dot));
-    //.each("end", enableInteraction);
+    //svg.transition()
+    //    .duration(10000)
+    //    .ease("linear")
+    //    .tween("year", tweenYear(dot))
+    //    .each("end", enableInteraction);
+    myYear = 0;
+    var currentMonth;
+
+    var interval = setInterval(function () {
+        currentMonth = yearSet[myYear];
+        console.log("Displaying : " + currentMonth);
+
+        svg.selectAll(".dot").remove();
+        var dot = svg.append("g")
+            .attr("class", "dots")
+            .selectAll(".dot")
+            .data(interpolateData(currentMonth))
+            .enter().append("circle")
+            .attr("class", "dot")
+            .style("fill", function (d) {
+                return colorScale(color(d));
+            })
+            .call(position)
+            .sort(order);
+
+        label.text(currentMonth);
+        //displayYear(dot, yearSet[myYear++]);
+        myYear++;
+
+        if (myYear == 13) {
+            clearInterval(interval);
+        }
+    }, 900);
+
+    function enableInteraction() {
+        console.log("enableInteraction called");
+    }
+
+
 }
 
 // Tweens the entire chart by first tweening the year, and then the data.
 // For the interpolated data, the dots and label are redrawn.
-function tweenYear(dot) {
-    var year = d3.interpolateNumber(1, 13);
-    //console.log("year=" + year);
-    return function (t) {
-        var i = Math.round(year(t));
-        //console.log(i);
-        //console.log("show = "+yearSet[i-1] );
-        displayYear(dot, yearSet[i - 1]);
-    };
+function tweenYear(dots) {
+    /*var year = d3.interpolateNumber(1, 13);
+     console.log("year=" + year);
+     return function (t) {
+     console.log(t);
+     var i = Math.round(year(t));
+     console.log(i);
+     console.log("show = " + yearSet[i - 1]);
+     displayYear(dots, yearSet[i - 1]);
+     };*/
+
+    var t = d3.timer(function (elapsed) {
+        console.log("timer called " + elapsed);
+        if (elapsed > 2000) this.stop();
+    }, 100);
+    //t.start();
 }
 
 // Updates the display to show the specified year.
 function displayYear(dot, year) {
-    dot.data(interpolateData(year), key).call(position).sort(order);
+    dot.data(interpolateData(year), key);//.call(position).sort(order);
     label.text(year);
 }
 
@@ -217,6 +262,27 @@ function interpolateData(year) {
     });
 }
 
+
+// Interpolates the dataset for the given (fractional) year.
+function interpolateDataPerCategory(year, category) {
+    return trendingData.map(function (d) {
+        //console.log(d);
+        var data = {
+            categoryName: d.categoryName,
+//                    region: d.region,
+            sales: interpolateValues(d.sales, year),
+            customers: interpolateValues(d.customers, year),
+            products: interpolateValues(d.products, year),
+            month : year
+        };
+        //console.log(data);
+        if (data.categoryName == category)
+            return data;
+        else return "";
+    });
+}
+
+
 // Finds (and possibly interpolates) the value for the specified year.
 function interpolateValues(values, year) {
     for (var i = 0; i < values.length; i++) {
@@ -228,6 +294,32 @@ function interpolateValues(values, year) {
 }
 
 //show trends for a specified category over time line
-function showCategoryTrends(categoryName){
+function showCategoryTrends(categoryName) {
+    svg.selectAll(".dot").remove();
+
+    for(var i=0;i<yearSet.length;i++){
+        var dot = svg.append("g")
+            .attr("class", "dots")
+            .selectAll(".dot")
+            .data(interpolateDataPerCategory(yearSet[i],categoryName))
+            .enter().append("circle")
+            .attr("class", "dot")
+            .style("fill", function (d) {
+                return colorScale(color(d));
+            })
+            .call(position)
+            .sort(order);
+
+        dot.append("title")
+            .text(function (d) {
+                return "<b>" + d.categoryName + "</b><br/>"
+                    + "Month:" + d.month + "<br/>"
+                    + "Sales Amt:" + d.sales + "<br/>"
+                    + "Customers:" + d.customers + "<br/>"
+                    + "Products:" + d.products;
+            });
+
+    }
+
 
 }
