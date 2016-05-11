@@ -278,7 +278,10 @@ function interpolateDataPerCategory(year, category) {
         //console.log(data);
         if (data.categoryName == category)
             return data;
-        else return "";
+        else return null;
+    }).filter(function (item) {
+        if (item != null)
+            return item;
     });
 }
 
