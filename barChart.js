@@ -1,6 +1,5 @@
 function initGraph(month){
 
-    var colorArray= {"Artwork" : "#acbbe2", "Bathroom_Accessories": "#8085c4", "Books_&_Stationery": "#3752a7", "Electronics": "#caa7d0", "Gifts": "#953b9a", "Health_and_Personal_care": "#f00080", "Home_Decor": "#f78561", "Jewellery": "#f78000", "Kitchenware": "#9bae92", "Lighting_Accessories": "#67bf3c", "Luggage_&_Travel_Gear":"#f01b16", "Toys_&_Games": "#777777"};
 
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = 700 - margin.left - margin.right,
