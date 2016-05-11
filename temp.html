@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="temp.css"/>
     <!--<script src="d3/d3.min.js"></script>-->
     <script src="//d3js.org/d3.v3.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="temp.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <!--<script src="temp.js"></script>-->
     <style>
 
-        /*body {*/
-        /*font: 10px sans-serif;*/
-        /*}*/
+        body {
+            font: 10px sans-serif;
+        }
 
         .axis path,
         .axis line {
@@ -25,7 +26,7 @@
             fill: steelblue;
         }
 
-        .x1.axis path {
+        .x.axis path {
             display: none;
         }
 
@@ -85,9 +86,9 @@
 <script>
 
     var yearSet = ["December-2010", "January-2011", "February-2011", "March-2011", "April-2011", "May-2011", "June-2011", "July-2011", "August-2011", "September-2011", "October-2011", "November-2011", "December-2011"];
-    var categorySet = ["Artwork", "Bathroom Accessories", "Books & Stationery", "Electronics", "Gifts", "Health and Personal care", "Home Decor", "Jewellery", "Kitchenware", "Lighting Accessories", "Luggage & Travel Gear", "Toys & Games"];
+    var categorySet = ["Artwork", "Bathroom_Accessories", "Books_&_Stationery", "Electronics", "Gifts", "Health_and_Personal_care", "Home_Decor", "Jewellery", "Kitchenware", "Lighting_Accessories", "Luggage_&_Travel_Gear", "Toys_&_Games"];
     for (var i = 0; i < categorySet.length; i++) {
-        $('#categoryOptions').append('<input type="checkbox" /> ' + categorySet[i] + '\t');
+        $('#categoryOptions').append('<input class="CategoryCheckbox" id='+categorySet[i]+' type="checkbox" /> ' + categorySet[i] + '\t');
         $('#scatterCategory').append('<option value="' + categorySet[i] + '" > ' + categorySet[i] + '</option>\t');
     }
 
@@ -101,6 +102,9 @@
         console.log(selectedMonth);
         if (selectedMonth != "0") {
             showTrends(trendingData, selectedMonth);
+            initGraph(selectedMonth);
+        } else {
+            initGraph("All");
         }
 
     });
@@ -112,6 +116,19 @@
     $('#animateButton').on("click", function () {
         console.log("animateButton clicked");
         //showAnimation();
+    });
+
+    var selectedCategories = [];
+    $('.CategoryCheckbox').on("click", function(){
+        selectedCategories = [];
+        var checkbox = $(".CategoryCheckbox");
+        for(var i =0 ; i < checkbox.length; i++){
+            if(checkbox[i].checked){
+                console.log(checkbox[i].id);
+                selectedCategories.push(checkbox[i].id);
+            }
+        }
+        initGraph("All");
     });
 
 
