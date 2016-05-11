@@ -16,15 +16,17 @@ function key(d) {
 }
 
 // Chart dimensions.
-var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
+var margin = {top: 19.5, right: 10.5, bottom: 19.5, left: 39.5},
     width = 960 - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // Various scales. These domains make assumptions of data, naturally.
-var xScale = d3.scale.log().domain([100, 100000]).range([0, width]),
-    yScale = d3.scale.linear().domain([1, 1400]).range([height, 0]),
-    radiusScale = d3.scale.sqrt().domain([5, 300]).range([0, 40]),
-    colorScale = d3.scale.category10();
+//var xScale = d3.scale.log().domain([100, 100000]).range([0, width]);
+//var yScale = d3.scale.linear().domain([1, 1400]).range([height, 0]);
+var xScale = d3.scale.pow().exponent(.5).domain([10, 60000]).range([0, width - 240]);
+var yScale = d3.scale.pow().exponent(.5).domain([1, 2000]).range([height, 0]);
+var radiusScale = d3.scale.sqrt().domain([5, 300]).range([0, 25]);
+var colorScale = d3.scale.category10();
 
 // The x & y axes.
 var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12, d3.format(",d")),
@@ -84,17 +86,32 @@ var trendingData;
 
 d3.json("data.json", function (trends) {
     trendingData = trends;
-    showTrends("All");
+    initScatterPlot("All");
 });
 
+function initScatterPlot(mon) {
 
-function showTrends(mon) {
+    if (typeof trendingData == 'undefined') {
+        return;
+    }
     // A bisector since many nation's data is sparsely-defined.
     var bisect = d3.bisector(function (d) {
         return d[0];
     });
 
     label.text(mon);
+
+    /*if(mon=="All"){
+     yScale = d3.scale.linear().domain([1, 1400]).range([height, 0]);
+     }
+     else {
+     yScale = d3.scale.linear().domain([1, 400]).range([height, 0]);
+     }
+     yAxis = d3.svg.axis().scale(yScale).orient("left");
+     svg.selectAll(".y axis").remove();
+     svg.append("g")
+     .attr("class", "y axis")
+     .call(yAxis);*/
 
     // Add a dot per product category. Initialize the data at December-2010, and set the colors.
 
@@ -107,41 +124,49 @@ function showTrends(mon) {
         .enter().append("circle")
         .attr("class", "dot")
         .style("fill", function (d) {
-            return colorScale(color(d));
+            return colorArray[d.categoryName];
         })
         .on("click", function (d) {
             //console.log("clicked in circle");
             console.log(d);
         })
         .on("mouseover", function (d) {
-            //console.log("mouseover in circle");
-            //div.transition()
-            //    .duration(200)
-            //    .style("opacity", .9);
-            //div.html("<b>" + d.categoryName + "</b><br/>"
-            //    + "Sales Amt:" + d.sales + "<br/>"
-            //    + "Customers:" + d.customers + "<br/>"
-            //    + "Products:" + d.products)
-            //    .style("left", (d3.event.pageX) + "px")
-            //    .style("top", (d3.event.pageY - 28) + "px");
+            var html = "";
+
+            html += "<div class=\"tooltip_kv\">";
+            //html += "<span class=\"tooltip_key\">";
+            html += "<b>" + d.categoryName + "</b><br/>"
+            html += "Sales Amt:" + d.sales + "<br/>";
+            html += "Customers:" + d.customers + "<br/>";
+            html += "Products:" + d.products;
+            //html += "</span>";
+            html += "</div>";
+
+
+            $("#tooltip-container").html(html);
+            $(this).attr("fill-opacity", "0.7");
+            $("#tooltip-container").show();
+
+            d3.select("#tooltip-container")
+                .style("top", (d3.event.layerY + 155) + "px")
+                .style("left", (d3.event.layerX + 15) + "px");
         })
         .on("mouseout", function (d) {
-            //console.log("mouseout in circle");
-            //div.transition()
-            //    .duration(500)
-            //    .style("opacity", 0);
+            $(this).attr("fill-opacity", "1.0");
+            $("#tooltip-container").hide();
         })
         .call(position)
         .sort(order);
 
     // Add a title.
-    dot.append("title")
-        .text(function (d) {
-            return "<b>" + d.categoryName + "</b><br/>"
-                + "Sales Amt:" + d.sales + "<br/>"
-                + "Customers:" + d.customers + "<br/>"
-                + "Products:" + d.products;
-        });
+    /* dot.append("title")
+     .style("font-style", "bold")
+     .text(function (d) {
+     return "<b>" + d.categoryName + "</b><br/>"
+     + "Sales Amt:" + d.sales + "<br/>"
+     + "Customers:" + d.customers + "<br/>"
+     + "Products:" + d.products;
+     });*/
 
     // Add an overlay for the year label.
     /*var box = label.node().getBBox();
@@ -199,7 +224,7 @@ function showAnimation() {
             .enter().append("circle")
             .attr("class", "dot")
             .style("fill", function (d) {
-                return colorScale(color(d));
+                return colorArray[d.categoryName];
             })
             .call(position)
             .sort(order);
@@ -248,18 +273,26 @@ function displayYear(dot, year) {
 
 // Interpolates the dataset for the given (fractional) year.
 function interpolateData(year) {
-    return trendingData.map(function (d) {
-        //console.log(d);
-        var data = {
-            categoryName: d.categoryName,
+    if (typeof trendingData !== 'undefined') {
+        return trendingData.map(function (d) {
+            //console.log(d);
+            var data = {
+                categoryName: d.categoryName,
 //                    region: d.region,
-            sales: interpolateValues("s", d.sales, year),
-            customers: interpolateValues("c", d.customers, year),
-            products: interpolateValues("p", d.products, year)
-        };
-        console.log(data);
-        return data;
-    });
+                sales: interpolateValues("s", d.sales, year),
+                customers: interpolateValues("c", d.customers, year),
+                products: interpolateValues("p", d.products, year)
+            };
+            //console.log(data);
+            if (selectedCategories.indexOf(d.categoryName) > -1)
+                return data;
+            else return null;
+        }).filter(function (item) {
+            if (item != null)
+                return item;
+        });
+    }
+
 }
 
 
@@ -291,6 +324,7 @@ function interpolateValues(type, values, year) {
     var val = 0;
     for (var i = 0; i < values.length; i++) {
         if (year == "All") {
+
             if (type == "c" || type == "s") {
                 val += values[i][1];
             }
@@ -310,7 +344,7 @@ function interpolateValues(type, values, year) {
 //show trends for a specified category over time line
 function showCategoryTrends(categoryName) {
     svg.selectAll(".dot").remove();
-
+    label.text("All");
     for (var i = 0; i < yearSet.length; i++) {
         var dot = svg.append("g")
             .attr("class", "dots")
@@ -319,19 +353,45 @@ function showCategoryTrends(categoryName) {
             .enter().append("circle")
             .attr("class", "dot")
             .style("fill", function (d) {
-                return colorScale(color(d));
+                return colorArray[d.categoryName];
+            })
+            .on("mouseover", function (d) {
+                var html = "";
+
+                html += "<div class=\"tooltip_kv\">";
+                //html += "<span class=\"tooltip_key\">";
+                html += "<b>" + d.categoryName + "</b><br/>"
+                html += "Month:" + d.month + "<br/>"
+                html += "Sales Amt:" + d.sales + "<br/>";
+                html += "Customers:" + d.customers + "<br/>";
+                html += "Products:" + d.products;
+                //html += "</span>";
+                html += "</div>";
+
+
+                $("#tooltip-container").html(html);
+                $(this).attr("fill-opacity", "0.7");
+                $("#tooltip-container").show();
+
+                d3.select("#tooltip-container")
+                    .style("top", (d3.event.layerY + 155) + "px")
+                    .style("left", (d3.event.layerX + 15) + "px");
+            })
+            .on("mouseout", function (d) {
+                $(this).attr("fill-opacity", "1.0");
+                $("#tooltip-container").hide();
             })
             .call(position)
             .sort(order);
 
-        dot.append("title")
-            .text(function (d) {
-                return "<b>" + d.categoryName + "</b><br/>"
-                    + "Month:" + d.month + "<br/>"
-                    + "Sales Amt:" + d.sales + "<br/>"
-                    + "Customers:" + d.customers + "<br/>"
-                    + "Products:" + d.products;
-            });
+        /*dot.append("title")
+         .text(function (d) {
+         return "<b>" + d.categoryName + "</b><br/>"
+         + "Month:" + d.month + "<br/>"
+         + "Sales Amt:" + d.sales + "<br/>"
+         + "Customers:" + d.customers + "<br/>"
+         + "Products:" + d.products;
+         });*/
 
     }
 

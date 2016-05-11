@@ -1,4 +1,6 @@
 function initGraph(month){
+
+
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = 700 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -9,9 +11,16 @@ function initGraph(month){
     var mY = d3.scale.linear()
         .rangeRound([height, 0]);
 
+    //create dynamic color range
+    var rangeArray = [];
+    for(var catIndex = 0; catIndex < selectedCategories.length; catIndex++){
+        rangeArray.push(colorArray[selectedCategories[catIndex]]);
+    }
+
     var mColor = d3.scale.ordinal()
         //.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#00ff9f", "#f0ff00", "#a05d56", "#d0743c", "#ff8c00", "#ff6700"]);
-        .range(["#acbbe2", "#8085c4", "#3752a7", "#caa7d0", "#953b9a", "#f00080", "#f78561", "#f78000", "#9bae92", "#67bf3c","#f01b16", "#777777"]);
+        //.range(["#acbbe2", "#8085c4", "#3752a7", "#caa7d0", "#953b9a", "#f00080", "#f78561", "#f78000", "#9bae92", "#67bf3c","#f01b16", "#777777"]);
+        .range(rangeArray);
 
     var mXAxis = d3.svg.axis()
         .scale(mX)
@@ -121,7 +130,37 @@ function initGraph(month){
             .attr("width", mX.rangeBand())
             .attr("y", function(d) { return mY(d.y1); })
             .attr("height", function(d) { return mY(d.y0) - mY(d.y1); })
-            .style("fill", function(d) { return mColor(d.name); });
+            .style("fill", function(d) {
+                //return colorArray[d.name];
+                return mColor(d.name);
+            })
+            .on("mousemove", function (d) {
+                //console.log(d);
+                var html = "";
+
+                html += "<div class=\"tooltip_kv\">";
+                html += "<span class=\"tooltip_key\">";
+                html += d.name+"<br>"
+                html += (d.y1 - d.y0);
+                html += "</span>";
+                html += "</div>";
+
+
+
+                $("#tooltip-container").html(html);
+                $(this).attr("fill-opacity", "0.7");
+                $("#tooltip-container").show();
+
+                d3.select("#tooltip-container")
+                        .style("top", (d3.event.layerY + 155) + "px")
+                        .style("left", (d3.event.layerX + 15) + "px");
+
+            })
+            .on("mouseout", function () {
+                $(this).attr("fill-opacity", "1.0");
+                $("#tooltip-container").hide();
+            });
+        ;
 
         var legend = mSVG.selectAll(".legend")
             .data(mColor.domain().slice().reverse())
@@ -130,13 +169,13 @@ function initGraph(month){
             .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
         legend.append("rect")
-            .attr("x", width - 250)
+            .attr("x", width - 50)
             .attr("width", 18)
             .attr("height", 18)
             .style("fill", mColor);
 
         legend.append("text")
-            .attr("x", width - 256)
+            .attr("x", width - 56)
             .attr("y", 9)
             .attr("dy", ".35em")
             .style("text-anchor", "end")
