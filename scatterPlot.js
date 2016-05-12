@@ -136,7 +136,7 @@ function initScatterPlot(mon) {
             html += "<div class=\"tooltip_kv\">";
             //html += "<span class=\"tooltip_key\">";
             html += "<b>" + d.categoryName + "</b><br/>"
-            html += "Sales Amt:" + d.sales + "<br/>";
+            html += "Sales Amt:" + Math.floor(d.sales / 1000) + " K<br/>";
             html += "Customers:" + d.customers + "<br/>";
             html += "Products:" + d.products;
             //html += "</span>";
@@ -283,7 +283,7 @@ function interpolateData(year) {
                 customers: interpolateValues("c", d.customers, year),
                 products: interpolateValues("p", d.products, year)
             };
-            //console.log(data);
+            console.log(data);
             if (selectedCategories.indexOf(d.categoryName) > -1)
                 return data;
             else return null;
@@ -309,7 +309,9 @@ function interpolateDataPerCategory(year, category) {
             month: year
         };
         //console.log(data);
-        if (data.categoryName == category)
+        if (category == "All" && selectedCategories.indexOf(d.categoryName) > -1)
+            return data;
+        else if (data.categoryName == category)
             return data;
         else return null;
     }).filter(function (item) {
@@ -343,6 +345,9 @@ function interpolateValues(type, values, year) {
 
 //show trends for a specified category over time line
 function showCategoryTrends(categoryName) {
+    if (typeof trendingData == 'undefined') {
+        return;
+    }
     svg.selectAll(".dot").remove();
     label.text("All");
     for (var i = 0; i < yearSet.length; i++) {
@@ -362,7 +367,7 @@ function showCategoryTrends(categoryName) {
                 //html += "<span class=\"tooltip_key\">";
                 html += "<b>" + d.categoryName + "</b><br/>"
                 html += "Month:" + d.month + "<br/>"
-                html += "Sales Amt:" + d.sales + "<br/>";
+                html += "Sales Amt:" + Math.floor(d.sales / 1000) + " K<br/>";
                 html += "Customers:" + d.customers + "<br/>";
                 html += "Products:" + d.products;
                 //html += "</span>";
