@@ -16,8 +16,8 @@ function key(d) {
 }
 
 // Chart dimensions.
-var margin = {top: 19.5, right: 10.5, bottom: 19.5, left: 39.5},
-    width = 960 - margin.right,
+var margin = {top: 19.5, right: 10.5, bottom: 19.5, left: 45.5},
+    width = 950 - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // Various scales. These domains make assumptions of data, naturally.
@@ -54,7 +54,7 @@ svg.append("g")
 svg.append("text")
     .attr("class", "x label")
     .attr("text-anchor", "end")
-    .attr("x", width - 150)
+    .attr("x", width - 250)
     .attr("y", height - 6)
     .text("Total number of customers");
 
@@ -149,7 +149,7 @@ function initScatterPlot(mon) {
 
             d3.select("#tooltip-container")
                 .style("top", (d3.event.layerY + 155) + "px")
-                .style("left", (d3.event.layerX + 15) + "px");
+                .style("left", (d3.event.layerX - 150) + "px");
         })
         .on("mouseout", function (d) {
             $(this).attr("fill-opacity", "1.0");
@@ -283,7 +283,7 @@ function interpolateData(year) {
                 customers: interpolateValues("c", d.customers, year),
                 products: interpolateValues("p", d.products, year)
             };
-            console.log(data);
+            //console.log(data);
             if (selectedCategories.indexOf(d.categoryName) > -1)
                 return data;
             else return null;
@@ -380,7 +380,7 @@ function showCategoryTrends(categoryName) {
 
                 d3.select("#tooltip-container")
                     .style("top", (d3.event.layerY + 155) + "px")
-                    .style("left", (d3.event.layerX + 15) + "px");
+                    .style("left", (d3.event.layerX - 150) + "px");
             })
             .on("mouseout", function (d) {
                 $(this).attr("fill-opacity", "1.0");

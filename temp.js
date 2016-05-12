@@ -27,11 +27,11 @@ var mSVG = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("sample data.csv", function(error, data) {
-    console.log(data);
+    //console.log(data);
 
     convertDataFormat(data);
 
-    console.log(finalData);
+    //console.log(finalData);
     data = finalData;
 //    data = [{
 //      state: "United States",
@@ -141,7 +141,7 @@ function convertDataFormat(data){
         }
         finalData[countryIndex][category] = val + 1;
     }
-    console.log(finalData);
+    //console.log(finalData);
 }
 
 function findCountryIndex(country){

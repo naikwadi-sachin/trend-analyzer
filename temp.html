@@ -126,13 +126,15 @@
             <tr>
                 <td><input class="btn btn-primary animateBtn" type="button" value="Show Animation" id="animateButton"/>
                 </td>
-                <td></td>
-                <!--<td>Choose Category to Visualize Trends For All Months</td>-->
                 <td>
+                    <input class="btn btn-primary" type="button" value="Show Trends" id="showTrendsButton"/>
+                </td>
+                <!--<td>Choose Category to Visualize Trends For All Months</td>-->
+                <!--<td>
                     <select id="scatterCategory" class="form-control">
                         <option value="All">Select Category: All</option>
                     </select>
-                </td>
+                </td>-->
             </tr>
 
         </table>
@@ -179,6 +181,7 @@
         $('#scatterCategory').val("All");
         initScatterPlot(selectedMonth);
         initGraph(selectedMonth);
+        $("#showTrendsButton").val("Show Trends");
     });
 
     $('#scatterCategory').on("change", function () {
@@ -192,14 +195,31 @@
 
     $('#animateButton').on("click", function () {
         console.log("animateButton clicked");
+        $("#showTrendsButton").val("Show Trends");
         showAnimation();
     });
+
+    $('#showTrendsButton').on("click", function () {
+        console.log("showTrendsButton clicked " + this.value);
+        if (this.value == "Show Trends") {
+            showCategoryTrends("All");
+            this.value = "Hide Trends";
+        }
+        else {
+            //hide trends logic here
+            initScatterPlot(globalSelectedMonth);
+            this.value = "Show Trends";
+        }
+
+    });
+
 
     var selectedCategories = [];
     $('.CategoryCheckbox').on("click", showChart);
 
     function showChart() {
         selectedCategories = [];
+        $("#showTrendsButton").val("Show Trends");
         var checkbox = $(".CategoryCheckbox");
         for (var i = 0; i < checkbox.length; i++) {
             if (checkbox[i].checked) {
@@ -208,13 +228,16 @@
             }
         }
         initGraph(globalSelectedMonth);
+        initScatterPlot(globalSelectedMonth);
 
-        if (globalSelectedMonth == "All") {
-            showCategoryTrends(globalSelectedMonth);
-        }
-        else {
-            initScatterPlot(globalSelectedMonth);
-        }
+        /*
+         if (globalSelectedMonth == "All") {
+         showCategoryTrends(globalSelectedMonth);
+         }
+         else {
+         initScatterPlot(globalSelectedMonth);
+         }
+         */
     }
 
     showChart();
@@ -231,8 +254,16 @@
 
 
 </script>
-
-<div id="footer">Footer</div>
+<br/>
+<br/>
+<br/>
+<div id="footer">
+    <table align="center">
+        <tr>
+            <td>Developed by: Kapil Kshemkalyani, Sachin Naikwadi, Samir Agrawal</td>
+        </tr>
+        </table>
+</div>
 <div id="tooltip-container"></div>
 </body>
 </html>

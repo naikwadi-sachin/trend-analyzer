@@ -38,21 +38,21 @@ function initGraph(month){
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     d3.json("barChart.json", function(error, data) {
-        console.log(data);
+        //console.log(data);
 
 //      convertDataFormat(data);
         var index = getIndexOfDate(data, month);
         finalData = data[index]['countryList'];//temp step
         console.log("Before:");
-        console.log(finalData);
+        //console.log(finalData);
         finalData.sort(function(a, b){
             return (b["Artwork"] + b["Bathroom_Accessories"] + b["Books_&_Stationery"] + b["Electronics"] + b["Gifts"] + b["Health_and_Personal_care"] + b["Home_Decor"] + b["Jewellery"] + b["Kitchenware"] + b["Lighting_Accessories"] + b["Luggage_&_Travel_Gear"]+ b["Toys_&_Games"]) - (a["Artwork"] + a["Bathroom_Accessories"] + a["Books_&_Stationery"] + a["Electronics"] + a["Gifts"] + a["Health_and_Personal_care"] + a["Home_Decor"] + a["Jewellery"] + a["Kitchenware"] + a["Lighting_Accessories"] + a["Luggage_&_Travel_Gear"]+ a["Toys_&_Games"]) ;
         });
-        console.log("After:");
-        console.log(finalData);
+        //console.log("After:");
+        //console.log(finalData);
         finalData = finalData.slice(0, 10)
 
-        console.log(finalData);
+        //console.log(finalData);
         data = finalData;
 //    data = [{
 //      state: "United States",
@@ -116,7 +116,7 @@ function initGraph(month){
             .attr("y", 6)
             .attr("dy", ".71em")
             .style("text-anchor", "end")
-            .text("Population");
+            .text("Sales Amount");
 
         var country = mSVG.selectAll(".country")
             .data(data)
@@ -206,7 +206,7 @@ function convertDataFormat(data){
         }
         finalData[countryIndex][category] = val + 1;
     }
-    console.log(finalData);
+    //console.log(finalData);
     finalData = finalData.slice(0, 10);
 }
 

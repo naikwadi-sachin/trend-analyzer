@@ -32,8 +32,8 @@ public class TrendService {
 	String GET_CATEGORIES_SQL = "select distinct root_cat from test.sales where root_cat is not null;";
 
 	String GET_COUNTRYWISE_SQL = "select country,root_cat, DATE_FORMAT(MonthDate, '%M-%Y') as MonthYear, sum(Quantity * UnitPrice) as SalesTotal "
-			+ "from test.sales where root_cat is not null group by country,root_cat,MonthDate "
-			+ " -- order by country desc ;";
+			+ "from test.sales where root_cat is not null and country != 'Unspecified' group by country,root_cat,MonthDate "
+			+ " order by MonthDate asc ;";
 
 	public List<Trend> getCatWiseSalesAmtAndCustomers() {
 		List<Trend> trends = new ArrayList<Trend>();
@@ -123,6 +123,8 @@ public class TrendService {
 			SqlRowSet rows = jdbcTemplate.queryForRowSet(GET_COUNTRYWISE_SQL,
 					new Object[] {});
 
+			HashMap<String, Categories> countriesTotalMap = new HashMap<String, Categories>();
+
 			if (rows.first()) {
 				HashMap<String, HashMap<String, Categories>> monthsMap = new HashMap<String, HashMap<String, Categories>>();
 				do {
@@ -146,30 +148,70 @@ public class TrendService {
 					}
 					categories.country = country;
 
+					Categories countryTotal = null;
+					if (countriesTotalMap.containsKey(country)) {
+						countryTotal = countriesTotalMap.get(country);
+					} else {
+						countryTotal = new Categories();
+						countryTotal.country = country;
+						countriesTotalMap.put(country, countryTotal);
+					}
+
 					if ("Artwork".equals(cat)) {
 						categories.artwork += salesTotal;
+						countryTotal.artwork += salesTotal;
 					} else if ("Bathroom Accessories".equals(cat)) {
 						categories.bathAccessories += salesTotal;
+						countryTotal.bathAccessories += salesTotal;
 					} else if ("Books & Stationery".equals(cat)) {
 						categories.bookStationary += salesTotal;
+						countryTotal.bookStationary += salesTotal;
 					} else if ("Electronics".equals(cat)) {
 						categories.electronics += salesTotal;
+						countryTotal.electronics += salesTotal;
 					} else if ("Gifts".equals(cat)) {
 						categories.gifts += salesTotal;
+						countryTotal.gifts += salesTotal;
 					} else if ("Health and Personal care".equals(cat)) {
 						categories.health += salesTotal;
+						countryTotal.health += salesTotal;
 					} else if ("Home Decor".equals(cat)) {
 						categories.homeDecor += salesTotal;
+						countryTotal.homeDecor += salesTotal;
+					} else if ("Jewellery".equals(cat)) {
+						categories.jewellery += salesTotal;
+						countryTotal.jewellery += salesTotal;
+					} else if ("Kitchenware".equals(cat)) {
+						categories.Kitchenware += salesTotal;
+						countryTotal.Kitchenware += salesTotal;
+					} else if ("Lighting Accessories".equals(cat)) {
+						categories.lightingAccessories += salesTotal;
+						countryTotal.lightingAccessories += salesTotal;
+					} else if ("Luggage & Travel Gear".equals(cat)) {
+						categories.luggage += salesTotal;
+						countryTotal.luggage += salesTotal;
+					} else if ("Toys & Games".equals(cat)) {
+						categories.toys += salesTotal;
+						countryTotal.toys += salesTotal;
 					}
 
 				} while (rows.next());
 
 				System.out.println(monthsMap);
 
+				ArrayList<Categories> firstCountryList = new ArrayList<Categories>();
+				for (String country : countriesTotalMap.keySet()) {
+					firstCountryList.add(countriesTotalMap.get(country));
+				}
 				
-				for(String month :monthsMap.keySet()){
+				MonthCountry first = new MonthCountry();
+				first.month="All";
+				first.countryList=firstCountryList;
+				monthList.add(first);
+				
+				for (String month : monthsMap.keySet()) {
 					ArrayList<Categories> countryList = new ArrayList<Categories>();
-					for(String country :monthsMap.get(month).keySet()){
+					for (String country : monthsMap.get(month).keySet()) {
 						countryList.add(monthsMap.get(month).get(country));
 					}
 					MonthCountry obj = new MonthCountry();

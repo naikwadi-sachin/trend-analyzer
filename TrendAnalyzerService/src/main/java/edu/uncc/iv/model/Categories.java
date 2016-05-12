@@ -9,6 +9,42 @@ public class Categories {
 	public double gifts;
 	public double health;
 	public double homeDecor;
+	public double jewellery;
+	public double Kitchenware;
+	public double lightingAccessories;
+	public double luggage;
+	public double toys;
+	
+	public double getJewellery() {
+		return jewellery;
+	}
+	public void setJewellery(double jewellery) {
+		this.jewellery = jewellery;
+	}
+	public double getKitchenware() {
+		return Kitchenware;
+	}
+	public void setKitchenware(double kitchenware) {
+		Kitchenware = kitchenware;
+	}
+	public double getLightingAccessories() {
+		return lightingAccessories;
+	}
+	public void setLightingAccessories(double lightingAccessories) {
+		this.lightingAccessories = lightingAccessories;
+	}
+	public double getLuggage() {
+		return luggage;
+	}
+	public void setLuggage(double luggage) {
+		this.luggage = luggage;
+	}
+	public double getToys() {
+		return toys;
+	}
+	public void setToys(double toys) {
+		this.toys = toys;
+	}
 	public double getArtwork() {
 		return artwork;
 	}
